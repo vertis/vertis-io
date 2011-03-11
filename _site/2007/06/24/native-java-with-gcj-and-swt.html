@@ -1,0 +1,86 @@
+<p style="margin-bottom: 0cm;">The ability to compile Java to native code has existed for a while in the form of GCJ, though for the most part it has been overlooked due in part to the incomplete Swing/AWT implementation. Knowledge about how to use GCJ for native compilation is a bit vague. When you first start using GCJ as a real alternative to the Sun JDK it&rsquo;s difficult to get an idea of exactly what GCJ is capable of doing.</p>
+<p style="margin-bottom: 0cm;">&nbsp;</p>
+<h2 class="western">Getting GCJ</h2>
+<p style="margin-bottom: 0cm;">If you are a linux user most distributions come with GCJ as either preinstall or one that you can easily install with your favorite package manager. If you are using Windows then your best bet is to use the packages found that <span style="color: #0000ff;"><span lang="zxx"><span style="text-decoration: underline;"><a href="http://www.thisiscool.com/gcc_mingw.htm">http://www.thisiscool.com/gcc_mingw.htm</a></span></span></span></p>
+<p style="margin-bottom: 0cm;">Mohan Embar, the author of the ThisIsCool website has created several builds of the MingW GCJ that can be easily installed. Additionally he has built in SWT and SwingWT support to some of the builds. Keep in mind that shared builds, and the creation of &lsquo;dll&rsquo; files is not supported under the 4.x series of GCJ found on this page.</p>
+<p style="margin-bottom: 0cm;">For the remainder of this build we will be using the latest GCJ found on this page, which includes the eclipse merge branch from the GCC SVN, the best thing about this is that it gives support for Java 5 features.</p>
+<h2 class="western">Basic Native Compilation</h2>
+<p style="margin-bottom: 0cm;">The first step is to create a basic &lsquo;Hello World!&rsquo; application, to demonstrate compiling an application.</p>
+<p style="margin-bottom: 0cm;"><span style="color: #7f0055;"><span style="font-family: Courier New,serif;"><span style="font-size: x-small;"><strong>public</strong></span></span></span><span style="color: #000000;"><span style="font-family: Courier New,serif;"><span style="font-size: x-small;"> </span></span></span><span style="color: #7f0055;"><span style="font-family: Courier New,serif;"><span style="font-size: x-small;"><strong>class</strong></span></span></span><span style="color: #000000;"><span style="font-family: Courier New,serif;"><span style="font-size: x-small;"> HelloWorld {</span></span></span></p>
+<p style="margin-bottom: 0cm;">&nbsp;</p>
+<p style="margin-bottom: 0cm;"><span style="color: #3f5fbf;"><span style="font-family: Courier New,serif;"><span style="font-size: x-small;">/**</span></span></span></p>
+<p style="margin-bottom: 0cm;"><span style="color: #3f5fbf;"><span style="font-family: Courier New,serif;"><span style="font-size: x-small;">*</span></span></span><span style="color: #000000;"><span style="font-family: Courier New,serif;"><span style="font-size: x-small;"> </span></span></span><span style="color: #7f9fbf;"><span style="font-family: Courier New,serif;"><span style="font-size: x-small;"><strong>@param</strong></span></span></span><span style="color: #000000;"><span style="font-family: Courier New,serif;"><span style="font-size: x-small;"> </span></span></span><span style="color: #3f5fbf;"><span style="font-family: Courier New,serif;"><span style="font-size: x-small;">args</span></span></span></p>
+<p style="margin-bottom: 0cm;"><span style="color: #3f5fbf;"><span style="font-family: Courier New,serif;"><span style="font-size: x-small;">*/</span></span></span></p>
+<p style="margin-bottom: 0cm;"><span style="color: #7f0055;"><span style="font-family: Courier New,serif;"><span style="font-size: x-small;"><strong>public</strong></span></span></span><span style="color: #000000;"><span style="font-family: Courier New,serif;"><span style="font-size: x-small;"> </span></span></span><span style="color: #7f0055;"><span style="font-family: Courier New,serif;"><span style="font-size: x-small;"><strong>static</strong></span></span></span><span style="color: #000000;"><span style="font-family: Courier New,serif;"><span style="font-size: x-small;"> </span></span></span><span style="color: #7f0055;"><span style="font-family: Courier New,serif;"><span style="font-size: x-small;"><strong>void</strong></span></span></span><span style="color: #000000;"><span style="font-family: Courier New,serif;"><span style="font-size: x-small;"> main(String[] args) {</span></span></span></p>
+<p style="margin-bottom: 0cm;"><span style="color: #3f7f5f;"><span style="font-family: Courier New,serif;"><span style="font-size: x-small;">// </span></span></span><span style="color: #7f9fbf;"><span style="font-family: Courier New,serif;"><span style="font-size: x-small;"><strong>TODO</strong></span></span></span><span style="color: #3f7f5f;"><span style="font-family: Courier New,serif;"><span style="font-size: x-small;"> Auto-generated method stub</span></span></span></p>
+<p style="margin-bottom: 0cm;"><span style="color: #000000;"><span style="font-family: Courier New,serif;"><span style="font-size: x-small;">System.</span></span></span><span style="color: #0000c0;"><span style="font-family: Courier New,serif;"><span style="font-size: x-small;"><em>out</em></span></span></span><span style="color: #000000;"><span style="font-family: Courier New,serif;"><span style="font-size: x-small;">.println(</span></span></span><span style="color: #2a00ff;"><span style="font-family: Courier New,serif;"><span style="font-size: x-small;">&quot;Hello World!&quot;</span></span></span><span style="color: #000000;"><span style="font-family: Courier New,serif;"><span style="font-size: x-small;">);</span></span></span></p>
+<p style="margin-bottom: 0cm;"><span style="color: #000000;"><span style="font-family: Courier New,serif;"><span style="font-size: x-small;">}</span></span></span></p>
+<p style="margin-bottom: 0cm;">&nbsp;</p>
+<p style="margin-bottom: 0cm;"><span style="color: #000000;"><span style="font-family: Courier New,serif;"><span style="font-size: x-small;">}</span></span></span></p>
+<p style="margin-bottom: 0cm;">&nbsp;</p>
+<p style="margin-bottom: 0cm;">Assuming you&rsquo;ve added the gcc-ecj\bin\ folder to your path, you can then compile the application using the following command:</p>
+<p style="margin-bottom: 0cm;">Gcj &ndash;o Hello.exe &ndash;main=HelloWorld HelloWorld.java</p>
+<p style="margin-bottom: 0cm;">You can then run the resulting EXE just as you would any other application.</p>
+<h2 class="western">Basic Windows Application</h2>
+<p style="margin-bottom: 0cm;">If you tried running this application from windows (and not from the command line) you wouldn&rsquo;t have seen much, just a black window flashing up and then closing again. Let&rsquo;s do a basic Windows application so that you can begin making your masterpiece. This is accomplished using SWT. We will start by creating a &lsquo;HelloWindows.java&rsquo; file. You can view the source with Listing 1</p>
+<p style="margin-bottom: 0cm;">[gist id=803916]</p>
+<p><meta charset="utf-8" /></p>
+<pre style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; font: normal normal normal 12px/normal Monaco, 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', monospace; "></pre>
+<div class="line" id="LC1" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 1em; "><pre style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; font: normal normal normal 12px/normal Monaco, 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', monospace; "><span class="Apple-style-span" style="line-height: 16px;">import org.eclipse.swt.widgets.Display;
+import org.eclipse.swt.widgets.Shell;
+
+public class HelloWorld {
+  public static void main(String[] args) {
+    Display display = new Display();
+    Shell shell = new Shell(display);
+
+    shell.setText(&quot;Hello, world!&quot;);
+
+    shell.open();
+    // Set up the event loop.
+    while (!shell.isDisposed()) {
+      if (!display.readAndDispatch()) {
+        // If no more entries in the event queue
+        display.sleep();
+      }
+    }
+    display.dispose();
+  }
+}</span></pre></div>
+<p style="margin-bottom: 0cm;">[/gist]</p>
+<p style="margin-bottom: 0cm;">&nbsp;</p>
+<p style="margin-bottom: 0cm;">We will then compile the source in two steps.</p>
+<p style="margin-bottom: 0cm;">gcj --classpath .; lib\swt.jar -c -o HelloWindow.o</p>
+<p style="margin-bottom: 0cm;">This creates a object file that can be used in the next step to create a working java application.</p>
+<p style="margin-bottom: 0cm;">gcj --main=HelloWindows -mwindows -o HelloWindows.exe HelloWindow.o lib\swt.a</p>
+<p style="margin-bottom: 0cm;">You will still need the DLL files that came packaged with thisiscool gcj in order to run the application but it should create a small windows with &lsquo;Hello Windows&rsquo; in the title bar; not very exciting I will admit, but it demonstrates a working windows application.</p>
+<p style="margin-bottom: 0cm;">Notes about this step:</p>
+<p style="margin-bottom: 0cm;">The &lsquo;swt.jar&rsquo;, &lsquo;swt.a&rsquo; and &lsquo;swt*.dll&rsquo; files can be found as a part of the thisiscool download, you either need to move them into the same directory as your project or provide a full directory in the adequate place. The dll files should be placed in the same directory as the build .exe file.</p>
+<p style="margin-bottom: 0cm;">&nbsp;</p>
+<h2 class="western">More Complex Projects and Libraries</h2>
+<p style="margin-bottom: 0cm;">One of the things you may not know is that GCJ can not only work from source files, but also from class and jar files. This is particularly useful if you want to do more complex projects that use existing libraries such as the db4o-6.0-java5.jar file gotten from <span style="color: #0000ff;"><span lang="zxx"><span style="text-decoration: underline;"><a href="http://www.db4o.com/">http://www.db4o.com/</a></span></span></span>.</p>
+<p style="margin-bottom: 0cm;">First create the object file, using the command:</p>
+<p style="margin-bottom: 0cm;">gcj -c db4o-6.1-java5.jar</p>
+<p style="margin-bottom: 0cm;">This creates a file, db4o-6.0-java5.o; we then use &lsquo;ar&rsquo; tool to create a static library:</p>
+<p style="margin-bottom: 0cm;">ar -r libdb4o.a db4o-6.1-java5.o</p>
+<p style="margin-bottom: 0cm;">This library file can then be combined into our future projects much the same way as jar files are used in current java projects.</p>
+<h2 class="western">Using Our Shared Library</h2>
+<p style="margin-bottom: 0cm;">Not to put the work to waste lets compile a project using the DB4o library that we created in the last part. The source code is too long to paste into the body of the article so I&rsquo;ve included it in a zip folder so that you can try it later. Let&rsquo;s start by compiling the source to object files as before:</p>
+<p style="margin-bottom: 0cm;">gcj -classpath .;lib\db4o-6.1-java5.jar;lib/swt.jar -c HelloDb4o.java Account.java</p>
+<p style="margin-bottom: 0cm;">Then we take the library we created before and combine it with the main project (also adding the SWT library):</p>
+<p style="margin-bottom: 0cm;">gcj -o hellodb4o.exe -mwindows --main=HelloDb4o HelloDb4o.o Account.o lib\libdb4o.a lib\libswt.a</p>
+<p style="margin-bottom: 0cm;">You now have an application that will display the record from the database.</p>
+<p style="margin-bottom: 0cm;">&nbsp;</p>
+<h2 class="western">Final Notes</h2>
+<p style="margin-bottom: 0cm;">Size is often one of the pet complaints when people compile using GCJ, I would encourage people to check out UPX (<span style="color: #0000ff;"><span lang="zxx"><span style="text-decoration: underline;"><a href="http://upx.sourceforge.net/">http://upx.sourceforge.net/</a></span></span></span>).</p>
+<p style="margin-bottom: 0cm;">The source listings here in were done quite hurriedly; particularly the last application would need a good deal of work before it was functional in a useful way. DB4o is a topic for several books, I strongly encourage you to take it out for a test drive.</p>
+<p style="margin-bottom: 0cm;">In order to catch bugs it is in the interest of the developer to remove the &lsquo;-mwindows&rsquo; option from the final build. This causes a command line window to be created behind the main screen to which printed exceptions are sent. Alternately and perhaps more correctly logging to file could be implemented.</p>
+<p style="margin-bottom: 0cm;">Finally, it is possible to use Ant and other build tools to make building projects easier, you will find details in the resources on how to accomplish this. For the purposes of explanation I have chosen NOT to use these tools in this article.</p>
+<h2 class="western">Resources</h2>
+<p style="margin-bottom: 0cm;">The following were useful guides/tools as I was getting started with GCJ Native Development.</p>
+<p style="margin-bottom: 0cm;">Create native, cross-platform GUI applications - <span style="color: #0000ff;"><span lang="zxx"><span style="text-decoration: underline;"><a href="http://www.ibm.com/developerworks/library/j-nativegui/">http://www.ibm.com/developerworks/library/j-nativegui/</a></span></span></span></p>
+<p style="margin-bottom: 0cm;">Create native, cross-platform GUI applications, revisited - <span style="color: #0000ff;"><span lang="zxx"><span style="text-decoration: underline;"><a href="http://www.ibm.com/developerworks/java/library/j-nativegui2/">http://www.ibm.com/developerworks/java/library/j-nativegui2/</a></span></span></span></p>
+<p style="margin-bottom: 0cm;">How to compile Java application to native code, for example to Windows EXE file - <span style="color: #0000ff;"><span lang="zxx"><span style="text-decoration: underline;"><a href="http://robohobby.s41.eatj.com/java_to_native_code_exe.jsp">http://robohobby.s41.eatj.com/java_to_native_code_exe.jsp</a></span></span></span></p>
+<p style="margin-bottom: 0cm;">DB4o Object Oriented Database - <span style="color: #0000ff;"><span lang="zxx"><span style="text-decoration: underline;"><a href="http://www.db4o.com/">http://www.db4o.com/</a></span></span></span></p>
+<p style="margin-bottom: 0cm;">The Ultimate Packer for Executables - <span style="color: #0000ff;"><span lang="zxx"><span style="text-decoration: underline;"><a href="http://upx.sourceforge.net/">http://upx.sourceforge.net/</a></span></span></span></p>
+<p style="margin-bottom: 0cm;">ThisIsCool GCJ - <span style="color: #0000ff;"><span lang="zxx"><span style="text-decoration: underline;"><a href="http://www.thisiscool.com/gcc_mingw.htm">http://www.thisiscool.com/gcc_mingw.htm</a></span></span></span></p>

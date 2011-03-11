@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>{{page.title}}</title>
+<meta name="Keywords" content=" " />
+<meta name="Description" content=" " />
+
+<!-- link the css -->
+<link href="stylesheets/bluelight.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="stylesheets/lightbox.css" type="text/css" media="screen" />
+
+<!-- load the javascript -->
+<script src="javascripts/jquery-1.2.6.min.js" type="text/javascript"></script>
+
+<!-- slider window -->
+<script src="javascripts/jquery.flow.1.0.js" type="text/javascript"></script>
+
+<!-- load the lightbox -->
+<script src="javascripts/jquery.lightbox.js" type="text/javascript"></script>
+
+<!-- initialize the scripts -->
+<script type="text/javascript">
+$(document).ready(function(){
+
+  $("#myController").jFlow({
+    slides: "#mySlides",
+    width: "495px",
+    height: "255px",
+    duration: 400
+  });
+});
+
+$(document).ready(function(){
+      $(".lightbox").lightbox();
+    });
+</script>
+
+</head>
+
+<body id="secondary">
+<div class="wrap">
+      <div id="header_wrap_secondary">
+    <div id="header_secondary"><!-- begin header -->
+        <div id="header_upper">
+
+            <div id="header_logo" onclick="location.href='/';" style="cursor:pointer;"></div>
+
+            <div id="navs"><!-- begin navigations -->
+              <div id="navs_left"></div>
+                <div id="navs_center">
+                        <ul>
+                            <ul>
+    <li><a class="current" href="/">Home</a></li>
+    <li><a href="projects">Projects</a></li>
+    <li><a href="http://core.vertislabs.org">Blog</a></li>
+    <li><a href="contact">Contact</a></li>
+</ul>
+                        </ul>
+              </div>
+            <div id="navs_right"> </div>
+          </div><!-- end navigations -->
+        </div><!-- end header upper -->
+
+        <div id="header_lower">
+            <!-- begin slider -->
+          <!-- end slider wrap -->
+
+          <div id="header_sub_secondary">
+            <div id="header_sub_text_secondary">
+              <p>{{page.heading}}</p>
+            </div>
+              <div id="header_sub_button"></div>
+          </div><!--end header sub-->
+
+          <div id="header_sub_secondary_right">&nbsp;</div>
+          <!--end header sub-->
+
+      </div><!-- end header lower-->
+    </div><!-- end header -->
+</div><!-- end header wrap -->
+
+        <div id="page_secondary"><!-- start page content -->
+            <div id="main_content">
+          <div id="left_navigation">
+              <ul id="nav">
+                  <li class="active"><img src="images/Modify.png" alt="projects" style="vertical-align:middle" /><a href="#"></a>
+                      <h2></h2>
+                    </li>
+              </ul>
+            </div>
+
+<div id="main_content_left_secondary">
+{{content}}
+
+<div style="clear: both;">&nbsp;</div>
+
+
+
+</div><!-- end main content left  -->
+<!-- end main content right  -->
+</div>
+<!-- end main content  -->
+<div style="clear: both;">&nbsp;</div>
+        </div><!-- end page  -->
+
+<div class="push"></div><!--sticky footer element -->
+</div><!-- wrap -->
+
+<div id="footer_wrap">
+  <div id="footer">
+    <div id="footer_l">&copy; 2010 VertisLabs | All Rights Reserved</div>
+<div id="footer_r"><a href="/">Home</a> | <a href="projects">Projects</a> | <a href="contact">Contact</a></div>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1940507-5']);
+  _gaq.push(['_setDomainName', '.vertislabs.org']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+  </div><!-- end footer -->
+</div>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+---
+layout: post
+title: ""
+---
+
+<p style="margin-bottom: 0cm;">Recently I’ve been doing quite a bit of development in Java. Of the many languages that I’ve played with and used I find Java to be one of the most functional programming languages out there. There are plenty of factors that have helped me choose Java as my primary programming language, and while I’m not under the illusion that java is the ‘monkey wrench’ of the programming world, its still an invaluable tool.</p>
+<p style="margin-bottom: 0cm;">I’ve been around programming languages for the last 6 – 7 years, in that time a lot has changed. The software industry has matured in its approach to programming, and the fundamental building blocks that make up the software industry have matured as well. Gone is the time when you needed a PhD to understand the complexities of computer programming. This is not an article about the many different languages; this is not even an article about how Java is better than ‘x’ language. This is simply an article about the features of Java that slipped it into my toolkit.</p>
+<p style="margin-bottom: 0cm;"></p>
+
+<h3 style="margin-bottom: 0cm;">Native Graphics Support</h3>
+<p style="margin-bottom: 0cm;">The first thing that usually pops into mind when you want to convince someone about the superiority of java, is the fact that it’s a compile once run anywhere language. Honestly though I find this less useful than you might think. What I do find useful is the fact that with very little research you can write a graphical user interface for an application. I find the graphics support for Java to be logical, where so many other graphics libraries are not. While I’m not overly fond of the layout managers that Java provides, I can appreciate the fact that they’re there if I do ever find a use for them.</p>
+<p style="margin-bottom: 0cm;"></p>
+
+<h3 style="margin-bottom: 0cm;"><strong>Excellent Database Support</strong></h3>
+<p style="margin-bottom: 0cm;">This was one of my primary reasons for moving to java in the first place. If you’ve ever tried to get MySQL working with (Visual) C# then you’ll know what I’m talking about. The JDBC makes connecting to whatever database a dream, if your program is well written you can even switch database backend without to much trouble.</p>
+<p style="margin-bottom: 0cm;"></p>
+
+<h3 style="margin-bottom: 0cm;"><strong>Eclipse IDE</strong></h3>
+<p style="margin-bottom: 0cm;">If you haven’t tried Eclipse then you don’t know what your missing out on. While its certainly not solely dedicated to Java it’s a very flexible and well designed tool that will help you get your work done. In addition to being a useful portal to the Java language, it is also a driving force in making Java into more than just the pet project of Sun Microsystems. Take a look at SWT, which was originally developed by IBM and is distributed as a part of eclipse and you will begin to understand.</p>
+<p style="margin-bottom: 0cm;"></p>
+<p style="margin-bottom: 0cm;"></p>
+
+<h3 style="margin-bottom: 0cm;"><strong>Lack of Deployment Options</strong></h3>
+<p style="margin-bottom: 0cm;">This is one of the fundamental failings of a lot of programming languages. Running a java program relies on the operating system already having a copy of the Java Runtime Environment (JRE) installed. If its not then you won’t be able to do squat, additionally there is no way of knowing whether the version of Java that you’re programming in, and that has the features you want is installed on the client.</p>
+<p style="margin-bottom: 0cm;">You fall back into the same rut that the old VB programs had with missing DLL files. There is no simple way of installing both Java and the given Application in one easy step. Additionally you are held hostage by the fact that you require certain environment variables to be set correctly for the java program to run (JAVA_HOME, CLASSPATH). This is all well and good but it’s just more overhead for the programmer to worry about when they need to do a large scale deployment of an application that they’ve developed.</p>
+<p style="margin-bottom: 0cm;"></p>
+
+<h3 style="margin-bottom: 0cm;"><strong>GCJ bridging the gap</strong></h3>
+<p style="margin-bottom: 0cm;">One of the baseline flaws with Java is the fact that it is interpreted (from bytecode) at runtime, and as such relies on the JVM. More importantly it means that it runs slower on CPU intensive processes like md5 hashing for example. GCJ is the GNU Toolkit’s answer to the fact that Java is not open source. It is in effect a complete replacement for Sun Java. More importantly it provides support for compiling Java directly as an Executable freeing it from the reliance on the JVM.</p>
+<p style="margin-bottom: 0cm;">The speeds generated when running is GREATLY improved, to close GCC/G++ levels, and more importantly the deployment is less of an issue. You do lose the fundamental portability that is gained with Java classes, but there is no reason you can’t provide the class files and just install GCJ (rather than Java) to allow the class files to be converted into executables.</p>
+<p style="margin-bottom: 0cm;">THE only place where GCJ is still lacking is the area of AWT/Swing; the developers are still working on adding the support necessary to support the windowing toolkits. Incidentally they are looking for help in this area if any of you programming gurus want to give up your spare time.</p>
+
+<h3 style="margin-bottom: 0cm;"><strong>Conclusion</strong></h3>
+<p style="margin-bottom: 0cm;">The bottom line with Java is that it is a functional and practical language. The fact that Sun is still holding the reins is regrettable because it’s inhibiting a language with otherwise HUGE potential from maturing. The compile once, run anywhere is less useful than ‘write once / compile (&amp; run) anywhere’ this subtle difference is where Sun missed the boat. The matter of compiling different copies for different operating systems is trivial when you consider the fact that doing it the way they are cripples the speed of the language.</p>
+<p style="margin-bottom: 0cm;">Other than that Java is a great choice because it’s a language that’s flexible enough to be used on plenty of different operating systems. You do lose a certain amount of control over the low level functions; however this particular beef has been adequately dealt with in the form of JNI.</p>

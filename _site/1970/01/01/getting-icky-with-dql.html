@@ -1,0 +1,19 @@
+DQL behaves much like SQL when you are working in a read only fashion with Documentum. There are a few nice functions that allow you to do common queries without the hassle of having to worry about the foreign keys (since playing with them is not something that is recommended), stuff like Folder('/Clients', DESCEND) that allows you to get all of the document and folder objects below a given folder.
+
+That's where the similarity (and the joy) ends though. Once you move into wanting to create, update and delete elements you're stepping into a minefield. It wasn't until I started seriously writing 'Active Documentum' that I realized the weaknesses. I'm going to deal with quite a few weaknesses and gotchas that I've found so far.
+<h2>Groups</h2>
+Adding a group to another group, one would think it was something like this:
+
+update dm_group object append groups_names = 'new_group' where r_object_id = '...'
+
+In reality this will leave you with warnings in dm_ConsistencyChecker about having a reference in groups_names that isn't also listed as a super group. It will also not grant the permissions expected to any user that is in the subgroup. The *correct* way of adding a group is:
+
+alter group parent_group_name add 'new_group'
+
+Which is clunky at best. As you can see it takes the name of the group rather than an r_object_id, and can only do one group at a time.
+
+If you already made the mistake of thinking you can do it like this, you can fix the issue by running this:
+
+update dm_group object append i_supergroups_names = 'parent_group_name', append i_nondyn_supergroups_names = 'parent_group_name' where r_object_id = '...'
+<h2>Content</h2>
+The second big complaint I have with DQL would have to be the way that linking/moveing/copying is handled. It too breaks into something that is inconsistent with the rest of DQL. I'm not naive enough to believe that it should conform to SQL, but what you're essentially doing when you tack a 'move to' onto the end of you create argument is update properties like the 'i_folder_id???', this is admittedly more of a problem when you try to write something that abstracts DQL into something higher level.

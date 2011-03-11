@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+   <%= render :partial => 'common/head' %>
+</head>
+
+<body>
+<div class="wrap">
+    	<%= yield :header %>
+
+        <div id="page"><!-- start page content -->
+            <%= yield %>
+        </div><!-- end page  -->
+
+<div class="push"></div><!--sticky footer element -->
+</div><!-- wrap -->
+
+<div id="footer_wrap">    
+    <div id="footer">
+    <%= render :partial => 'common/footer' %>
+  </div><!-- end footer -->
+</div>
+
+</body>
+</html>
