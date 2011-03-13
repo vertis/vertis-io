@@ -1,0 +1,14 @@
+---
+layout: default
+title: Luke Chadwick
+---
+
+<div id="home">
+  <h1>Page Not Found</h1>
+  <p>Unfortunately the page the you we're looking for is no longer there. Can I entice you with one of these blog posts?</p>
+  <ul class="posts">
+    {% for post in site.posts limit:3 %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
