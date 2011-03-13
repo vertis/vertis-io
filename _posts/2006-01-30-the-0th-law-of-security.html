@@ -1,7 +1,7 @@
-  ---
-  layout: post
-  title: "The 0th law of security"
-  ---
+---
+layout: post
+title: "The 0th law of security"
+---
 
 There are supposedly 10 laws of security. Laws that are a firm basis for understanding computer security. They're obviously not the be all and end all of computing security, but for beginners and those that aren't going to focus on security they're an important start.
 <h3>The Ten Immutable Laws of Security</h3>
@@ -9,22 +9,22 @@ Microsoft’s Security Response Center Manager, Scott Culp, as a part of his job
 
 They are:
 <ol>
-	<li><strong>If 	a bad guy can persuade you to run his program on your computer, it’s 	not your computer anymore.</strong></li>
-	<li><strong>If 	a bad guy can alter the operating system on your computer, it’s 	not your computer anymore.</strong></li>
-	<li><strong>If 	a bad guy has unrestricted physical access to your computer, it’s 	not your computer anymore.</strong></li>
-	<li><strong>If 	you allow a bad guy to upload programs to your Web site, it’s not 	your Web site any more.</strong></li>
-	<li><strong>Weak 	passwords trump strong security.</strong></li>
-	<li><strong>A 	machine is only as secure as the administrator is trustworthy.</strong></li>
-	<li><strong>Encrypted 	data is only as secure as the decryption key.</strong></li>
-	<li><strong>An 	out-of-date virus scanner is only marginally better than no virus 	scanner at all.</strong></li>
-	<li><strong>Absolute 	anonymity isn’t practical, in real life or on the Web</strong></li>
-	<li><strong>Technology 	is not a panacea.</strong></li>
+  <li><strong>If   a bad guy can persuade you to run his program on your computer, it’s   not your computer anymore.</strong></li>
+  <li><strong>If   a bad guy can alter the operating system on your computer, it’s   not your computer anymore.</strong></li>
+  <li><strong>If   a bad guy has unrestricted physical access to your computer, it’s   not your computer anymore.</strong></li>
+  <li><strong>If   you allow a bad guy to upload programs to your Web site, it’s not   your Web site any more.</strong></li>
+  <li><strong>Weak   passwords trump strong security.</strong></li>
+  <li><strong>A   machine is only as secure as the administrator is trustworthy.</strong></li>
+  <li><strong>Encrypted   data is only as secure as the decryption key.</strong></li>
+  <li><strong>An   out-of-date virus scanner is only marginally better than no virus   scanner at all.</strong></li>
+  <li><strong>Absolute   anonymity isn’t practical, in real life or on the Web</strong></li>
+  <li><strong>Technology   is not a panacea.</strong></li>
 </ol>
 Even without further explanation (which is available from <a href="http://www.microsoft.com/technet/columns/security/10imlaws.asp">here</a>) it is a fairly straight forward and common sense list of laws.
 <h3>Law 0</h3>
 The fact is that these laws don't go far enough towards describing the problems that are faced by everyday users on the internet. Security people often forget that its not just big companies that are the target of attacks; they may indeed be the target of more personalized attacks
 <ol>
-	<li>If 	you can't read the source code for your operating system (and applications) then it’s not your computer anymore.</li>
+  <li>If   you can't read the source code for your operating system (and applications) then it’s not your computer anymore.</li>
 </ol>
 I hate being the open source advocate, but the fact remains that if you and the community can't get into the source code for auditing and patching purposes then its not your computer its Microsoft’s. You are essentially relying on their good will and the competency of their programmers to protect you against any flaws in the operating system that may let attackers in.
 
@@ -35,12 +35,12 @@ Yes, hackers have the same opportunity of finding the flaws. But the playing fie
 <h3>Open Source vs. the Other Ten</h3>
 When you look at open source as a solution to the problem above; it puts them in a whole new light. Let’s start with No. 7, not because of the fact that it’s a good number, more the fact that it has long been the belief of the scientific community that closed encryption algorithms are useless.
 <ol>
-	<li><strong>Encrypted 	data is only as secure as the decryption key.</strong></li>
+  <li><strong>Encrypted   data is only as secure as the decryption key.</strong></li>
 </ol>
 While this deals with the key that is used to encrypt the data I would go further and say, that encrypted data is only as secure as the <em><strong>Algorithm </strong></em> and Key that is used to encrypt the data. It doesn’t take genius to work out that even if I encrypt my information using my own proprietary method that doesn’t mean that it’s safe. Unless someone else can test my encryption method, and try and break it, I have no way of knowing whether my information is protected by the encryption; because, I have no way of knowing whether my encryption algorithm is sound, or whether there are fatal flaws in my design.
 History is littered with examples of this, and if you look closely at companies like RSA you will notice that they post challenges, trying to get people to break their encryption.More importantly if you can’t look at the encryption algorithm and analyse it for yourself, how are you to know that the creator hasn’t put in a backdoor for themselves, or governments to use.
 <h3>Watching the Watchers <strong></strong></h3>
-<blockquote><strong>An 	out-of-date virus scanner is only marginally better than no virus 	scanner at all.</strong></blockquote>
+<blockquote><strong>An   out-of-date virus scanner is only marginally better than no virus   scanner at all.</strong></blockquote>
 <ol></ol>
 Nearly everyone that I know, knows to use a virus scanner now, its slightly harder getting them to workout Spyware and AntiSpyware programs, but here’s the twist, if you can’t look at the internals of the anti virus, how do you know that its doing an adequate job of protecting you.
 I’m not trying to say you should be using Linux because of the fact that it is less prone to viruses, the fact is that most viruses are written for windows, and if everyone switched to Linux, then those same people would target Linux. It remains to be seen how well Linux would respond to this kind of problem.
