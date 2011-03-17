@@ -5,3 +5,4 @@ import.rb
 .rvmrc_site
 .rvmrc
 _site
+.sass-cache
