@@ -3,195 +3,122 @@
 /* Common
 /*
 /*****************************************************************************/
-
 /* Global Reset */
+/* line 9, ../_sass/screen.scss */
+* { margin: 0; padding: 0; }
 
-* {
-  margin: 0;
-  padding: 0;
-}
+/* line 14, ../_sass/screen.scss */
+html, body { height: 100%; }
 
-html, body {
-  height: 100%;
-}
+/* line 18, ../_sass/screen.scss */
+body { background-color: white; font: 13.34px helvetica, arial, clean, sans-serif; *font-size: small; text-align: center; }
 
-body {
-  background-color: white;
-  font: 13.34px helvetica, arial, clean, sans-serif;
-  *font-size: small;
-  text-align: center;
-}
+/* line 25, ../_sass/screen.scss */
+h1, h2, h3, h4, h5, h6 { font-size: 100%; }
 
-h1, h2, h3, h4, h5, h6 {
-  font-size: 100%;
-}
+/* line 29, ../_sass/screen.scss */
+h1 { margin-bottom: 1em; }
 
-h1 {
-  margin-bottom: 1em;
-}
+/* line 33, ../_sass/screen.scss */
+p { margin: 1em 0; }
 
-p {
-  margin: 1em 0;
-}
+/* line 37, ../_sass/screen.scss */
+a { color: #00a; }
 
-a {
-  color: #00a;
-}
+/* line 41, ../_sass/screen.scss */
+a:hover { color: black; }
 
-a:hover {
-  color: black;
-}
+/* line 45, ../_sass/screen.scss */
+a:visited { color: #a0a; }
 
-a:visited {
-  color: #a0a;
-}
-
-table {
-  font-size: inherit;
-  font: 100%;
-}
+/* line 49, ../_sass/screen.scss */
+table { font-size: inherit; font: 100%; }
 
 /*****************************************************************************/
 /*
 /* Home
 /*
 /*****************************************************************************/
+/* line 60, ../_sass/screen.scss */
+ul.posts { list-style-type: none; margin-bottom: 2em; }
 
-ul.posts {
-  list-style-type: none;
-  margin-bottom: 2em;
-}
+/* line 65, ../_sass/screen.scss */
+ul.posts li { line-height: 1.75em; }
 
-  ul.posts li {
-    line-height: 1.75em;
-  }
-
-  ul.posts span {
-    color: #aaa;
-    font-family: Monaco, "Courier New", monospace;
-    font-size: 80%;
-  }
+/* line 69, ../_sass/screen.scss */
+ul.posts span { color: #aaa; font-family: Monaco, "Courier New", monospace; font-size: 80%; }
 
 /*****************************************************************************/
 /*
 /* Site
 /*
 /*****************************************************************************/
+/* line 81, ../_sass/screen.scss */
+.site { font-size: 110%; text-align: justify; width: 40em; margin: 3em auto 2em auto; line-height: 1.5em; }
 
-.site {
-  font-size: 110%;
-  text-align: justify;
-  width: 40em;
-  margin: 3em auto 2em auto;
-  line-height: 1.5em;
-}
+/* line 89, ../_sass/screen.scss */
+.title { color: #a00; font-weight: bold; margin-bottom: 2em; }
 
-.title {
-  color: #a00;
-  font-weight: bold;
-  margin-bottom: 2em;
-}
+/* line 95, ../_sass/screen.scss */
+.site .title a { color: #a00; text-decoration: none; }
 
-  .site .title a {
-    color: #a00;
-    text-decoration: none;
-  }
+/* line 100, ../_sass/screen.scss */
+.site .title a:hover { color: black; }
 
-  .site .title a:hover {
-    color: black;
-  }
+/* line 104, ../_sass/screen.scss */
+.site .title a.extra { color: #aaa; text-decoration: none; margin-left: 1em; }
 
-  .site .title a.extra {
-    color: #aaa;
-    text-decoration: none;
-    margin-left: 1em;
-  }
+/* line 110, ../_sass/screen.scss */
+.site .title a.extra:hover { color: black; }
 
-  .site .title a.extra:hover {
-    color: black;
-  }
+/* line 114, ../_sass/screen.scss */
+.site .meta { color: #aaa; }
 
-  .site .meta {
-    color: #aaa;
-  }
+/* line 118, ../_sass/screen.scss */
+.site .footer { font-size: 80%; color: #666; border-top: 4px solid #eee; margin-top: 2em; overflow: hidden; }
 
-  .site .footer {
-    font-size: 80%;
-    color: #666;
-    border-top: 4px solid #eee;
-    margin-top: 2em;
-    overflow: hidden;
-  }
+/* line 126, ../_sass/screen.scss */
+.site .footer .contact { float: left; margin-right: 3em; }
 
-    .site .footer .contact {
-      float: left;
-      margin-right: 3em;
-    }
+/* line 131, ../_sass/screen.scss */
+.site .footer .contact a { color: #8085C1; }
 
-      .site .footer .contact a {
-        color: #8085C1;
-      }
+/* line 135, ../_sass/screen.scss */
+.site .footer .rss { margin-top: 1.1em; margin-right: -0.2em; float: right; }
 
-    .site .footer .rss {
-      margin-top: 1.1em;
-      margin-right: -.2em;
-      float: right;
-    }
-
-      .site .footer .rss img {
-        border: 0;
-      }
+/* line 141, ../_sass/screen.scss */
+.site .footer .rss img { border: 0; }
 
 /*****************************************************************************/
 /*
 /* Posts
 /*
 /*****************************************************************************/
+/* standard */
+/* line 157, ../_sass/screen.scss */
+#post pre { border: 1px solid #ddd; background-color: #eef; padding: 0 .4em; }
 
-#post {
+/* line 164, ../_sass/screen.scss */
+#post ul, #post ol { margin-left: 1.35em; }
 
-}
+/* line 168, ../_sass/screen.scss */
+#post code { border: 1px solid #ddd; background-color: #eef; font-size: 85%; padding: 0 .2em; }
 
-  /* standard */
+/* line 175, ../_sass/screen.scss */
+#post pre code { border: none; }
 
-  #post pre {
-    border: 1px solid #ddd;
-    background-color: #eef;
-    padding: 0 .4em;
-  }
+/* terminal */
+/* line 181, ../_sass/screen.scss */
+#post pre.terminal { border: 1px solid black; background-color: #333; color: white; }
 
-  #post ul,
-  #post ol {
-    margin-left: 1.35em;
-  }
+/* line 187, ../_sass/screen.scss */
+#post pre.terminal code { background-color: #333; }
 
-  #post code {
-    border: 1px solid #ddd;
-    background-color: #eef;
-    font-size: 85%;
-    padding: 0 .2em;
-  }
+/* line 191, ../_sass/screen.scss */
+#related { margin-top: 2em; }
 
-    #post pre code {
-      border: none;
-    }
+/* line 195, ../_sass/screen.scss */
+#related h2 { margin-bottom: 1em; }
 
-  /* terminal */
-
-  #post pre.terminal {
-    border: 1px solid black;
-    background-color: #333;
-    color: white;
-  }
-
-  #post pre.terminal code {
-    background-color: #333;
-  }
-
-#related {
-  margin-top: 2em;
-}
-
-  #related h2 {
-    margin-bottom: 1em;
-  }
+/* line 199, ../_sass/screen.scss */
+#overlay-header { -moz-box-shadow: 0 1px 15px #9C9C9C; background: none repeat scroll 0 0 rgba(255, 215, 0, 0.6); border-bottom: 1px solid black; font-size: 20px; font-weight: bold; left: 0; padding: 5px 10% 10px; position: fixed; bottom: 0; width: 80%; }
