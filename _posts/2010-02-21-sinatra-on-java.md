@@ -209,7 +209,8 @@ from /opt/application_servers/jboss-5.1.0.GA/server/default/deploy/deploy_test.w
 from &lt;script&gt;:1
 {% endhighlight %}
 
-Turns out that after some digging there is an open jruby bug about the issue - <http://jira.codehaus.org/browse/JRUBY-3935>
+Turns out that after some digging there is an open jruby bug about the issue - 63
+<http://jira.codehaus.org/browse/JRUBY-3935>
 
 I also did a bit of digging through the logs and found:
 
