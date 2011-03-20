@@ -12,3 +12,4 @@ It's intrusive though. How exactly did the attacker break into the account? Not 
 That raises other concerns though, email addresses become repositories of knowledge for our online lives. Just about every account you sign up for online has to have an email account linked to it, that means many details about your online life are there in fragments. We'll never know exactly what the hacker had access to (albeit briefly).
 
 I'm personally going to be reviewing all my accounts to make sure that they're secure, and I'd advise you to do the same.
+

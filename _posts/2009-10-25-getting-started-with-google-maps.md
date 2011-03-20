@@ -11,12 +11,37 @@ To do that we need to get an API key <a href="http://www.google.com/apis/maps/si
 
 Taking a step back I have a look at how difficult it is to just get it onto the page without a helper, which as it turns out is 'not very'. Lets look at the code to get a minimal example happening:
 
-[gist id=218017]
+{% highlight ruby %}
+# app.rb
+require 'rubygems'
+require 'sinatra'
+
+get '/' do
+  haml :index
+end
+{% endhighlight %}
 
 And the view:
 
-[gist id=218021]
+{% highlight haml %}
+-#views/index.haml
+%html
+  %head
+    %script{:type => "text/javascript", :charset => "utf-8", :src => "http://www.google.com/jsapi?key=ABQIAAAAR21mr2vnfC9-sjIojad2WhSmbtbI58sJnUq1AueY0BvTVoVv3BSw-I1OHpTaa0zZiaSEsDrZf9fGWQ"}
+    %script{:type => "text/javascript"}
+      google.load("maps", "2");
 
-[caption id="attachment_278" align="aligncenter" width="512" caption="Google Maps Example Application Screenshot"]<img class="size-large wp-image-278 " title="Google Maps Example Application" src="http://www.coreguardian.org/wp-content/uploads/localhost_4567-1024x689.png" alt="Google Maps Example Application Screenshot" width="512" height="344" />[/caption]
+      // Call this function when the page has been loaded
+      function initialize() {
+      var map = new google.maps.Map2(document.getElementById("map"));
+      map.setCenter(new google.maps.LatLng(37.4419, -122.1419), 13);
+      }
+      google.setOnLoadCallback(initialize);
+  %body
+    %h1 Google Maps Example
+    %p Welcome to the the Google Maps API example application.
+    #map{:style => "width: 794px; height: 491px"}
 
-As you can see, It's pretty simple to get a nice looking Google Map onto the page. In the next post I'll go into the details of how to start manipulating the map for our purposes.
+{% endhighlight%}
+
+It's pretty simple to get a nice looking Google Map onto the page. In the next post I'll go into the details of how to start manipulating the map for our purposes.
