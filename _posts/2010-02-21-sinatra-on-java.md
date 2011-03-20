@@ -3,10 +3,6 @@ layout: post
 title: "Sinatra on Java"
 ---
 
-{{ page.title }}
-================
-
-
 With <a href="http://www.jruby.org/">JRuby</a> and Warbler it's possible to get <a href="http://www.sinatrarb.org">Sinatra</a>, or any WebApp based on Rack, running on a myriad of different Java application servers. There are of course gotchas when it comes to using Warbler with the many different app servers, so this is a definitive guide to everything you have to do to get a simple <a href="http://www.sinatrarb.org">Sinatra</a> app running on the various application servers.
 
 <strong>Why <a href="http://www.sinatrarb.org">Sinatra</a>?</strong>
