@@ -1,15 +1,11 @@
 ---
 layout: post
-title: "Removing a collaborator from all github repos"
+title: "Removing a collaborator from all GitHub repos"
 ---
 
-While Github has support for a feature called [organizations](https://github.com/blog/675-organizations-for-small-businesses) - which, among other things, allow you to manage who has access to all repository. If you have
-trouble justifying doubling the cost of your github hosting for these features then you could just use the api to streamline tasks.
+I help manage the [GitHub](http://www.github.com) account for the company I work for. Recently, I've been in a situation where I needed to remove a former colleague from about 25 [GitHub](http://www.github.com) repositories. Admittedly this is only painful because the account we're using is an individual account. Frustratingly [organizations](https://github.com/blog/675-organizations-for-small-businesses), an account type introduced to deal with this exact issue, is difficult to justify to management because of the additional cost.
 
-In this case we needed to remove a former employee from being a collaborator on the github repositories. So I whipped up a script
-using the github api.
-
-While this project hardly needs a Gemfile, my 'new project' script now creates one automatically:
+In the meantime I've written a quick script using the [GitHub Api](http://develop.github.com/) that iterates through the repositories and removes a given collaborator. You can find the source code below:
 
 {% highlight ruby %}
 #Gemfile
@@ -77,4 +73,4 @@ github.repositories.each do |repo|
 end
 {% endhighlight%}
 
-It's certainly not a *polished* script, but it does the job. Maybe soon I'll be able to convince my manager to upgrade :)
+It's certainly not a *polished* script, but it does the job. Hopefully, I'll eventually be able to convince my manager to upgrade :)
