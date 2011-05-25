@@ -1,2 +1,14 @@
 markdown: rdiscount
 pygments: true
+exclude:
+- Rakefile
+- Gemfile
+- Gemfile.lock
+- README.textile
+- public
+- config.rb
+- wordpress.2011-02-22.xml
+- import.rb
+- config.ru
+
+
