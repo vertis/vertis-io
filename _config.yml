@@ -1,5 +1,6 @@
 markdown: rdiscount
 pygments: true
+destination: public
 exclude:
 - Rakefile
 - Gemfile
