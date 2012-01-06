@@ -75,3 +75,24 @@ namespace :dev do
   end
 
 end
+
+namespace :posts do
+  desc 'Create a new post with todays date'
+  task :new do
+    abort('Must supply a title with TITLE=') unless ENV['TITLE']
+    title = ENV['TITLE']
+    slug = title.downcase.gsub(/[^\w\s\d\_\-]/,'').gsub(/\s\s+/,' ').gsub(/[^\w\d]/, '-') 
+    require 'date'
+    datestamp = DateTime.now.strftime('%Y-%m-%d')
+    filename = "_posts/#{datestamp}-#{slug}.md"
+    File.open(filename, 'w') do |f|
+      f.puts <<-EOS
+---
+layout: post
+title: "#{title}"
+---
+EOS
+    end
+    exec "mate #{filename}"
+  end
+end

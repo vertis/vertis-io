@@ -11,6 +11,8 @@
 
    <!-- Homepage CSS -->
    <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
+   
+   <script src="http://logicalcognition.com/Projects/Gitview/Gitview.js"></script>
 
    <script type="text/javascript">
 
@@ -23,6 +25,16 @@
        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
      })();
+	 
+	 var view = new Gitview({ 
+	   user       : 'vertis',      // any github username
+	   domNode    : document.getElementById('projects'),  // domNode to attach to
+	   count      : 10,              // (optional) number of repos per widget page
+	   width      : '450px',        // (optional) width of widget
+	   frameColor : 'grey',          // (optional) frame background color
+	   compact    : false,          // (optional) compact mode or full mode?
+	   noFrame    : true,          // (optional) no fancy widget frame, just repositories
+	 });
 
    </script>
    <!-- Typekit -->
