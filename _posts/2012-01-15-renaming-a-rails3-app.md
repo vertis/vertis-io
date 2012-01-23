@@ -11,3 +11,27 @@ find . -type f -print0 | xargs -0 perl -pi -e 's/oldapp/newapp/g'
 {% endhighlight %}
 
 I'm a little ashamed that the snippet uses perl instead of ruby. When I was trying to get the equivalent to work in ruby 1.9 it keep complaining about encoding.
+
+For anyone that is interested the ruby version I was attempting to use was:
+  
+{% highlight console %}  
+find . -type f -print0 |
+  xargs -0 ruby -pi -e '$_.gsub(/Oldapp/, "Newapp")'
+{% endhighlight %}
+
+Which gets an error:
+{% highlight console %} 
+-e:1:in `gsub': invalid byte sequence in UTF-8 (ArgumentError)
+	from -e:1:in `<main>'
+{% endhighlight %}
+
+Even trying to force an encoding didn't seem to solve the problem.
+
+{% highlight console %}  
+find . -type f -print0 |
+  xargs -0 ruby -pi -e '$_.force_encoding("UTF-8").gsub(/Oldapp/, "Newapp")'
+{% endhighlight %}
+
+It is likely this wouldn't occur if used from Ruby 1.8
+
+
