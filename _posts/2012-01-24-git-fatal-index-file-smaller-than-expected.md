@@ -11,7 +11,7 @@ fatal: index file smaller than expected
 fatal: index file smaller than expected
 {% endhighlight %}
 
-Uh-Oh-Spaghetti-O's. Not a nice error message to get in the morning. 
+Uh-Oh-Spaghetti-O's. Not a nice error message to get first thing in the morning. 
 
 After much googling I realized that the .git/index is only used to track staged and unstaged changes. So the simplest way
 out of this mess is to move the broken index out of the way.
