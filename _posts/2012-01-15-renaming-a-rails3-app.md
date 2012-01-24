@@ -36,7 +36,7 @@ It is likely this wouldn't occur if used from Ruby 1.8</strike>
 
 Update:
 
-While it's nice to have a one liner that will accomplish the renaming. The above one liner has corrupted the .git/index
+While it's nice to have a one liner that will accomplish the renaming. I've seen the above one liner corrupt the .git/index
 
 I've written a simple ruby script that is more limited in how it selects the files:
 
