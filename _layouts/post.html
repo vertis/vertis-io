@@ -1,15 +1,22 @@
 ---
 layout: default
 ---
-<div id="post">
-<h1>{{ page.title }}</h1>
-{{ content }}
+<div class="page-header">
+  <h1>{{ page.title }}</h1>
 </div>
+<ul class="breadcrumb">
+  <li><a href="/">Home</a> <span class="divider">/</span></li>
+  <li class="active">{{ page.title }}</li>
+</ul>
+{{ content }}
+
 
 <script>
 var idcomments_acct = '55eca24a67a00e26a0682e01ed5a4eb4';
 var idcomments_post_id;
 var idcomments_post_url;
 </script>
+<div id="comments" style="margin-top:40px; margin-left: 50px">
 <span id="IDCommentsPostTitle" style="display:none"></span>
 <script type='text/javascript' src='http://www.intensedebate.com/js/genericCommentWrapperV2.js'></script>
+</div>

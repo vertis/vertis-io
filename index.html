@@ -2,16 +2,23 @@
 layout: default
 title: Luke Chadwick
 ---
-
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-
-  <h1>Open Source Projects</h1>
-  <div id="projects">
-  </div>
+<div class="page-header">
+    <h1>Reflections <small>on programming, data & other technical subjects</small></h1>
 </div>
+  {% for post in site.posts %}
+    <h3>
+      <a href="{{ post.url }}">
+       {{ post.title }}
+      </a>
+      <small>
+        {{ post.date | date_to_string }}
+      </small>
+    </h3>
+  </li>
+  {% endfor %}
+<!-- <h1>Blog Posts</h1>
+<ul class="posts">
+  {% for post in site.posts %}
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul> -->

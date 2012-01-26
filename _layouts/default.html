@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<html lang="en">
 <head>
    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
    <title>{{ page.title }}</title>
@@ -10,7 +10,18 @@
    <link rel="stylesheet" href="/css/3rd_party/pygments/default.css" type="text/css" />
 
    <!-- Homepage CSS -->
-   <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
+   <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css" />
+   <style type="text/css">
+     body {
+       padding-top: 60px;
+     }
+     code {
+       background-color: whiteSmoke;
+       color: rgba(0, 0, 0, 0.75);
+       padding: 1px 3px;
+     }
+   </style>
+   
    
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
    <script src="http://logicalcognition.com/Projects/Gitview/Gitview.js"></script>
@@ -27,51 +38,42 @@
        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
      })();
 	 
-	 $(document).ready(function() {
-		 $('#projects').gitview({
-		   user: 'vertis',         // any github username
-		   count      : 5,          // (optional) number of repos per widget page
-		   width      : '720px',    // (optional) width of widget
-		   frameColor : 'grey',      // (optional) frame background color
-		   compact    : false,      // (optional) compact mode or full mode?
-		   noFrame    : true,      // (optional) no fancy widget frame, just repositories
-		 });
-	 });
+   // $(document).ready(function() {
+   //      $('#projects').gitview({
+   //        user: 'vertis',         // any github username
+   //        count      : 5,          // (optional) number of repos per widget page
+   //        width      : '720px',    // (optional) width of widget
+   //        frameColor : 'grey',      // (optional) frame background color
+   //        compact    : true,      // (optional) compact mode or full mode?
+   //        noFrame    : true,      // (optional) no fancy widget frame, just repositories
+   //      });
+   // });
 
    </script>
 </head>
 <body>
-
-<div class="site">
-  <div class="title">
-    <a href="/">Luke Chadwick</a>
-    <a class="extra" href="/">home</a>
-  </div>
-
-  {{ content }}
-
-  <div class="footer">
-    <div class="contact">
-      <p>
-        Luke Chadwick<br />
-        luke.a.chadwick@gmail.com
-      </p>
-    </div>
-    <div class="contact">
-      <p>
-        <a href="http://github.com/vertis/">github.com/vertis</a><br />
-        <a href="http://twitter.com/vertis/">twitter.com/vertis</a><br />
-      </p>
-    </div>
-    <div class="rss">
-      <a href="http://feeds.feedburner.com/vertis">
-        <img src="/images/rss.png" alt="Subscribe to RSS Feed" />
-      </a>
+  <div class="topbar">
+    <div class="topbar-inner">
+      <div class="container">
+        <a class="brand" href="/">Luke Chadwick</a>
+        <!-- <ul class="nav">
+          <li class="active"><a href="/">Home</a></li>
+        </ul> -->
+      </div>
     </div>
   </div>
-</div>
 
-<a href="http://github.com/vertis"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>
-
+  <div class="container">
+    <div class="content">
+      <div class="row">
+        <div class="span16">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>© Luke Chadwick 2012</p>
+    </footer>
+  </div>
 </body>
 </html>
