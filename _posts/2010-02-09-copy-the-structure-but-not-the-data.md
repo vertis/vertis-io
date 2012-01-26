@@ -3,7 +3,7 @@ layout: post
 title: "Copy the structure but not the data."
 ---
 
-I’m working on a prototype at the moment that requires me to insert data into offline tables (offline as far as Documentum is concerned). The examples that I’ve found all resort to specifying the exact structure of the table.
+I'm working on a prototype at the moment that requires me to insert data into offline tables (offline as far as Documentum is concerned). The examples that I've found all resort to specifying the exact structure of the table.
 
 {% highlight sql %}
 create table DMI_OBJECT_TYPEx (
@@ -15,7 +15,7 @@ I_TYPE NUMBER(10,0) NOT NULL,
 I_PARTITION NUMBER(10,0) NULL);
 {% endhighlight %}
 
-The example above is smaller than most of the tables I have to create. The weakness with this is that you have to look up the table structure. The writers probably chose this method because the much simpler syntax shown below also brings any data that is in the table.
+The example above is smaller than most of the tables I have to create. The weakness with this is that you have to look up the table structure. The writers probably chose this method because the much simpler syntax shown below also brings any data that is in the table.
 
 {% highlight sql %}
 CREATE TABLE DMI_OBJECT_TYPEx AS SELECT * FROM DMI_OBJECT_TYPE;

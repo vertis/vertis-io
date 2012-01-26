@@ -17,25 +17,25 @@ Rather than  creating a War for one html file, I decided to show off nginx. Ngin
 
 <blockquote>
 <pre>location /resources {
-  proxy_pass   http://127.0.0.1:8080/resources;
+  proxy_pass   http://127.0.0.1:8080/resources;
 }
 </pre>
 </blockquote>
 This  will mean that anything below the /resources directory on our webserver  is passed off to the tomcat instance on 8080. We can start nginx, and  discover it works perfectly. Now that we can use just a path to  reference the services, lets get started. We start with a fairly blank  html file:
 <blockquote>
-<pre> &lt;html&gt;                                                                 
- &lt;head&gt;                                                                 
- &lt;script type="text/javascript" src="jquery-1.3.2.js"&gt;&lt;/script&gt;         
- &lt;script type="text/javascript"&gt;                                        
-   // we will add our javascript code here
-   $(document).ready(function() {
-        // do stuff when DOM is ready
-   });  
- &lt;/script&gt;                                                              
- &lt;/head&gt;                                                                
- &lt;body&gt;                                                                 
-   &lt;div id="results"&gt;&lt;/div&gt;                                         
- &lt;/body&gt;                                                                
+<pre> &lt;html&gt;                                                                 
+ &lt;head&gt;                                                                 
+ &lt;script type="text/javascript" src="jquery-1.3.2.js"&gt;&lt;/script&gt;         
+ &lt;script type="text/javascript"&gt;                                        
+   // we will add our javascript code here
+   $(document).ready(function() {
+        // do stuff when DOM is ready
+   });  
+ &lt;/script&gt;                                                              
+ &lt;/head&gt;                                                                
+ &lt;body&gt;                                                                 
+   &lt;div id="results"&gt;&lt;/div&gt;                                         
+ &lt;/body&gt;                                                                
  &lt;/html&gt;
 </pre>
 </blockquote>
@@ -44,10 +44,10 @@ Notice  the included jquery.js, the call the $(document).ready, and the results 
 <blockquote>
 <pre>
 $.getJSON("/resources/core/repositories/test_repo/folders.json",
-       function(data){
-       $.each(data.dataPackage.dataObject, function(i,item){
-           $("#results").append(item.properties.object_name+"&lt;br/&gt;");
-       });
+       function(data){
+       $.each(data.dataPackage.dataObject, function(i,item){
+           $("#results").append(item.properties.object_name+"&lt;br/&gt;");
+       });
 });
 </pre>
 </blockquote>

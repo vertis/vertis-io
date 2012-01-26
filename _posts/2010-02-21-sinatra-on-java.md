@@ -252,7 +252,7 @@ Start by logging into the administration console, it should be something like - 
 
 Click on 'Servers' and when it expands select 'Application Servers'. From here you can setup a new server instance that we can use for our testing. Call the instance something like 'deploy01'. You can follow the default creation steps all the way through.
 
-Once you have a server instance to test on, you can deploy a new application. The big gotcha as mentioned above is that you can't use filters, the good news is that it's quite easy to switch out the rack filters for a rack servlet. Rather than duplicate information that already exists, I'll link to the place I learned to deploy warbler to websphere, <a href="http://clint-hill.com/2008/11/26/jruby-on-rails-and-websphere/">http://clint-hill.com/2008/11/26/jruby-on-rails-and-websphere/</a>.
+Once you have a server instance to test on, you can deploy a new application. The big gotcha as mentioned above is that you can't use filters, the good news is that it's quite easy to switch out the rack filters for a rack servlet. Rather than duplicate information that already exists, I'll link to the place I learned to deploy warbler to websphere, <a href="http://clint-hill.com/2008/11/26/jruby-on-rails-and-websphere/">http://clint-hill.com/2008/11/26/jruby-on-rails-and-websphere/</a>.
 
 Websphere is not the easiest application server to setup in general, but once you get it all configured it is fairly robust. Worth the effort if you want an application server you won't have to restart constantly (as can be the case with Documentum on Tomcat).
 
@@ -260,7 +260,7 @@ Websphere is not the easiest application server to setup in general, but once yo
 Deploy to Weblogic and test (effort: n/a - working: no)
 -------------------------------------------------------
 
-Setting up Oracle Weblogic 10.3.2 was nothing short of awesome. The install process is intuitive and speedy, though the size is quite large, at ~600Mb,  compared to smaller cousins such as Tomcat. There is a wizard that walks you through the process of setting up your first domain, what Tomcat would call an instance and Websphere would call a profile, once the software is installed. I chose the default options for everything and had a running Weblogic server in about 20mins (including download).
+Setting up Oracle Weblogic 10.3.2 was nothing short of awesome. The install process is intuitive and speedy, though the size is quite large, at ~600Mb,  compared to smaller cousins such as Tomcat. There is a wizard that walks you through the process of setting up your first domain, what Tomcat would call an instance and Websphere would call a profile, once the software is installed. I chose the default options for everything and had a running Weblogic server in about 20mins (including download).
 
 My previous experience with Weblogic, was the version bundled with Documentum D6SP1. I've found both that version and the current fully fledged Oracle version to be a joy to work with.
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hackers: Don’t Fear Them…Learn From Them"
+title: "Hackers: Don't Fear Them...Learn From Them"
 ---
 
 Without debating whether hackers are good, bad or simply a myth created by companies that need extra money, the common garden variety of hacker has a lot to share with those of us that are less computer literate. Hackers spend inordinate amounts of time delving into computers, and more to the point looking at computer security. Rather than fearing the hackers, we can take a page from their book, and focus a little on how to secure your computer.
