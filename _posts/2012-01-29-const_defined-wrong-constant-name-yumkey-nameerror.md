@@ -21,7 +21,7 @@ The chef solo run was breaking with:
 [Sun, 29 Jan 2012 07:22:18 -0500] FATAL: NameError: wrong constant name Yum.Key
 {% endhighlight %}
 
-Bizarre. Looking at the stack trace provided no more clarity. Why was it looking for a constant called 'Yum.Key' in the first place.
+Bizarre. Looking at the stack trace provided no more clarity. Why was it looking for a constant called 'Yum.Key' in the first place?
  
 {% highlight console %}
 Generated at 2012-01-29 07:22:18 -0500
