@@ -10,7 +10,7 @@ Assuming that you place this in 'lib/your_gem.rb', the following code will retur
 {% highlight ruby %}
 module YourGem
   def self.root
-    @root ="#{File.expand_path('../..',__FILE__)}"
+    File.expand_path('../..',__FILE__)
   end
 end
 {% endhighlight %}
