@@ -1,6 +1,6 @@
 ---
 layout: post
 title: "Test prose.io"
-published: false
+published: true
 ---
 This is a test
