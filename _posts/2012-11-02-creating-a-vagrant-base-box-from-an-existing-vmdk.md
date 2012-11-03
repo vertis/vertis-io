@@ -20,17 +20,7 @@ I've also compiled the tasks into a script that you can clone from GitHub
 ## Step 1 - Import/Create the VM
 After lots of searching I came across some VirtualBox [tips and tricks](http://www.halfdog.net/Misc/TipsAndTricks/VirtualBox.html) including how to create a machine from scratch. It wasn't the only blog post I found with these commands, but it was a good complete script from which to hack.
 
-{% highlight console %}
-BOX_NAME=platform-build
-BASE_DIR="`pwd`/machines"
-BOX_DIR="${BASE_DIR}/${BOX_NAME}"
-
-mkdir -p ${BASE_DIR}
-
-VBoxManage createvm --name "${BOX_NAME}" --ostype RedHat_64 --basefolder ${BASE_DIR}
-
-VBoxManage registervm "${BOX_DIR}/${BOX_NAME}.vbox"
-{% endhighlight %}
+<script src="https://gist.github.com/4005946.js?file=createbox-part1.sh"></script>
 
 The VBoxManage command will create a directory under the base folder and store a `.vbox` file of the same name inside.
 
