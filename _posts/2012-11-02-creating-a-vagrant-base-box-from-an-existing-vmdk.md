@@ -57,7 +57,6 @@ VBoxManage clonehd tmp/clone.vdi "${BOX_DIR}/${BOX_NAME}.vmdk" --format vmdk
 VBoxManage -q closemedium disk tmp/clone.vdi
 rm -f tmp/clone.vdi
 
-#cp resized.vmdk "${BOX_DIR}/${BOX_NAME}.vmdk"
 VBoxManage storagectl "${BOX_NAME}" --name LsiLogic --add scsi --controller LsiLogic
 VBoxManage storageattach "${BOX_NAME}" --storagectl LsiLogic --port 0 --device 0 --type hdd --medium "${BOX_DIR}/${BOX_NAME}.vmdk"
 {% endhighlight %}
