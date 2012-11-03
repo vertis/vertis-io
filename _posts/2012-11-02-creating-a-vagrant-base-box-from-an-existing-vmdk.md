@@ -1,6 +1,6 @@
 ---
-layout: default
-published: false
+layout: post
+published: true
 ---
 
 # Creating a Vagrant "Base Box" from an existing VMDK
