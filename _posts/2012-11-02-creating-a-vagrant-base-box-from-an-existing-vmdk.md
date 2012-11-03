@@ -8,7 +8,7 @@ title: Creating a Vagrant base box from an existing Vmdk
 
 We have a build pipeline for our machine images at work. I don't want to digress too much, but the pipeline starts by using Koji to create a CentOS image that is then transformed for use in EC2 and VMWare.
 
-The intent being to create a consistent experience across different "clouds". This has been working quite nicely (I may make this process the subject of another post).
+The intent being to create a consistent experience across all stages of developing. This has been working quite nicely (I may make this process the subject of another post).
 
 In addition to using the machines within Amazon EC2, we want the devs to be able to use the machine image locally. In I wanted to bring down either the raw file or the vmdk as prepared for VMWare, and use it in virtualbox. Since I couldn't find a single source of information about how to do this, I've compiled the steps and provided links back to where I sourced the information.
 
@@ -69,5 +69,6 @@ The final step, is to shutdown and package the box for distribution
 <script src="https://gist.github.com/4005946.js?file=createbox-part6.sh"></script>
 
 ## Finally the complete script
+For ease of use, here is the complete script.
 
 <script src="https://gist.github.com/4005946.js?file=createbox-complete.sh"></script>
