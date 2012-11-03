@@ -13,6 +13,10 @@ For local work I wanted to bring down either the raw file or the vmdk as prepare
 
 I've also compiled the tasks into a script that you can clone from GitHub
 
+## Caveats and disclaimers
+1. I don't pretend to be an expert at VirtualBox (I may be doing things the hard way)
+2. The code is very "brute force", it doesn't check very much between each step
+
 ## Step 1 - Import/Create the VM
 After lots of searching I came across some VirtualBox [tips and tricks](http://www.halfdog.net/Misc/TipsAndTricks/VirtualBox.html) including how to create a machine from scratch. It wasn't the only blog post I found with these commands, but it was a good complete script from which to hack.
 
@@ -43,6 +47,21 @@ VBoxManage storagectl "${BOX_NAME}" --name LsiLogic --add scsi --controller LsiL
 VBoxManage storageattach "${BOX_NAME}" --storagectl LsiLogic --port 0 --device 0 --type hdd --medium "${BOX_DIR}/${BOX_NAME}.vmdk"
 {% endhighlight %}
 
+I have an additional problem. The VMDK only has a 1GB of space. After a bit of searching I found a stackoverflow question that helped me resize the disk. The above code changes to:
+{% highlight bash %}
+mkdir -p tmp
+rm -rf tmp/clone.vdi
+VBoxManage clonehd latest.vmdk tmp/clone.vdi --format vdi
+VBoxManage modifyhd tmp/clone.vdi --resize 20480
+VBoxManage clonehd tmp/clone.vdi "${BOX_DIR}/${BOX_NAME}.vmdk" --format vmdk
+VBoxManage -q closemedium disk tmp/clone.vdi
+rm -f tmp/clone.vdi
+
+#cp resized.vmdk "${BOX_DIR}/${BOX_NAME}.vmdk"
+VBoxManage storagectl "${BOX_NAME}" --name LsiLogic --add scsi --controller LsiLogic
+VBoxManage storageattach "${BOX_NAME}" --storagectl LsiLogic --port 0 --device 0 --type hdd --medium "${BOX_DIR}/${BOX_NAME}.vmdk"
+{% endhighlight %}
+
 ## Step 3 - Provide a NAT Port Mapping
 
 To setup the items required for Vagrant, I have to SSH into the machine. The first part of that is creating an NAT Port Mapping. Another [post](http://timelordz.com/wiki/Virtualbox_Tips) provided the commands necessary to map the ssh port.
@@ -55,9 +74,55 @@ VBoxManage setextradata "${BOX_NAME}" "VBoxInternal/Devices/e1000/0/LUN#0/Config
 
 I initially thought to make the port mapping `222` because vagrant defaults to `2222`. Annoyingly this failed silently. Though the reason should be familiar to anyone with basic Linux administration knowledge -- using ports less than 1024 requires root access.
 
+## Step 3a - Stuff that didn't belong anywhere else
+
+{% highlight bash %}
+VBoxManage modifyvm "${BOX_NAME}" --usb on --usbehci on
+VBoxManage modifyvm "${BOX_NAME}" --memory 512
+{% endhighlight %}
+
+
 ## Step 4 - Booting and waiting for SSH
 
 With that done, the next step is to setup the user/access that vagrant expects. To do that we need to SSH into the box.
 
 {% highlight bash %}
+VBoxManage startvm "${BOX_NAME}" #--type headless
+
+echo "Sleeping to give machine time to boot"
+sleep 60
+{% endhighlight %}
+
+I experimented with a few ways of watching for ssh, but in the end none of them worked very well. So instead, just sleep for a while.
+
+
+## Step 5 - Setting up the vagrant user
+Creating the user is fairly trivial, editing the /etc/sudoers file not so much. I downloaded a copy and then made the modifications.
+
+{% highlight bash %}
+echo "Uploading ssh key & creating vagrant user"
+cat ~/.ssh/vagrant.pub | ssh -p 22222 root@localhost "umask 077; test -d .ssh || mkdir .ssh ; cat >> .ssh/authorized_keys"  
+ssh -p 22222 root@localhost <<EOT
+  useradd vagrant 
+  echo vagrant | passwd vagrant --stdin
+  umask 077 
+  test -d /home/vagrant/.ssh || mkdir -p /home/vagrant/.ssh
+  cp ~/.ssh/authorized_keys /home/vagrant/.ssh
+  chown -R vagrant:vagrant /home/vagrant/.ssh
+EOT
+scp -P 22222 templates/sudoers root@localhost:/etc/sudoers
+{% endhighlight %}
+
+## Step 6 - Shutting down and packaging
+The final step, is to shutdown and package the box for distribution
+
+{% highlight bash %}
+echo -n "Waiting for machine to shutdown"
+VBoxManage controlvm ${BOX_NAME} acpipowerbutton
+while [ `VBoxManage showvminfo --machinereadable platform-build | grep VMState=` != 'VMState="poweroff"' ]; do
+  echo -n .
+  sleep 1
+done
+echo "Done"
+vagrant package --base ${BOX_NAME} --output ${BOX_NAME}.box
 {% endhighlight %}
