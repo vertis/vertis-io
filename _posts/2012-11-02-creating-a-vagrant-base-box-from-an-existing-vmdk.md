@@ -4,15 +4,17 @@ published: true
 title: Creating a Vagrant base box from an existing Vmdk
 ---
 
-# Creating a Vagrant "Base Box" from an existing VMDK
+Before moving on the the meat of this post some background is in order.
 
-We have a build pipeline for our machine images at work. I don't want to digress too much, but the pipeline starts by using Koji to create a CentOS image that is then transformed for use in EC2 and VMWare.
+Doing continuous delivery sounds straight forward. Maybe it is, if you have a small organisation and a green fields application. If you have many applications that tie together, you're in for a different experience.
 
-The intent being to create a consistent experience across all stages of development. This has been working quite nicely.
+The work I've been doing recently involves creating a standard platform for our applications. Part of the process of creating this platform involves spinning a a machine image for use within our production, staging and development environments.There is ample material in our current build pipeline for a dozen blog posts. Maybe I'll get around to writing about it at some point.
 
-In addition to using the machines within Amazon EC2, we want the devs to be able to use the machine image locally. In order to help get this organised, I wanted to bring down either the raw file or the vmdk as prepared for VMWare, and use it in VirtualBox. Since I couldn't find a single source of information about how to do this, I've compiled the steps and provided links back to where I sourced the information.
+Our "machine image pipeline" begins by using [Koji](https://fedoraproject.org/wiki/Koji) to create a CentOS image. The image is then transformed for use in EC2 and VMWare.
 
-I've also compiled the tasks into a script that you can clone from GitHub
+In addition to using the machines within Amazon EC2, many devs would like to be able to use the machine image locally. Since [Vagrant](http://vagrantup.com) is a popular option for running machines locally, it's an ideal choice to add to the pipeline.
+
+There doesn't seem to be a lot of information about the process of converting an existing machine image to work with Vagrant (in an automated fashion). I've compiled the steps I had to take and provided links back to where I sourced the information.
 
 ## Caveats and disclaimers
 1. I don't pretend to be an expert at VirtualBox (I may be doing things the hard way)
