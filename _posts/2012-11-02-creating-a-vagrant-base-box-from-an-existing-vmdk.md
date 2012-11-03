@@ -1,6 +1,7 @@
 ---
 layout: post
 published: true
+title: Creating a Vagrant base box from an existing Vmdk
 ---
 
 # Creating a Vagrant "Base Box" from an existing VMDK
