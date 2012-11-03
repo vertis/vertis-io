@@ -68,6 +68,6 @@ The final step, is to shutdown and package the box for distribution
 
 <script src="https://gist.github.com/4005946.js?file=createbox-part6.sh"></script>
 
-And finally the complete script
+## Finally the complete script
 
 <script src="https://gist.github.com/4005946.js?file=createbox-complete.sh"></script>
