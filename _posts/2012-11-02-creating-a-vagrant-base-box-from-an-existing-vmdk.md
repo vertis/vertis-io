@@ -4,9 +4,7 @@ published: true
 title: Creating a Vagrant base box from an existing Vmdk
 ---
 
-Before moving on the the meat of this post some background is in order.
-
-Doing continuous delivery sounds straight forward. Maybe it is, if you have a small organisation and a green fields application. If you have many applications that tie together, you're in for a different experience.
+Some background.
 
 The work I've been doing recently involves creating a standard platform for our applications. Part of the process of creating this platform involves spinning a a machine image for use within our production, staging and development environments.There is ample material in our current build pipeline for a dozen blog posts. Maybe I'll get around to writing about it at some point.
 
@@ -35,12 +33,12 @@ From there on in, I departed (slightly) from the script I'd found, and copied my
 
 <script src="https://gist.github.com/4005946.js?file=createbox-part2.sh"></script>
 
-I have an additional problem. The VMDK only has a 1GB of space. After a bit of searching I found a stackoverflow question that helped me resize the disk. The above code changes to:
+I have an additional problem. The VMDK only has a 1GB of space. After a bit of searching I found a [stackoverflow question](http://stackoverflow.com/questions/11659005/how-to-resize-a-virtualbox-vmdk-file/11659046#11659046) that helped me resize the disk. The above code changes to:
 <script src="https://gist.github.com/4005946.js?file=createbox-part2-alt.sh"></script>
 
 ## Step 3 - Provide a NAT Port Mapping
 
-To setup the items required for Vagrant, I have to SSH into the machine. The first part of that is creating an NAT Port Mapping. Another [post](http://timelordz.com/wiki/Virtualbox_Tips) provided the commands necessary to map the ssh port.
+To setup the items required for Vagrant, we need to ssh into the machine. The first part of that is creating an NAT Port Mapping. Another [post](http://timelordz.com/wiki/Virtualbox_Tips) provided the commands necessary to map the ssh port.
 
 <script src="https://gist.github.com/4005946.js?file=createbox-part3.sh"></script>
 
