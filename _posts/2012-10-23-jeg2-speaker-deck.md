@@ -1,6 +1,6 @@
 ---
 layout: default
-published: false
+published: true
 title: "An awesome collection of ruby tricks from JEG2"
 ---
 
