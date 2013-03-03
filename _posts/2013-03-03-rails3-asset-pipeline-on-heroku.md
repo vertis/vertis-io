@@ -1,6 +1,6 @@
 ---
 layout: default
-published: false
+published: true
 ---
 
 # Asset compilation doesn't run on heroku when deploying a Rails 3.x application
