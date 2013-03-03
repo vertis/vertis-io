@@ -1,6 +1,6 @@
 ---
 layout: default
-published: true
+published: false
 ---
 
 # Asset compilation doesn't run on heroku when deploying a Rails 3.x application
@@ -12,11 +12,13 @@ This morning I was having a problem where the rails asset compilation wasn't tri
 Thankfully the code that does the setup is all open source, so I spent some time digging through `https://github.com/heroku/heroku-buildpack-ruby` to work out what was going wrong.
 
 It didn't take too much digging til I realised that the task was being wrapped in a check:
+
 ```
 if rake_task_defined?("assets:precompile")
 ```
 
 This results in a `--dry-run` call. As seen below:
+
 ```
   # detects if a rake task is defined in the app
   # @param [String] the task in question
@@ -29,6 +31,7 @@ This results in a `--dry-run` call. As seen below:
 Unfortunately, this also fails silently if there is a problem.
 
 Heroku provides a `run` command. So we can check directly what is wrong:
+
 ```
 heroku run env PATH=\$PATH bundle exec rake assets:precompile --dry-run
 ```
