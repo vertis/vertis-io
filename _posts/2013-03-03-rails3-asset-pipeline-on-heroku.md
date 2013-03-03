@@ -14,7 +14,9 @@ Thankfully the code that does the setup is all open source, so I spent some time
 It didn't take too much digging til I realised that the task was being wrapped in a check:
 
 ```
+
 if rake_task_defined?("assets:precompile")
+
 ```
 
 This results in a `--dry-run` call. As seen below:
