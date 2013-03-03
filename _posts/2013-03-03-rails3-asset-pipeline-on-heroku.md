@@ -9,10 +9,9 @@ Another of my 'I just wasted a bunch of time trying to work out why something wa
 
 This morning I was having a problem where the rails asset compilation wasn't triggering when deploying an application to heroku. Googling for the problem resulted in a lot of people that were having errors, but no information about a complete lack of running.
 
-Thankfully the code that does the setup is all open source, so I spent some time digging through `https://github.com/heroku/heroku-buildpack-ruby` to work out what was going wrong.
+Thankfully the code that does the setup is all open source, so I spent some time digging through [heroku-buildpack-ruby](https://github.com/heroku/heroku-buildpack-ruby) on github to work out what was going wrong.
 
 It didn't take too much digging til I realised that the task was being wrapped in a check:
-
 
     if rake_task_defined?("assets:precompile")
 
