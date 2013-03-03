@@ -13,29 +13,24 @@ Thankfully the code that does the setup is all open source, so I spent some time
 
 It didn't take too much digging til I realised that the task was being wrapped in a check:
 
-```
 
-if rake_task_defined?("assets:precompile")
-
-```
+    if rake_task_defined?("assets:precompile")
 
 This results in a `--dry-run` call. As seen below:
 
-```
-  # detects if a rake task is defined in the app
-  # @param [String] the task in question
-  # @return [Boolean] true if the rake task is defined in the app
-  def rake_task_defined?(task)
-    run("env PATH=$PATH bundle exec rake #{task} --dry-run") && $?.success?
-  end
-```
+    # detects if a rake task is defined in the app
+    # @param [String] the task in question
+    # @return [Boolean] true if the rake task is defined in the app
+    def rake_task_defined?(task)
+      run("env PATH=$PATH bundle exec rake #{task} --dry-run") && $?.success?
+    end
 
 Unfortunately, this also fails silently if there is a problem.
 
 Heroku provides a `run` command. So we can check directly what is wrong:
 
-```
-heroku run env PATH=\$PATH bundle exec rake assets:precompile --dry-run
-```
+
+    heroku run env PATH=\$PATH bundle exec rake assets:precompile --dry-run
+
 
 In my case it was complaining about a lack of nokogiri during the compilation (even though it was a dry run).
