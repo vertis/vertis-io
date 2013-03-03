@@ -28,7 +28,9 @@ This results in a `--dry-run` call. As seen below:
 
 Unfortunately, this also fails silently if there is a problem.
 
-Heroku provides a 
+Heroku provides a `run` command. So we can check directly what is wrong:
 ```
 heroku run env PATH=\$PATH bundle exec rake assets:precompile --dry-run
 ```
+
+In my case it was complaining about a lack of nokogiri during the compilation (even though it was a dry run).
