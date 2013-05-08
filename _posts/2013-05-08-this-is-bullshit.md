@@ -5,7 +5,7 @@ layout: default
 ---
 
 ## tl;dr
-- My colleagues made a funny video when there was an incident http://www.youtube.com/embed/DmC4eaaGmTw
+- My colleagues made a funny [video](http://youtu.be/DmC4eaaGmTw) when there was an incident 
 - Cake makes everything better
 
 ## Upgrading Github Enterprise
