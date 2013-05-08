@@ -9,6 +9,6 @@ gem 'haml'
 gem 'sass'
 gem 'activesupport'
 gem 'rdiscount'
-gem 'rb-fsevent'
+gem 'rb-fsevent', '0.9.3'
 
 gem 'unicorn'
