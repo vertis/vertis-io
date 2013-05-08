@@ -1,7 +1,7 @@
 ---
 published: true
 layout: default
-
+title: "This is Bullshit!"
 ---
 
 ## tl;dr
