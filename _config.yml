@@ -1,16 +1,10 @@
-markdown: rdiscount
+markdown: redcarpet
 pygments: true
-destination: public
-exclude:
-- Rakefile
-- Gemfile
-- Gemfile.lock
-- README.textile
-- public
-- config.rb
-- wordpress.2011-02-22.xml
-- import.rb
-- config.ru
-- tmp
+permalink: date
+lsi: true
+exclude: ['README.markdown', 'README_FOR_COLLABORATORS.markdown', 'Gemfile.lock', 'Gemfile']
+production: false
+paginate: 10
 
-
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
