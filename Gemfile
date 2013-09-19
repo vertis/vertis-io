@@ -5,3 +5,4 @@ gem 'gsl'
 gem 'redcarpet'
 
 gem 'jekyll'
+#gem 'github-pages'
