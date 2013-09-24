@@ -5,6 +5,7 @@ title: "Awesome Links #1"
 author: vertis
 ---
 ![Forward Unto Dawn](https://a.desktopprassets.com/wallpapers/ba83238e88f62762658e5fe624c5c33f507955f8/preview_big_085907e590bc7f0940870a2909498e0a394d3491.jpg)
+> The USS Forward Unto Dawn (From Halo 4)
 
 Awesome links for the 23rd of September 2013:
 
