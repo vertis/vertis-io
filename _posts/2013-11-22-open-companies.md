@@ -13,7 +13,7 @@ Both of these companies have taken what might be considered extreme approaches. 
 
 I found about about [Balanced Payments](http://balancedpayments.com) through Steve Klabnik's [announcement](http://words.steveklabnik.com/why-im-partnering-with-balanced) that he would be partnering (employed by) [Balanced Payments](http://balancedpayments.com). This led to a bunch of other urls.
 
-The first, was a [pull request]https://github.com/gittip/www.gittip.com/pull/137/commits that [Balanced Payments](http://balancedpayments.com) made on [GitTip](http://www.gittip.com). Solving their problem regarding the need for a new payment provider. This is a powerful action to promote both [Balanced Payments](http://balancedpayments.com), but also a statement about how well being open is working for [GitTip](http://www.gittip.com)
+The first, was a [pull request](https://github.com/gittip/www.gittip.com/pull/137/commits) that [Balanced Payments](http://balancedpayments.com) made on [GitTip](http://www.gittip.com). Solving their problem regarding the need for a new payment provider. This is a powerful action to promote both [Balanced Payments](http://balancedpayments.com), but also a statement about how well being open is working for [GitTip](http://www.gittip.com)
 
 Moving on from there, I decided to look into the how and why of [Balanced Payments](http://balancedpayments.com) decision to be open. The CEO,  Matin Tamizi, has shared a lot of his reasoning in a article on [Fast Company: Labs](http://www.fastcolabs.com/3008944/open-company/why-i-made-my-payments-startup-an-open-company) and also in the [GitHub](http://github.com) produced [OctoTales](https://www.youtube.com/watch?v=ukKd8W3Bvo0).
 
