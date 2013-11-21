@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: "Awesome Links: Open Companies"
+title: "Awesome Reading: Open Companies"
 author: vertis
 ---
 ![A rare archaeological find](http://farm6.staticflickr.com/5503/9994096423_c49307a789_h.jpg)
