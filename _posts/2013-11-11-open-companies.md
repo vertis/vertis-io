@@ -4,7 +4,7 @@ layout: post
 title: "Awesome Reading: Open Companies"
 author: vertis
 ---
-![A rare archaeological find](http://farm6.staticflickr.com/5503/9994096423_c49307a789_h.jpg)
+![A rare archaeological find](http://farm6.staticflickr.com/5503/9994096423_a4e728a437_c.jpg)
 >  A rare archaeological find at GitHub by fumi (http://www.flickr.com/photos/fumi/9994096423/)
 
 I've been reading about a couple of open companies, [GitTip](http://www.gittip.com) and [Balanced Payments](http://balancedpayments.com).
