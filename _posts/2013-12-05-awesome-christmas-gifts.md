@@ -16,3 +16,5 @@ For all those geeks with kids, the [Leap Motion](https://www.leapmotion.com/) is
 If you're looking for something with a smaller budget the [Raspberry Pi](http://www.raspberrypi.org/) ($35) or [Beaglebone Black](http://beagleboard.org/products/beaglebone%20black) ($45) may fit the bill. One of the benefits to giving one of these as a gift, is even if they already have one, a second or third is always useful (they tend to get used in projects). The Raspberry Pi tends to be a bit friendlier for getting started, and the Beaglebone Black fits into the slightly more advanced category.
 
 Need more ideas? [Hacker Things](http://hackerthings.com/) has an impressive list of awesome gadgets. Also browsing [Adafruit](http://adafruit.com), [Sparkfun](http://sparkfun.com) and [Tindie](http://tindie.com) should help you find that perfect geek gift.
+
+Update: [opensource.com](http://opensource.com/life/13/11/open-source-2013-holiday-gift-guide) also has an awesome gift guide.
