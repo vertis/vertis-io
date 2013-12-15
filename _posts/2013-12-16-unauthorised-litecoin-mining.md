@@ -25,6 +25,11 @@ I've emailed pool-x.eu asking them to suspend the account, but I've yet to recei
 
 What have I learned from this experience?
 
-1. Enable billing alerts - Given I spend about $60-80 a month with Amazon usually, I could have been warned MUCH earlier.
-2. Do a regular search of GitHub for keys and passwords in your repository.
-3. Be especially careful flicking the switch on repositories that you've had as private for a long time.
+## Enable billing alerts - 
+Given I spend about $60-80 a month with Amazon usually, I could have been warned MUCH earlier. Needless to say, now that the horse has bolted I've enabled the horse bolting detector.
+
+## Check GitHub
+It's not really that hard to do a regular search of GitHub for keys and passwords in your repositories.
+
+## Audit code before open sourcing
+Always a good rule, but be especially careful flicking the switch on repositories that you've had as private for a long time.
