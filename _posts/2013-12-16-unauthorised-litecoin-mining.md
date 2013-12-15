@@ -19,9 +19,9 @@ It didn't take long to find the source of the billing. Twenty cc2.8xlarge instan
 
 By this stage I'd already revoked the key (as suggested in the email). So I quickly shut the instances down, while I would have liked to preserve them for forensics, I just couldn't afford to leave them running while waiting for Amazon support (I do not pay for support, since this is just my private account that I dabble with).
 
-After taking stock for a few moments, I detached one of the volumes and attached it to another instance. Having a poke around confirmed what I had already guessed. The unauthorised user had been mining litecoin with the mining pool (pool-x.eu)[http://pool-x.eu].
+After taking stock for a few moments, I detached one of the volumes and attached it to another instance. Having a poke around confirmed what I had already guessed. The unauthorised user had been mining litecoin with the mining pool [pool-x.eu](http://pool-x.eu).
 
-I've emailed (pool-x.eu)[http://pool-x.eu] asking them to suspend the account, but I've yet to receive a reply.
+I've emailed [pool-x.eu](http://pool-x.eu) asking them to suspend the account, but I've yet to receive a reply.
 
 What have I learned from this experience?
 
