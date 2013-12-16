@@ -38,6 +38,9 @@ Always a good rule, but be especially careful flicking the switch on repositorie
 Update: [@joneaves](http://twitter.com/joneaves) suggested either using something like [checkstyle](http://checkstyle.sourceforge.net/) (java) and/or a pre-commit hook. Good advice.
 
 ## Use IAM Keys
-Quite a few people have pointed out on twitter and hacker news that the other thing you should be doing is using restricted IAM keys. 
+Quite a few people have pointed out on twitter and hacker news that the other thing you should be doing is using restricted IAM keys.
+
+## More tips on Amazon
+A friend pointed out that Amazon has a good security [blog post](http://blogs.aws.amazon.com/security/post/Tx1XG3FX6VMU6O5/A-safer-way-to-distribute-AWS-credentials-to-EC2) that deals with this and other risks to your account.
 
 __Discuss it on [Hacker News](https://news.ycombinator.com/item?id=6911908)__
