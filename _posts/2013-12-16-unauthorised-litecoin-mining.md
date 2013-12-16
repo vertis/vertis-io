@@ -36,4 +36,7 @@ Always a good rule, but be especially careful flicking the switch on repositorie
 
 Update: [@joneaves](http://twitter.com/joneaves) suggested either using something like [checkstyle](http://checkstyle.sourceforge.net/) (java) and/or a pre-commit hook. Good advice.
 
+## Use IAM Keys
+Quite a few people have pointed out on twitter and hacker news that the other thing you should be doing is using restricted IAM keys. 
+
 __Discuss it on [Hacker News](https://news.ycombinator.com/item?id=6911908)__
