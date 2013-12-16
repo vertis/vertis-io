@@ -35,3 +35,5 @@ It's not really that hard to do a regular search of GitHub for keys and password
 Always a good rule, but be especially careful flicking the switch on repositories that you've had as private for a long time.
 
 Update: [@joneaves](http://twitter.com/joneaves) suggested either using something like [checkstyle](http://checkstyle.sourceforge.net/) (java) and/or a pre-commit hook. Good advice.
+
+__Discuss it on [Hacker News](https://news.ycombinator.com/item?id=6911908)__
