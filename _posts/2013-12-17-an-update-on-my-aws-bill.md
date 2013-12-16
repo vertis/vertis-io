@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: "Update on my AWS bill"
+title: "An update on my AWS bill"
 author: vertis
 ---
 
