@@ -22,3 +22,5 @@ With this experience they have reinforced, to me a least, that they value me as 
 This is all without mentioning that Werner Vogels stopped by the Hacker News thread (The ticket was already on it's way to being dealt with by that point, but it was amazing).
 
 Finally, thanks again to all the supportive people over the last 2 days.
+
+__Discuss it on [Hacker News](https://news.ycombinator.com/item?id=6917618)__
