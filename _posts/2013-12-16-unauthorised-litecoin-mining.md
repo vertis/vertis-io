@@ -29,7 +29,7 @@ What have I learned from this experience?
 Given I spend about $60-80 a month with Amazon usually, I could have been warned MUCH earlier. Needless to say, now that the horse has bolted I've enabled the horse bolting detector.
 
 ## Check GitHub
-It's not really that hard to do a regular search of GitHub for keys and passwords in your repositories.
+It's not really that hard to do a regular search of GitHub for keys and passwords in your repositories. Check your friends repositories as well...many eyes.
 
 ## Audit code before open sourcing
 Always a good rule, but be especially careful flicking the switch on repositories that you've had as private for a long time.
