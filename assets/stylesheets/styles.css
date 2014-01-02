@@ -451,5 +451,27 @@ table tbody tr:hover td
 	color: #000;
 }
 
+/* ------------------
+ styling for lists
+   ------------------   */
+.post ul {
+    padding-left: 60px;
+}
+
+.post ul li {
+    max-width: 600px;
+    font-size: 1.7em;
+    line-height: 27px;
+    margin: 0; 
+    color: #4d4d4d;
+    font-family: 'proxima-nova', sans-serif;
+    font-weight: 400;
+    display: list-item; 
+    margin-bottom: 5px; 
+    margin-top: 5px;
+    list-style: disc;
+}
+
+
 
 
