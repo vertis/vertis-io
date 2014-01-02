@@ -5,7 +5,7 @@ title: "Things I Want To Do This Year"
 author: vertis
 ---
 
-We have a new year, and with it a new chapter. While I was on my flight back from visting family in Sydney for Xmas, I started writing a list of everything I want to get done this year.
+While I was on my flight back from visting family in Sydney for Xmas, I started writing a list of everything I want to get done this year.
 
 It's quite a long list, and it will be a very full year if I manage to do half of it. But it's worth writing down:
 
