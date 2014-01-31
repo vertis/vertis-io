@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 title: "Awesome Links #9"
 author: vertis
