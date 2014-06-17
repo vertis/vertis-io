@@ -1,12 +1,10 @@
 ---
 published: true
 layout: post
-title: "Mount an S3 bucketusing IAM roles"
+title: "Mount an S3 bucket using IAM roles"
 author: vertis
 ---
 After much searching around I discovered that newer versions of s3fs support IAM roles. Unfortunately, this functionality is barely documented.
-
-I'm documenting what I had to do here, to hopefully save others some time.
 
 I ended up using the following line to mount my directory:
 
