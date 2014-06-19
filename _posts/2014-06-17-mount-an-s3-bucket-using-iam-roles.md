@@ -11,7 +11,7 @@ I ended up using the following line to mount my directory:
 ```
 s3fs bucketname /mnt/bucket -o use_cache=/tmp,allow_other,iam_role=`curl http://169.254.169.254/latest/meta-data/iam/security-credentials/`
 ```
-NB: s3fs does not need s3:// 
+NB: s3fs does not need s3://
 
 If the role you're trying to use does not have access you'll get something like this:
 
@@ -30,4 +30,3 @@ touch: cannot touch ‘/mnt/bucket/test.txt’: Transport endpoint is not connec
 ```
 
 This happened when I specified the role incorrectly (it does not need to be the full arn).
-
