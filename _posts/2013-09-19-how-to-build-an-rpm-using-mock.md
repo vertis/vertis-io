@@ -11,23 +11,23 @@ One solution to this problem is to use [Mock](http://fedoraproject.org/wiki/Proj
 
 Start by installing [Mock](http://fedoraproject.org/wiki/Projects/Mock "The Mock Project") and other required packages. For example:
 
-```bash
+{% highlight bash %}
 $ sudo yum install mock autoconf automake bison bzip2 createrepo \
                    gcc gcc-c++ iconv-devel libcurl-devel libffi-devel \
                    libtool libxml2 libxml2-devel libxslt libxslt-devel \
-                   libyaml-devel make openssl-devel patch readline \ 
+                   libyaml-devel make openssl-devel patch readline \
                    readline-devel rpm-build zlib zlib-devel rpmdevtools
-```
+{% endhighlight %}
 
 Mock won't allow users other than root by default. This is easily fixed by adding your build user to the mock group:
 
-```bash
+{% highlight bash %}
 $ sudo usermod -G mock bamboo
-```
+{% endhighlight %}
 
 From there I usually create an `rpmify` script. This example comes from packaging a rails application:
 
-```bash
+{% highlight bash %}
 #!/usr/bin/env bash
 set -x
 
@@ -70,7 +70,7 @@ else
 fi
 /usr/bin/mock -r $MOCK_CONFIG --uniqueext=$PACKAGE_NAME-$BUILD_NUMBER --clean
 exit $exitstatus
-```
+{% endhighlight %}
 
 The script is designed to be used within bamboo, so it does some handling around the artifacts that it produces
 

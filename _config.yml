@@ -1,7 +1,7 @@
 markdown: kramdown
-pygments: true
 permalink: date
-lsi: true
+highlighter: rouge
+lsi: false
 exclude: ['README.markdown', 'README_FOR_COLLABORATORS.markdown', 'Gemfile.lock', 'Gemfile']
 production: false
 paginate: 10
@@ -16,7 +16,7 @@ kramdown:
   entity_output: as_char
   toc_levels:    1..6
   smart_quotes:  lsquo,rsquo,ldquo,rdquo
-  use_coderay:   true
+  use_coderay:   false
 
   coderay:
     coderay_wrap:              div

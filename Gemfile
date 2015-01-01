@@ -1,8 +1,11 @@
 # A sample Gemfile
 source "https://rubygems.org"
 
-gem 'gsl'
-gem 'redcarpet'
+#gem 'gsl'
+#gem 'redcarpet'
 
-gem 'jekyll'
+# gem 'kramdown'
+# gem 'jekyll'
 #gem 'github-pages'
+gem 'github-pages'
+gem 'rouge'
