@@ -1,6 +1,6 @@
 markdown: kramdown
 permalink: date
-highlighter: rouge
+highlighter: pygments
 lsi: false
 exclude: ['README.markdown', 'README_FOR_COLLABORATORS.markdown', 'Gemfile.lock', 'Gemfile']
 production: false
