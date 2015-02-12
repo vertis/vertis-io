@@ -7,7 +7,7 @@ author: vertis
 
 Every so often I come across an exception that doesn't turn up good search results as a solution. This time it was:
 
-{% highlight shell %}
+{% highlight bash %}
 $ rake assets:precompile --trace
 ...
 NoMethodError: undefined method `empty?' for nil:NilClass
