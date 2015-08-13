@@ -481,6 +481,7 @@ table tbody tr:hover td
 
 .pagination .next {
   float: right;
+  margin-right: 40px;
 }
 
 .pagination a {
