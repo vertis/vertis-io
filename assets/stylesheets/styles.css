@@ -186,7 +186,7 @@ strong, b {
   div#content section.content article a, a:visited {
     text-decoration: underline;
   }
-  
+
 
   div#content section.content article p > code{
     border-radius: 15px;
@@ -216,7 +216,7 @@ strong, b {
     margin-top: 20px;
   }
 
-  div#content section.content article div.highlight{ 
+  div#content section.content article div.highlight{
     border: none;
     display: block;
     border: 1px solid #d2d2d2;
@@ -420,7 +420,7 @@ strong, b {
 }
 
 /* ------------------
- styling for the tables 
+ styling for the tables
    ------------------   */
 table
 {
@@ -462,16 +462,27 @@ table tbody tr:hover td
     max-width: 600px;
     font-size: 1.7em;
     line-height: 27px;
-    margin: 0; 
+    margin: 0;
     color: #4d4d4d;
     font-family: 'proxima-nova', sans-serif;
     font-weight: 400;
-    display: list-item; 
-    margin-bottom: 5px; 
+    display: list-item;
+    margin-bottom: 5px;
     margin-top: 5px;
     list-style: disc;
 }
 
+.pagination {
+  font-size: 1.6em;
+  font-weight: bold;
+  text-align: left;
+  padding: 40px 0px 40px 50px;
+}
 
+.pagination .next {
+  float: right;
+}
 
-
+.pagination a {
+  text-decoration: underline;
+}

@@ -11,40 +11,17 @@ kudos: true
       {% include post_index.html %}
     {% endfor %}
 
-  {% if paginator.total_pages > 1 %}
-  <nav id="pagination">
-    <ol>
-      {% if paginator.previous_page > 1 %}
-        {% capture page_url %}page{{ page }}{% endcapture%}
-      {% endif %}
+    <!-- Pagination links -->
+    <div class="pagination">
       {% if paginator.previous_page %}
-      <li>
-        <a href="/{{ page_url }}" title="Go to previous page">
-          &laquo;
-        </a>
-      </li>
+        <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+      {% else %}
+        <span class="previous">Previous</span>
       {% endif %}
-      <li>
-      {% for page in (1..paginator.total_pages) %}
-      <li>
-        {% if page > 1 %}
-          {% capture page_url %}page{{ page }}{% endcapture%}
-        {% endif %}
-        {% if page == paginator.page %}
-          {{ page }}
-        {% else %}
-          <a href="/{{ page_url }}">{{ page }}</a>
-        {% endif %}
-      </li>
-      {% endfor %}
       {% if paginator.next_page %}
-      <li>
-        <a href="/page{{ paginator.next_page }}" title="Go to next page">
-          &raquo;
-        </a>
-      </li>
+        <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+      {% else %}
+        <span class="next ">Next</span>
       {% endif %}
-    </ol>
-  </nav>
-  {% endif %}
+    </div>
 </section>
