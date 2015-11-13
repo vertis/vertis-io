@@ -9,7 +9,7 @@ There are several ways to use social networking and social media:
 * A catalyst to enhance your own thinking.
 * A way of broadcasting your products and brand to a captive audience.
 * There are probably other uses as well, but how long do you want this list to be?
-
+<!--more-->
 I'll get to what is wrong with users pushing products through social networking in a moment, but there is another group of people that use social networking: self styled experts and consultants. People that claim to know how to utilize social networking and social media, people that would be otherwise unremarkable in their careers but have garnered a following of people.
 I started following <a href="http://www.twitter.com/keyinfluencer">@keyinfluencer</a> and <a href="http://www.twitter.com/skydiver">@skydiver</a> after the former made a comment on <a href="http://twitter.com">twitter</a> that blew up in his face, a horse which has been beaten to death on blogs/comments and twitter.  They haven't had a great amount of interesting updates to read since, but <a href="http://www.twitter.com/skydiver">@skydiver</a> aka <a href="http://www.shankman.com">Peter Shankman</a> has some interesting projects, not the least of which is <a href="http://www.helpareporter.com/">HARO</a>. So they both stayed on the list of people I was following, even after the drama died down.
 

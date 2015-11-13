@@ -6,7 +6,7 @@ title: "Secure Your Java Source Code"
 <!--       -->
 
 I want to quickly run you through the pitfalls of using java as a programming language when it comes to the security of your proprietary source code. One of the problems with Java is the relative ease with which you can reverse engineer the source code. In fact there are numerous tools out there which will very simply and quickly take your project and turn it into a VERY readable document. For the purpose of instruction we will first decompile the example project, comparing the original source with what comes out the other end.
-
+<!--more-->
 We will repeat this process (if possible with the techniques that can be used to protect your source code).
 <h2>The Jad Decompiler + Front End Plus</h2>
 As mentioned above there are plenty of available decompilers, however JAD is a free and open source alternative that is perhaps the most popular option out there. Coupled with Front End Plus, a GUI that is designed to use JAD, you can very easily open and decompile the Java source.

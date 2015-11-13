@@ -6,7 +6,7 @@ author: vertis
 ---
 
 While I was on my flight back from visting family in Sydney for Xmas, I started writing a list of everything I want to get done this year.
-
+<!--more-->
 It's quite a long list, and it will be a very full year if I manage to do half of it. But it's worth writing down:
 
 - Create a computer game of some type (mobile or desktop)
@@ -26,5 +26,3 @@ It's quite a long list, and it will be a very full year if I manage to do half o
 - Meet/befriend 100 new people (more than just friending on twitter)
 
 As you can see. I have my work cut out.
-
-

@@ -4,7 +4,7 @@ title: "Exploring Documentum RESTful Services - Part 1"
 ---
 
 I was chatting to <a href="http://www.craigrandall.net">Craig Randall</a> on <a href="http://www.twitter.com/craigsmusings">twitter</a> a little while back and he let me know that they were just about ready to go into Early Access for their new web service platform -  Documentum RESTful Services. I was excited then, and I'm even more excited now that I've had my first taste.
-
+<!--more-->
 RESTful web services are hard to explain to people. I usually fall back on explaining them by linking them to Ajax, which is a Web2.0 technology that people are more familiar with. If you wanted to use Ajax to make your Documentum webapps more friendly before Documentum RESTful Services, then you'd be out of luck (short of creating a custom server side component).
 
 RESTful web services are easily accessible because you don't need any funky client library to access them. Pop open any web browser and type in:

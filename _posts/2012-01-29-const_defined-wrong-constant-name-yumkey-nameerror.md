@@ -3,7 +3,7 @@ layout: post
 title: "const_defined? wrong constant name Yum.Key (NameError)"
 ---
 I hate obscure errors. Google wasn't the least bit of help.
-
+<!--more-->
 The chef solo run was breaking with:
 
 {% highlight console %}
@@ -22,7 +22,7 @@ The chef solo run was breaking with:
 {% endhighlight %}
 
 Bizarre. Looking at the stack trace provided no more clarity. Why was it looking for a constant called 'Yum.Key' in the first place?
- 
+
 {% highlight console %}
 Generated at 2012-01-29 07:22:18 -0500
 NameError: wrong constant name Yum.Key
@@ -53,7 +53,7 @@ I started digging around in the source (as you do when debugging these type of i
 {% highlight ruby %}
 def build_from_file(cookbook_name, filename, run_context)
         pname = filename_to_qualified_string(cookbook_name, filename)
-        
+
         # Add log entry if we override an existing light-weight provider.
         class_name = convert_to_class_name(pname)
         overriding = Chef::Provider.const_defined?(class_name)
@@ -65,7 +65,7 @@ Having a look into the `convert_to_class_name` and `filename_to_qualified_string
 def convert_to_class_name(str)
   rname = nil
   regexp = %r{^(.+?)(_(.+))?$}
-        
+
   mn = str.match(regexp)
   if mn
     rname = mn[1].capitalize
@@ -85,7 +85,7 @@ end
 end
 {% endhighlight %}
 
-I then decided to see what values were being provided to `build_from_file`. Finally, a breakthrough. The `file_name` being provided looked strange `/var/chef/cookbooks/yum/providers/._key.rb`. 
+I then decided to see what values were being provided to `build_from_file`. Finally, a breakthrough. The `file_name` being provided looked strange `/var/chef/cookbooks/yum/providers/._key.rb`.
 
 **Where on earth was that coming from!**
 

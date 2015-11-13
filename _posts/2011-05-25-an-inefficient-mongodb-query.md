@@ -5,7 +5,7 @@ title: "An inefficient MongoDB query"
 
 ### Short Version
   MongoDB doesn't support queries using case insensitive regular expressions  against indexes (e.g /blah/i).
-
+<!--more-->
 ### Long Version
 **Firstly: A big thank you goes to Jason McCay from [MongoHQ](http://mongohq.com) for his help on this issue.**
 

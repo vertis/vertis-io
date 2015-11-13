@@ -3,11 +3,12 @@ published: true
 layout: post
 title: "Awesome Christmas Gifts 2013"
 author: vertis
+banner_image: "https://upload.wikimedia.org/wikipedia/commons/5/5e/Pebble_watch_trio_group_04.png"
+featured: true
 ---
-![Pebble Smartwatch](https://d3rrgxxoyz0alr.cloudfront.net/assets/bg/pebble-arms-trim-1800-f158d80f05766cb945762957d88d4217.jpg)
->  Pebble Smartwatch
 
 In a special edition of 'Awesome Links' I share what you should be buying your geeky friends for Christmas (assuming they haven't already bought it for themselves)
+<!--more-->
 
 We may all use smartphones for everything now, but if you asked the futurists of the 1980s what we would be using now, they probably have described something like [Pebble](https://getpebble.com/). This Smartwatch took Kickstarter by storm, and continues to impress. At USD$150 it may fit into your budget for a loved one.
 

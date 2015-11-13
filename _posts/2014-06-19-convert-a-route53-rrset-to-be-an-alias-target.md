@@ -5,6 +5,7 @@ title: "Convert an AWS Route53 Resource Record Set to point to an Alias Target"
 author: vertis
 ---
 Occasionally, you'll want to change a Route53 Resource Record Set from one type to another. In the case of going from a traditonal '**A**' record to an [Alias Target](http://docs.aws.amazon.com/Route53/latest/DeveloperGuide/CreatingAliasRRSets.html) the following code (with the aws-sdk rubygem) should do the trick.
+<!--more-->
 
 The gotcha with this process is the need to unset ttl and resource_records as a part of the update.
 

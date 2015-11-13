@@ -4,7 +4,7 @@ title: "Installing Documentum Administrator 6SP1 (Patch Release) on IBM Webspher
 ---
 
 I've spent the majority of the last 2 days trying to get DA 6SP1 Patch Release to install properly on IBM Websphere 6.1.0.23. It had been a while since I'd last done the install, and I fell into the same traps as last time, forgetting where to set the class loader and so forth. After getting past these I was left with the application unhelpfully still showing a white screen and error messages that revealed (looking back) very little about the true nature of the problem. Having finally conquered the problem, I thought I would provide the steps necessary so that anyone else trying to get a WDK application working on Websphere as at least one more thing to try.
-
+<!--more-->
 Grab a copy of da.war from the EMC Powerlink Download site.
 <ul>
   <li>Unpack da.war and add the following files to a directory</li>

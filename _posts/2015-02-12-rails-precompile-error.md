@@ -15,6 +15,8 @@ NoMethodError: undefined method `empty?' for nil:NilClass
 <snip>/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.1.16/lib/sass/tree/root_node.rb:23:in `render'
 {% endhighlight %}
 
+<!--more-->
+
 The hint to the problem is actually in the above error, but without context would be difficult to spot (I didn't see it *with* context)
 
 The app in question is now a rails 3.2 app. However it didn't start it's life that way, it was slowly upgraded from 2.x, and had it's own asset handling. The error occurred during a migration to the standard asset pipeline.

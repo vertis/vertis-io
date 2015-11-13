@@ -4,7 +4,7 @@ title: "Hackers: Don't Fear Them...Learn From Them"
 ---
 
 Without debating whether hackers are good, bad or simply a myth created by companies that need extra money, the common garden variety of hacker has a lot to share with those of us that are less computer literate. Hackers spend inordinate amounts of time delving into computers, and more to the point looking at computer security. Rather than fearing the hackers, we can take a page from their book, and focus a little on how to secure your computer.
-
+<!--more-->
 Antivirus
 ---------
 It sounds simple, and it is, but having a virus scanner on your computer is the first step towards securing it against intrusion. While not all viruses breach security,  there are plenty that do, sending documents from your computer to complete strangers, or simply reporting passwords. It's a good enough reason to download an up-to-date virus scanner.

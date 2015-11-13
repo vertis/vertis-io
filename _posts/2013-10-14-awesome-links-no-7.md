@@ -4,7 +4,8 @@ layout: post
 title: "Awesome Links #7"
 author: vertis
 ---
-Awesome links for the 14th of October 2013:
+Awesome links for the 14th of October 2013.
+<!--more-->
 ![Edward Snowden](http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2013/6/23/1372015020195/Edward-Snowden-008.jpg)
 > Edward Snowden courtesy of The Guardian
 

@@ -7,7 +7,7 @@ title: Creating a Vagrant base box from an existing Vmdk
 Some background.
 
 The work I've been doing recently involves creating a standard platform for our applications. Part of the process of creating this platform involves spinning a a machine image for use within our production, staging and development environments.There is ample material in our current build pipeline for a dozen blog posts. Maybe I'll get around to writing about it at some point.
-
+<!--more-->
 Our "machine image pipeline" begins by using [Koji](https://fedoraproject.org/wiki/Koji) to create a CentOS image. The image is then transformed for use in EC2 and VMWare.
 
 In addition to using the machines within Amazon EC2, many devs would like to be able to use the machine image locally. Since [Vagrant](http://vagrantup.com) is a popular option for running machines locally, it's an ideal choice to add to the pipeline.

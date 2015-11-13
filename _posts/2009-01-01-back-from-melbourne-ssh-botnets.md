@@ -4,7 +4,7 @@ title: "Back from melbourne and SSH Botnets"
 ---
 
 I've been quiet over the Christmas/New Year period, that doesn't mean that I've left my computer alone on the contrary I been working on some projects that have been waiting for quite a while. The most important of which is a tool to fight back against the hackers and bot networks that have been trying (unsucessfully) to bruteforce servers I own or manage for the last 2-3 years. I have seen other posts about the rise of bruteforcing attacks on ssh servers recently, and the added complexity of those attacks coming from multiple locations (botnet coordinated).
-
+<!--more-->
 Bruteforce attacks on SSH are nothing new, I remember seeing them as far back as 2005. At the time I was managing about 25 linux servers and the bruteforce attacks would cause accounts to get locked out (which I would then have to unlock). For the most part we dealt with the problem by having a strict hosts.allow/hosts.deny setup (and of course auditing passwords for complexity). Beyond that, I was somewhat powerless to do anything about the attempts.
 
 These days I run a dedicated server and a couple of virtual servers, and I was seeing the same kind of attempts in my logs. Unlike managing someone elses servers though I have the ability to actively fight back against the attacks. So I am.

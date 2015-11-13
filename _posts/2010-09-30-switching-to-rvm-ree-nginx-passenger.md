@@ -4,7 +4,7 @@ title: "Switching to RVM+REE+NGINX+Passenger"
 ---
 
 We're increasing the push toward the release, and I'm now spending precious time looking into the why our Rails Stack is *leaking* workers. My initial research suggested that these workers could be sent a SIGABRT to get them to throw a stacktrace and exit - this hasn't worked however.
-
+<!--more-->
 I've been planning to change from the current stack UbuntuProvidedRuby1.8.7+Apache+Passenger to RVM+REE+NGINX+Passenger for a while. With the prerequisite testing done that our app works with the new stack. I've decided that rather than attack this problem head-on I'll use this opportunity to switch and then tackle the problem again if it shows up.
 
 **Update:** After changing the stack it appears to have stopped *leaking* workers - that's a positive outcome to a problem I can't afford the time to look into in more detail. Additionally the before and after performance tests are in:

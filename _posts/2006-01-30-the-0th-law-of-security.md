@@ -6,7 +6,7 @@ title: "The 0th law of security"
 There are supposedly 10 laws of security. Laws that are a firm basis for understanding computer security. They're obviously not the be all and end all of computing security, but for beginners and those that aren't going to focus on security they're an important start.
 <h3>The Ten Immutable Laws of Security</h3>
 Microsoft's Security Response Center Manager, Scott Culp, as a part of his job produced a list He calls "The Ten Immutable Laws of Security."
-
+<!--more-->
 They are:
 <ol>
   <li><strong>If   a bad guy can persuade you to run his program on your computer, it's   not your computer anymore.</strong></li>

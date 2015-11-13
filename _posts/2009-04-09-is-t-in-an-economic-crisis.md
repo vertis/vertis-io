@@ -4,7 +4,7 @@ title: "IS-t in an Economic Crisis"
 ---
 
 Information Solutions - technology, is a simple way of expressing that the IT department is there to serve the needs of the client facing business. The current enterprise that I'm working at is the first massive global organisation that I've worked with. 130,000 odd employees throughout the world, with about a quarter of that in the APAC region.
-
+<!--more-->
 I'm proud to say that the IS-t teams that I work with on a daily basis are excellent people, as are the people from other departments that I've had dealings with. Honest hard working people, just trying to do the best they can at their jobs.
 
 Belief and evidence led me to believe enterprises move pretty slowly. Despite that things can change pretty rapidly up here, there is a level of adaptability that I'd not expected to find. A mission that IS-t should be an enabler for change, not an excuse that it is all too difficult. Things have been booming in the last ten or so years. A colleague has a graph on his wall showing the steady climb in the amount of employees that have been added to the ranks in Australia.

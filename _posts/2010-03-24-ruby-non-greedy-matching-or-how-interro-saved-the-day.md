@@ -3,7 +3,9 @@ layout: post
 title: "Ruby non-greedy matching (OR how interro saved the day)"
 ---
 
-I've spend most of the afternoon working on a complex regex in order to parse command line argument forms (for lack of a better term). If you've ever run the man command you'll know what I'm talking about. Take the tar command as an example:
+I've spend most of the afternoon working on a complex regex in order to parse command line argument forms (for lack of a better term). If you've ever run the man command you'll know what I'm talking about.
+<!--more-->
+Take the tar command as an example:
 
 {% highlight man %}
 tar  [ - ] A --catenate --concatenate | c --create | d --diff --compare

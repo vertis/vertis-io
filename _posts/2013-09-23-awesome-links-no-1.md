@@ -4,10 +4,10 @@ layout: post
 title: "Awesome Links #1"
 author: vertis
 ---
+Awesome links for the 23rd of September 2013
+<!--more-->
 ![UNSC Infinity](https://a.desktopprassets.com/wallpapers/ba83238e88f62762658e5fe624c5c33f507955f8/preview_big_085907e590bc7f0940870a2909498e0a394d3491.jpg)
 > The UNSC Infinity (From Halo 4)
-
-Awesome links for the 23rd of September 2013:
 
 [Boxen](http://github.com/boxen/our-boxen) - GitHub's new machine provisioning framework gets your new Mac off to a flying start. Heaps of libraries to install things you'd usually have ot install by hand.
 

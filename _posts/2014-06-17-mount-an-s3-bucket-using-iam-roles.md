@@ -6,6 +6,8 @@ author: vertis
 ---
 After much searching around I discovered that newer versions of s3fs support IAM roles (I'm using 1.77). Unfortunately, this functionality is barely documented.
 
+<!--more-->
+
 I ended up using the following line to mount my directory:
 
 {% highlight bash %}

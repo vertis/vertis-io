@@ -4,7 +4,7 @@ title: "RE: Rails is not a ghetto, it's a train station."
 ---
 
 I accept planetmcd's criticism of my previous post. I'm aware that I'm less than eloquent and my arguments less than logical at times.
-
+<!--more-->
 I can't say for sure whether anyone has ever done a presentation like that here. I do know that something like that wouldn't be accepted not just because of the images (sexual or not), but because it doesn't conform to corporate standards. Ruby/Rails/Web2.0 has no such standards, more, the culture is one of being risky, on the edge, and of pushing the limits.
 
 There are probably many ways that it could have been done better, but it wasn't. The problem stems from not going to Matt, and expressing that they didn't like the presentation. They could have suggested using 'Fragstar' next time (via Renae Bair). Instead choosing to drag Rails through the mud publicly, "Here is a professional community that doesn't respect women".

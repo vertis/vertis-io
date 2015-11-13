@@ -6,7 +6,7 @@ title: "Exploring Documentum RESTful Services - Part 2"
 **I originally published this post to the Early Access Area for Documentum RESTful Services.**
 
 In the second part of my exploration of Documentum RESTful Services I  promised that we'd delve into browsing around the docbase. Rather do  that with ruby I thought I'd grab a copy of <a href="http://www.jquery.com">JQuery</a> and have a look at what it takes to access the services using what is an increasingly popular javascript library. The  most important part of delivering on this is the JQuery call:
-
+<!--more-->
 <blockquote>
 <pre>$.getJSON(path, ...);</pre>
 </blockquote>

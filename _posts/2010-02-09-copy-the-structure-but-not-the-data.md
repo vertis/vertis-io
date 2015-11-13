@@ -4,7 +4,7 @@ title: "Copy the structure but not the data."
 ---
 
 I'm working on a prototype at the moment that requires me to insert data into offline tables (offline as far as Documentum is concerned). The examples that I've found all resort to specifying the exact structure of the table.
-
+<!--more-->
 {% highlight sql %}
 create table DMI_OBJECT_TYPEx (
 

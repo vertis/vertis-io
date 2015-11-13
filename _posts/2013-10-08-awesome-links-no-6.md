@@ -4,7 +4,8 @@ layout: post
 title: "Awesome Links #6"
 author: vertis
 ---
-Awesome links for the 8th of October 2013:
+Awesome links for the 8th of October 2013.
+<!--more-->
 
 [Dashing (by Shopify)](http://shopify.github.io/dashing/) - Easy to use dashboard building goodness
 

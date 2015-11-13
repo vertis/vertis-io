@@ -7,6 +7,8 @@ author: vertis
 
 This will be my second year [documenting](/2014/01/01/things-i-want-to-do-this-year.html) things that I want to do this year and giving myself a mark on the [results](/2015/01/01/scorecard-for-2014.html). I found it to be a valuable exercise last year, though my priorities did shift over the course of the year.
 
+<!--more-->
+
 Continued / Extended goals
 ---
 - Read 2 books a month at least 50% non-fiction (This is now based on my velocity from last year)

@@ -4,7 +4,7 @@ title: "ActiveDocumentum teaser #1"
 ---
 
 Having stepped away from trying to get Documentum running on linux, I've been working on bringing the permissions through into our custom Lotus Notes/Documentum client. At the moment when a user imports a document to a given folder it does no permission checking before the fact, just errors nastily when it can't write the document. A short stop by <a href="http://askprasad.wordpress.com/documentum/some-useful-dql-tips/">Prasad's blog</a> gave me a query to start from.
-
+<!--more-->
 <pre class="sql" name="code">SELECT i_all_users_names as users FROM dm_group
 WHERE group_name IN (SELECT r_accessor_name FROM dm_acl
 WHERE object_name IN (SELECT acl_name FROM dm_sysobject

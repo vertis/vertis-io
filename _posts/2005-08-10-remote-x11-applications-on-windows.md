@@ -6,7 +6,7 @@ title: "Remote X11 Applications on Windows"
 <strong>Update: There are now much better ways of installing an X Server on windows (for details start with the <a href="http://xming.sourceforge.net">XMing</a> project</strong>)
 
 The primary focus of this document is setting up Cygwin on a given client computer so that it can see graphics as sent from the server. Most of the configuration is done at a client level, however there are minor modifications that also need to be made at a server level.
-
+<!--more-->
 <strong>Installing Cygwin</strong>
 
 For the uninitiated Cygwin is a free application, it can be installed on windows to simulate the Linux OS. Since our server runs on Linux this is a very good thing. You can start by getting the installer from <span style="text-decoration: underline;"><a href="http://www.cygwin.org/">http://www.cygwin.org</a></span>.

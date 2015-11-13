@@ -4,7 +4,7 @@ title: "Rails security resources"
 ---
 
 As we make the push toward releasing the platform that I'm working on we've installed [exception_notification](http://github.com/rails/exception_notification) in our Rails app. With the increased visibility of all the exceptions it became apparent quite quickly that there were numerous hits against the server from automated vulnerability scanners. These attempts were causing routing errors as they looked for paths like '/user/soapCaller.bs' - thankfully not targeting Rails applications.
-
+<!--more-->
 The arrival of this sort of scan was not particularly surprising to me as I've seen similar scans in the past. I've even actively dabbled in some security research by running a few honeypot projects.
 
 Even though these scans usually go after large installations such as Wordpress, Drupal, Joomla and phpMyAdmin, it isn't stupid to take it as a reminder to keep up to date on security vulnerabilities. In the case of Ruby on Rails the starting point would be the [rubyonrails-security](http://groups.google.com/group/rubyonrails-security) google group and the Ruby on Rails [blog](http://weblog.rubyonrails.org).

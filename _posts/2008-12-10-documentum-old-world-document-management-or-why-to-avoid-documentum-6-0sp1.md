@@ -4,6 +4,7 @@ title: "Documentum, old world document management (or why to avoid Documentum 6.
 ---
 
 I'm sick of raising support cases for things that should just work. I'm frustrated that a product as buggy and unstable as Documentum 6.0 SP1 can be proposed as a solution (by EMC). There are a lot of good things about Documentum, but there is a lot of bloat as well. This will be a growing list of stupid problems that I've found, I'll start with one item and go from there.
+<!--more-->
 <ul>
   <li>Clicking on 'Save As' on a permission set with a name over a certain length causes it to bomb out. Why? because it tries to give the permission set a temporary name that is longer than the allowed 32 characters. No chance to override this name, no graceful handling, just a fat error message and the chance to reload DA and try again.</li>
   <li>When using LDAPSync (which you probably need to get hotfixed anyway what with it having so many bugs fixed) 'Groups and their member users' does not update the content of mapped attributes even if they change (for instance during a rename).</li>

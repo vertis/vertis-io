@@ -3,10 +3,10 @@ layout: post
 published: true
 ---
 
-# Asset compilation doesn't run on heroku when deploying a Rails 3.x application
+### Asset compilation doesn't run on heroku when deploying a Rails 3.x application
 
 Another of my 'I just wasted a bunch of time trying to work out why something was broken' blog posts.
-
+<!--more-->
 This morning I was having a problem where the rails asset compilation wasn't triggering when deploying an application to heroku. Googling for the problem resulted in a lot of people that were having errors, but no information about a complete lack of running.
 
 Thankfully the code that does the setup is all open source, so I spent some time digging through [heroku-buildpack-ruby](https://github.com/heroku/heroku-buildpack-ruby) on [GitHub](http://github.com) to work out what was going wrong.

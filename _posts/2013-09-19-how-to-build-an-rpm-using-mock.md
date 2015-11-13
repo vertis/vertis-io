@@ -6,7 +6,7 @@ author: vertis
 ---
 
 Building an RPM can be a somewhat annoying, painful experience. There are plenty of pitfalls, but the most annoying, for me at least, is building a package and then trying to install it and realising that it doesn't work because of some incompatibility in the packages that just happened to be on your build box.
-
+<!--more-->
 One solution to this problem is to use [Mock](http://fedoraproject.org/wiki/Projects/Mock "The Mock Project"). Mock does a great job of building up an standalone environment, so that you can 'Fail early', if you haven't written your spec file correctly.
 
 Start by installing [Mock](http://fedoraproject.org/wiki/Projects/Mock "The Mock Project") and other required packages. For example:

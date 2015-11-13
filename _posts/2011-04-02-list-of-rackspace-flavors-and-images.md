@@ -5,6 +5,8 @@ title: "List of Rackspace flavors and images"
 I was recently trying to use the chef command line tool 'knife' to provision a new rackspace server. The tool requires
 that you specify the flavor (size) and image(distro version), unfortunately I couldn't find an easily searchable source of this information.
 
+<!--more-->
+
 Here is the list of flavors:
 {% highlight console %}
 

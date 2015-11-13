@@ -10,7 +10,7 @@ title: "Are Linux users lemmings collectively jumping off of the cliff of reliab
 
 
 I found this question as a quote on slashdot, and couldn't resist responding.
-
+<!--more-->
 Lemmings? Lemmings as popularised by the game by the same name are supposedly creatures that follow each other and just keep going regardless of dangers en-route to their destination. Being a lemming is equated to being one of the Herd or not thinking for yourself. This is an unfair and baseless accusation. Linux users by their very minority are not followers, until recently there were no computers that came with linux installed by default. Clearly if you wanted to run Linux you had to leave the Herd.
 
 Well-engineered commercial software? That would be a stretch considering the issues that Microsoft has had over the decades since it started working with operating systems. I'm not saying that Linux has it all worked out, because it most assuredly doesn't, but the difference is that if you're not happy with something in Linux you have the power to do something about it. With all commercial software you are at the mercy of the company that owns the software to be diligent.

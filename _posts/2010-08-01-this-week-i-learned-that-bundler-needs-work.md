@@ -4,7 +4,7 @@ title: "This week I learned - that bundler needs work"
 ---
 
 One of the challenges over the last few weeks has been switching development environments to phase in the new Macbook Pros (sweet!). One of the problems has been the fact that both our rails projects use bundler.
-
+<!--more-->
 Before I go on I should point out that [@wycats](http://www.twitter.com/wycats) was very helpful in sorting this problem out.
 
 It 's not that bundler is bad directly, but when you're using bundler on Mac but deploying to Ubuntu there are a few eccentricities - particularly with native gems.

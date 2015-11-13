@@ -4,6 +4,7 @@ title: "Lighter weight deployment with git-deploy"
 ---
 
 Up until now I've been using a fairly standard capistrano deploy.rb. The problem is that as we speak I'm trying to deploy a patch from my Windows work machine and it's not working. The ethics of fixing one of my project from home aside, this is a problem. When I try and deploy the following error  comes up
+<!--more-->
 <blockquote>can't convert Net::SSH::Authentication::Pageant::Socket into IO (TypeError)</blockquote>
 The change I was trying to deploy stops in its tracks. After quite a bit of searching I found a <a href="http://thread.gmane.org/gmane.comp.lang.ruby.capistrano.general/5804/focus=5807">thread</a> about the error that dates back to Capistrano 2.5.3... from 2008. What a shining example of open source.
 

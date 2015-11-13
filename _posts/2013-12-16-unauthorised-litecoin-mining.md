@@ -10,6 +10,8 @@ Normally I'm a big advocate of open sourcing projects both current (and old) on 
 
 On sunday night I received an email from Amazon saying that they'd detected my Amazon key on one of my repositories. This was a little bit of a surprise, because I'm usually so diligent about not saving credentials into repositories.
 
+<!--more-->
+
 After a brief search I found the key buried in an old project that I'd just decided didn't need to be private.
 
 That wasn't the end of the matter, I was in for a rude shock when I logged into my Amazon account to check for unauthorised usage. $3000+ in pending charges. Woah!

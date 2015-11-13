@@ -4,7 +4,7 @@ title: "Removing a collaborator from all GitHub repos"
 ---
 
 I help manage the [GitHub](http://www.github.com) account for the company I work for. Recently, I've been in a situation where I needed to remove a former colleague from about 25 [GitHub](http://www.github.com) repositories. Admittedly this is only painful because the account we're using is an individual account. Frustratingly, ["Organizations"](https://github.com/blog/675-organizations-for-small-businesses) an account type introduced to deal with this exact issue, is difficult to justify to management because of the additional cost.
-
+<!--more-->
 In the meantime I've written a quick script using the [GitHub Api](http://develop.github.com/) that iterates through the repositories and removes a given collaborator. You can find the source code below:
 
 {% highlight ruby %}
