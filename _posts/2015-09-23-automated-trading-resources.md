@@ -5,12 +5,11 @@ title: "Automated Trading resources"
 author: vertis
 ---
 One of the things that I've been doing sporadically over the last couple of years is dabbling in Automated Trading. Now when I say dabbling, I mean small fry. Mostly playing with backtesting and the occasional test with small amounts of real money.
-<!-- more -->
 
 It's been interesting, and I've learned a lot (many of the 'things not to do').
 
 The following is a collection of useful tools and learning resources.
-
+<!--more-->
 Perhaps, the most useful tool that I've found has been [TradingView](https://tradingview.com). While I'm not particularly interested in the community aspects of the site, the sheer number of different charts you can create, and the ability to add indicators to those charts is a source of insight and learning.
 
 [TradeWave](https://tradewave.net) is another useful tool. The site is focussed around trading cryptocoin, regardless of whether this is your thing it gives a very simple place to test automated trading strategies.
