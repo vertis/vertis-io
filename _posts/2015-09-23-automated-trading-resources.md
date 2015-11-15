@@ -5,6 +5,7 @@ title: "Automated Trading resources"
 author: vertis
 ---
 One of the things that I've been doing sporadically over the last couple of years is dabbling in Automated Trading. Now when I say dabbling, I mean small fry. Mostly playing with backtesting and the occasional test with small amounts of real money.
+<!-- more -->
 
 It's been interesting, and I've learned a lot (many of the 'things not to do').
 
