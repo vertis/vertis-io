@@ -8,7 +8,7 @@ Yet another of my 'obscure error message' posts:
 
 After upgrading an old Rails app from 3.2.x to 4.0.x I started getting a really weird error. Made all the more confusing by the fact that I couldn't work out why it was trying to load Moped (given Mongoid 5.0.0 no longer uses Moped).
 <!--more-->
-In actual fact it is trying to load something stored in a cookie. So clearing your cookies will solve this problem.
+In fact it is trying to load something stored in a cookie. So clearing your cookies will solve this problem.
 ```
 NameError - uninitialized constant Moped:
   activesupport (4.0.13) lib/active_support/inflector/methods.rb:226:in `const_get'
