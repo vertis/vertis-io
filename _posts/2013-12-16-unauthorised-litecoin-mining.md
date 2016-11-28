@@ -8,7 +8,7 @@ __Update: You can read an update to this story [here](http://vertis.io/2013/12/1
 
 Normally I'm a big advocate of open sourcing projects both current (and old) on GitHub. Today though, I wish that I wasn't.
 
-On sunday night I received an email from Amazon saying that they'd detected my Amazon key on one of my repositories. This was a little bit of a surprise, because I'm usually so diligent about not saving credentials into repositories.
+On Sunday night I received an email from Amazon saying that they'd detected my Amazon key on one of my repositories. This was a little bit of a surprise, because I'm usually so diligent about not saving credentials into repositories.
 
 <!--more-->
 
@@ -29,7 +29,7 @@ I've emailed [pool-x.eu](http://pool-x.eu) asking them to suspend the account, b
 What have I learned from this experience?
 
 ## Enable billing alerts
-Given I spend about $60-80 a month with Amazon usually, I could have been warned MUCH earlier. Needless to say, now that the horse has bolted I've enabled the horse bolting detector.
+Given I spend about $60-80 a month with Amazon usually, I could have been warned MUCH earlier. Now that the horse has bolted I've enabled the horse bolting detector.
 
 ## Check GitHub
 It's not really that hard to do a regular search of GitHub for keys and passwords in your repositories. Check your friends repositories as well...many eyes.

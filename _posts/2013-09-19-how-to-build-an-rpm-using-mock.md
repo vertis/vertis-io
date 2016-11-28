@@ -76,4 +76,4 @@ The script is designed to be used within bamboo, so it does some handling around
 
 Mock looks in /etc/mock for the config that you specify, in this case `/etc/mock/epel-6-x86_64.cfg`. It is from here that it finds information on how to deploy the dependecies. If you have custom repositories, you'll want to create your own file.
 
-And voila, your very own professionally built RPM.
+And voilà, your own professionally built RPM.
