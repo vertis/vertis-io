@@ -5,7 +5,7 @@ title: "Things I wish 'Ok Google' would respond properly too"
 author: vertis
 ---
 
-After switching to the Google Pixel, I've found myself using 'Ok Google' more and more. Particularly when it comes to doing things like setting reminders, and events and navigating.
+After switching to the Google Pixel, I've found myself using 'Ok Google' more and more. Particularly when it comes to actions like setting reminders, and events and navigating.
 
 This is a list of things I wished worked, in no particular order, with dates attached so I can record when they do start working.
 
