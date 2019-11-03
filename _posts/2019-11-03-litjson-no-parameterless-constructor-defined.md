@@ -33,7 +33,7 @@ When in reality to JSON was:
 Calling:
 
 {% highlight csharp %}
-var jsonObject = JsonMapper.ToObject<Widget>(res.body); 
+var jsonObject = JsonMapper.ToObject<Foo>(res.body); 
 {% endhighlight %}
 
 Works much better when you're not trying to shove a Map into a string.
