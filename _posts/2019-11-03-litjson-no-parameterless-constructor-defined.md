@@ -12,24 +12,28 @@ This error message is too generic to Google, and there is nothing in the results
 
 My class was something like this
 
-```c#
+{% highlight csharp %}
+{% raw %} 
 public class Foo {
   public string bar
-} 
-```
+}
+{% endraw %} 
+{% endhighlight %}
 
 When in reality to JSON was:
 
-```json
+{% highlight json %}
+{% raw %} 
 {
   "bar": {}
 }
-```
+{% endraw %} 
+{% endhighlight %}
 
 Calling:
 
-```c#
-var jsonObject = JsonMapper.ToObject<Widget>(res.body);
-```
+{% highlight csharp %}
+var jsonObject = JsonMapper.ToObject<Widget>(res.body); 
+{% endhighlight %}
 
 Works much better when you're not trying to shove a Map into a string.
