@@ -12,7 +12,7 @@ This error message is too generic to Google, and there is nothing in the results
 
 My class was something like this
 
-```
+```c#
 public class Foo {
   public string bar
 } 
@@ -20,7 +20,7 @@ public class Foo {
 
 When in reality to JSON was:
 
-```
+```json
 {
   "bar": {}
 }
@@ -28,7 +28,7 @@ When in reality to JSON was:
 
 Calling:
 
-```
+```c#
 var jsonObject = JsonMapper.ToObject<Widget>(res.body);
 ```
 
