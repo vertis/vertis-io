@@ -206,7 +206,7 @@ from &lt;script&gt;:1
 {% endhighlight %}
 
 Turns out that after some digging there is an open jruby bug about the issue - 63
-<http://jira.codehaus.org/browse/JRUBY-3935>
+http://jira.codehaus.org/browse/JRUBY-3935 (Update: link no longer works, because codehaus is dead)
 
 I also did a bit of digging through the logs and found:
 
