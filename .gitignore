@@ -7,3 +7,5 @@ import.rb
 _site
 .sass-cache
 public
+node_modules
+.jekyll-cache

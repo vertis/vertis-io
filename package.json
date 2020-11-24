@@ -1,0 +1,16 @@
+{
+  "name": "vertis.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/vertis/vertis.github.com",
+  "author": "Luke Chadwick <me@vertis.io>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@tailwindcss/typography": "^0.3.1",
+    "autoprefixer": "^10.0.2",
+    "postcss": "^8.1.10",
+    "postcss-cli": "^8.3.0",
+    "tailwindcss": "^2.0.1"
+  }
+}
