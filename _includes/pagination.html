@@ -1,8 +1,22 @@
-<div class="pagination">
-	{% if paginator.next_page %}
-		<a href="{{ paginator.next_page_path }}" class="smallbutton lightgray left"><i class="fa fa-chevron-left"></i><span>Older Posts</span></a>
-	{% endif %}
-	{% if paginator.previous_page %}
-		<a href="{{ paginator.previous_page_path }}" class="smallbutton lightgray right"><span>Newer Posts</span><i class="fa fa-chevron-right"></i></a>
-	{% endif %}
-</div>
+<nav
+  class="bg-white px-4 py-3 flex items-center justify-between sm:px-6"
+  aria-label="Pagination"
+>
+  <div class="flex-1 flex justify-between sm:justify-end">
+    {% if paginator.previous_page %}
+    <a
+      href="{{ paginator.previous_page_path }}"
+      class="relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50"
+    >
+      Newer Posts
+    </a>
+    {% endif %} {% if paginator.next_page %}
+    <a
+      href="{{ paginator.next_page_path }}"
+      class="ml-3 relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50"
+    >
+      Older Posts
+    </a>
+    {% endif %}
+  </div>
+</nav>

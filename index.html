@@ -2,27 +2,32 @@
 layout: home
 ---
 
-<section class="">
+<section>
 	{% for post in paginator.posts %}
-		<article class="">
+		<article class="mb-24">
 			<header>
-				<h2>
-					{% for category in post.categories %}
-					{{ category }} 
-					{% endfor %}
-				</h2>
-				<h1><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
-				<span>
-					Posted on <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %-d, %Y" }}</time>.
-				</span>
-				<div class="excerpt">
-					{% if post.content contains '<!--more-->' %}
-						{{ post.content | split:'<!--more-->' | first }}
-					{% else %}
-						{{ post.content }}   
+				<a href="{{ post.url | prepend: site.baseurl }}"><h1 class="mt-2 block text-xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-2xl">{{ post.title }}</h1></a>
+				<div class="mb-2 space-x-1 text-sm text-center text-gray-500">
+					<time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+					{% if post.minutes_read %}
+					<span aria-hidden="true">
+						·
+					</span>
+					<span>
+						{{ post.minutes_read }} min read
+					</span>
 					{% endif %}
 				</div>
 			</header>
+			{% if post.content contains '<!--more-->' %}
+				{{ post.content | split:'<!--more-->' | first }}
+				<div class="mt-12 mx-auto text-center">
+				<a class="relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50" href="{{ post.url | prepend: site.baseurl }}">Read More</a>
+				</div>
+			{% else %}
+				{{ post.content }}   
+			{% endif %}
+			<hr class="mt-12"/>
 		</article>
 	{% endfor %}
 	{% include pagination.html %}
