@@ -1,20 +1,11 @@
 ---
-layout: default
+layout: home
 ---
 
-<div class="profile">
-	{% if site.logourl != "" %}<img src="{{ site.logourl }}" class="profileimage" alt="user">{% endif %}
-	<h4>{{ site.title }}</h4>
-	<p>{{ site.description }}</p>
-	<hr>
-</div>
-
-<section class="posts postindex wrapper">
-
+<section class="">
 	{% for post in paginator.posts %}
-		<article class="post {% if post.featured == true %} featured {% endif %}">
+		<article class="">
 			<header>
-				<div class="feature"><span>Featured</span><i class="fa fa-bookmark fa-lg"></i></div>
 				<h2>
 					{% for category in post.categories %}
 					{{ category }} 
@@ -22,7 +13,7 @@ layout: default
 				</h2>
 				<h1><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
 				<span>
-					Posted on <i class="fa fa-clock-o"></i><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %-d, %Y" }}</time>.
+					Posted on <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%B %-d, %Y" }}</time>.
 				</span>
 				<div class="excerpt">
 					{% if post.content contains '<!--more-->' %}
@@ -34,7 +25,5 @@ layout: default
 			</header>
 		</article>
 	{% endfor %}
-
 	{% include pagination.html %}
-
 </section>
