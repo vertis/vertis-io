@@ -32875,6 +32875,8 @@ figure.highlight {
 figure pre {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+  white-space: pre;
+  overflow: auto;
 }
 
 @media (min-width: 640px) {
