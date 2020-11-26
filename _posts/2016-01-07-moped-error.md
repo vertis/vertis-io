@@ -9,7 +9,7 @@ Yet another of my 'obscure error message' posts:
 After upgrading an old Rails app from 3.2.x to 4.0.x I started getting a really weird error. Made all the more confusing by the fact that I couldn't work out why it was trying to load Moped (given Mongoid 5.0.0 no longer uses Moped).
 <!--more-->
 In fact it is trying to load something stored in a cookie. So clearing your cookies will solve this problem.
-```
+{% highlight ruby %}
 NameError - uninitialized constant Moped:
   activesupport (4.0.13) lib/active_support/inflector/methods.rb:226:in `const_get'
   activesupport (4.0.13) lib/active_support/inflector/methods.rb:226:in `block in constantize'
@@ -45,5 +45,5 @@ NameError - uninitialized constant Moped:
   devise (3.5.3) lib/devise/controllers/helpers.rb:124:in `current_user'
   devise (3.5.3) lib/devise/controllers/helpers.rb:120:in `user_signed_in?'
   app/controllers/application_controller.rb:14:in `ensure_user'
-```
+{% endhighlight %}
 You can fix this problem by running `rake secret` and pasting the result over the current secret token in `config/initializers/secret_token.rb` -- keeping in mind this will log everyone out and prevent the app from accessing anything stored in signed cookies.
