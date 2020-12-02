@@ -45,13 +45,13 @@
         </div>
       </div>
       <div class="hidden space-x-10 md:flex md:ml-10">
-        <a href="/blog" class="font-medium text-gray-500 hover:text-gray-900"
-          >Blog</a
+        {% for nav_link in site.header_nav_links %}
+        <a
+          href="{{nav_link.href}}"
+          class="font-medium text-gray-500 hover:text-gray-900"
+          >{{nav_link.name}}</a
         >
-
-        <a href="/about" class="font-medium text-gray-500 hover:text-gray-900"
-          >About Me</a
-        >
+        {% endfor %}
       </div>
     </nav>
   </div>
@@ -107,19 +107,14 @@
       </div>
       <div role="menu" aria-orientation="vertical" aria-labelledby="main-menu">
         <div class="px-2 pt-2 pb-3 space-y-1" role="none">
+          {% for nav_link in site.header_nav_links %}
           <a
-            href="/blog"
+            href="{{nav_link.href}}"
             class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
             role="menuitem"
-            >Blog</a
+            >{{nav_link.href}}</a
           >
-
-          <a
-            href="/about"
-            class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
-            role="menuitem"
-            >About Me</a
-          >
+          {% endfor %}
         </div>
       </div>
     </div>

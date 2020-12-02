@@ -54,3 +54,13 @@ exclude:
   - tailwind.config.js
   - yarn.lock
   - CNAME
+
+header_nav_links:
+  - href: /blog
+    name: Blog
+  - href: /consulting
+    name: Consulting
+  - href: /about
+    name: About Me
+  - href: /contact
+    name: Contact
