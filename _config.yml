@@ -46,3 +46,4 @@ sass:
 # Build Settings
 markdown: kramdown
 #permalink: 					pretty
+paginate_path: "/blog/page:num/"
