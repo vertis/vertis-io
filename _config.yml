@@ -47,3 +47,10 @@ sass:
 markdown: kramdown
 #permalink: 					pretty
 paginate_path: "/blog/page:num/"
+
+exclude:
+  - package.json
+  - postcss.config.js
+  - tailwind.config.js
+  - yarn.lock
+  - CNAME
