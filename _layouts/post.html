@@ -5,8 +5,8 @@ layout: default
 <div class="relative bg-white overflow-hidden">
   <div class="relative px-4 sm:px-6 lg:px-8">
     <div class="text-lg max-w-prose mx-auto">
-        <section class="">
-            <article class="blog-post mb-24">
+            <section class="">
+            <article class="blog-post mt-12 mb-24">
                 <header>
                     <h1 class="mt-2 block text-xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-2xl">{{ page.title }}</h1>
                     <div class="mb-2 space-x-1 text-sm text-center text-gray-500">
@@ -21,6 +21,12 @@ layout: default
                         {% endif %}
                     </div>
                 </header>
+                {% if page.feature_image %}
+                <figure class="mb-6">
+                    <img class="mx-auto w-full rounded-lg shadow-lg" src="{{ page.feature_image.url }}"/>
+                    <figcaption class="mt-2 text-center text-xs text-gray-500">{{page.feature_image.caption}}</figcaption>
+                </figure>
+                {% endif %}
                 {{ content }}
                 <hr class="mt-12"/>
             </article>

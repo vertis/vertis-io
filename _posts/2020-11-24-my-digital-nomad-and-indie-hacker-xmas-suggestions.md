@@ -4,6 +4,9 @@ layout: post
 title: "My Digital Nomad and Bootstrapper Xmas Suggestions"
 author: vertis
 minutes_read: 3
+feature_image:
+  url: https://images.unsplash.com/photo-1600670942298-b10325b17dea?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1567&q=80
+  caption: Digital Nomad admires the view
 ---
 
 Xmas is fast approaching again and it's been on my mind to share a few of the things that I have found valuable as a Digital Nomad and Indie Hacker.
