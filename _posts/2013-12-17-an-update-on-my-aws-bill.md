@@ -5,7 +5,7 @@ title: "An update on my AWS bill"
 author: vertis
 ---
 
-The last 48 hours have been surreal. When I typed up the [experience](http://vertis.io/2013/12/16/unauthorised-litecoin-mining.html) up yesterday morning, I was not expecting it to get more than a handful of votes on Hacker News.
+The last 48 hours have been surreal. When I typed up the [experience](https://vertis.io/2013/12/16/unauthorised-litecoin-mining.html) up yesterday morning, I was not expecting it to get more than a handful of votes on Hacker News.
 
 As I watched the discussion yesterday I was warmed that people both cared about my plight and found it useful to have a reminder.
 <!--more-->

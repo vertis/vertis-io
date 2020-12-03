@@ -4,7 +4,7 @@ layout: post
 title: "My run in with Unauthorised Litecoin mining on AWS"
 author: vertis
 ---
-__Update: You can read an update to this story [here](http://vertis.io/2013/12/17/an-update-on-my-aws-bill.html)__
+__Update: You can read an update to this story [here](https://vertis.io/2013/12/17/an-update-on-my-aws-bill.html)__
 
 Normally I'm a big advocate of open sourcing projects both current (and old) on GitHub. Today though, I wish that I wasn't.
 

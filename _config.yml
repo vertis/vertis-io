@@ -3,7 +3,7 @@ title: "vertis.io"
 email: "me@vertis.io"
 description: "Writings about development, future technology and life"
 baseurl: ""
-url: "http://vertis.io"
+url: "https://vertis.io"
 logourl: "/assets/img/bloglogo.jpg"
 fa-logo: "fa-bookmark-o"
 plugins: [jekyll-paginate]
@@ -11,22 +11,22 @@ paginate: 5
 
 # Author Settings
 author_name: "Luke Chadwick"
-author_url: "http://vertis.io"
+author_url: "https://vertis.io"
 author_bio: "Geek since birth. Futurist. Lover. Idealist."
 author_email: "me@vertis.io"
 author_image: "/assets/img/authorimage.jpg"
 
 # Social Settings
-twitter_url: "http://twitter.com/vertis"
-facebook_url: "http://facebook.com"
-github_url: "http://github.com/vertis"
-youtube_url: "http://youtube.com"
-dribbble_url: "http://dribbble.com"
-googleplus_url: "http://google.com/plus"
-instagram_url: "http://instagram.com"
-pinterest_url: "http://pinterest.com"
-linkedin_url: "http://linkedin.com"
-feed_url: "http://feeds.feedburner.com/vertis"
+twitter_url: "https://twitter.com/vertis"
+facebook_url: "https://facebook.com"
+github_url: "https://github.com/vertis"
+youtube_url: "https://youtube.com"
+dribbble_url: "https://dribbble.com"
+googleplus_url: "https://google.com/plus"
+instagram_url: "https://instagram.com"
+pinterest_url: "https://pinterest.com"
+linkedin_url: "https://linkedin.com"
+feed_url: "https://feeds.feedburner.com/vertis"
 
 # Theme Settings
 theme_disqus_shortname: "ecko"

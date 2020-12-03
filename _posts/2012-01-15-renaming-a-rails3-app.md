@@ -40,4 +40,4 @@ While it's nice to have a one liner that will accomplish the renaming. I've seen
 
 I've written a simple ruby script that is more limited in how it selects the files:
 
-<script src="http://gist.github.com/1672812.js"></script>
+<script src="https://gist.github.com/1672812.js"></script>

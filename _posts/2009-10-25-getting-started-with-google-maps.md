@@ -27,7 +27,7 @@ And the view:
 -#views/index.haml
 %html
   %head
-    %script{:type => "text/javascript", :charset => "utf-8", :src => "http://www.google.com/jsapi?key=ABQIAAAAR21mr2vnfC9-sjIojad2WhSmbtbI58sJnUq1AueY0BvTVoVv3BSw-I1OHpTaa0zZiaSEsDrZf9fGWQ"}
+    %script{:type => "text/javascript", :charset => "utf-8", :src => "https://www.google.com/jsapi?key=ABQIAAAAR21mr2vnfC9-sjIojad2WhSmbtbI58sJnUq1AueY0BvTVoVv3BSw-I1OHpTaa0zZiaSEsDrZf9fGWQ"}
     %script{:type => "text/javascript"}
       google.load("maps", "2");
 
