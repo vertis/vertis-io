@@ -3,6 +3,9 @@ published: true
 layout: post
 title: "Things I wish 'Ok Google' would respond properly too"
 author: vertis
+feature_image:
+  url: /assets/img/luis-cortes-28jE7Ul1L8I-unsplash.jpg
+  caption: <span>Photo by <a href="https://unsplash.com/@luiskcortes?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Luis Cortés</a> on <a href="https://unsplash.com/s/photos/google-home?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 ---
 
 After switching to the Google Pixel, I've found myself using 'Ok Google' more and more. Particularly when it comes to actions like setting reminders, and events and navigating.

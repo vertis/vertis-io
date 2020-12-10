@@ -3,6 +3,9 @@ published: true
 layout: post
 title: "Native module RNFirebaseModule tried to override RNFirebaseModule for module name RNFirebase"
 author: vertis
+feature_image:
+  url: /assets/img/markus-spiske-qjnAnF0jIGk-unsplash.jpg
+  caption: <span>Photo by <a href="https://unsplash.com/@markusspiske?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Markus Spiske</a> on <a href="https://unsplash.com/s/photos/programming?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 ---
 
 React Native has been a non-stop whirlwind of obscure error messages. For example:
