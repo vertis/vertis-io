@@ -11,7 +11,6 @@ feature_image:
 ---
 
 In a special edition of 'Awesome Links' I share what you should be buying your geeky friends for Christmas (assuming they haven't already bought it for themselves)
-<!--more-->
 
 We may all use smartphones for everything now, but if you asked the futurists of the 1980s what we would be using now, they probably have described something like [Pebble](https://getpebble.com/). This Smartwatch took Kickstarter by storm, and continues to impress. At USD$150 it may fit into your budget for a loved one.
 

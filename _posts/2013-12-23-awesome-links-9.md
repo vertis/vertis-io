@@ -3,6 +3,9 @@ published: true
 layout: post
 title: "Awesome Links #9"
 author: vertis
+feature_image:
+  url: /assets/img/nastya-dulhiier-OKOOGO578eo-unsplash.jpg
+  caption: <span>Photo by <a href="https://unsplash.com/@dulgier?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Nastya Dulhiier</a> on <a href="https://unsplash.com/s/photos/network?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 ---
 
 Now that the end of year is upon us, it seems like an opportunity to get some reading done & work on a few small projects.

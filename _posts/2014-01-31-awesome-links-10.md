@@ -3,6 +3,9 @@ published: true
 layout: post
 title: "Awesome Links #10"
 author: vertis
+feature_image:
+  url: /assets/img/h-heyerlein-ndja2LJ4IcM-unsplash.jpg
+  caption: <span>Photo by <a href="https://unsplash.com/@heyerlein?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">h heyerlein</a> on <a href="https://unsplash.com/collections/5047254/brain-science?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 ---
 
 I've promised myself that I'm going to do a lot of reading this year. To date I've done quite well, and the books have been amazing.

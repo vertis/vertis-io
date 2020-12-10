@@ -3,6 +3,9 @@ published: true
 layout: post
 title: "Things I Want To Do This Year"
 author: vertis
+feature_image:
+  url: /assets/img/rea-first-3d-room-scans-4.jpeg
+  caption: First Matterport scans - Mid 2014
 ---
 
 While I was on my flight back from visting family in Sydney for Xmas, I started writing a list of everything I want to get done this year.

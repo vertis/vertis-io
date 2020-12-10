@@ -4,9 +4,6 @@ layout: post
 title: "Mesh Networking with the Synapse RF266PC1"
 author: vertis
 ---
-![Pebble Smartwatch](https://d3rrgxxoyz0alr.cloudfront.net/assets/bg/pebble-arms-trim-1800-f158d80f05766cb945762957d88d4217.jpg)
->  Pebble Smartwatch
-
 One of the projects that I've been working on for quite a while is FGIS, which stands for Fire Ground Information System.
 
 Australia gets some pretty nasty bushfires during the summer months. The people that fight these fires, both paid firefighters and volunteers, don't get much in the way of technology on the ground to help them. The basic tools for planning are radios and paper maps (sometimes mud maps). While the control center has really rich information about a given area, communicating that out to the field is very difficult.
