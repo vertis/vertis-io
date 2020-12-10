@@ -3,6 +3,9 @@ published: true
 layout: post
 title: "SXSW - Regina Dugan - Making Epic Sh*t"
 author: vertis
+feature_image:
+  url: /assets/img/regina-dugan-making-epic-shit.jpg
+  caption: Regina Dugan - Making Epic Sh*t
 ---
 
 Yet another brain dump.

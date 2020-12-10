@@ -1,8 +1,11 @@
 ---
 published: true
 layout: post
-title: "Places you should visit"
+title: "Nerdy Places you should visit"
 author: vertis
+feature_image:
+  url: /assets/images/bandh-photo.png
+  caption: B &amp; H Photo in NY
 ---
 
 

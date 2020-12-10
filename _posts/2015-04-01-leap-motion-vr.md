@@ -3,9 +3,10 @@ published: true
 layout: post
 title: "Leap Motion + DK2"
 author: vertis
+feature_image:
+  url: /assets/img/joh-leap-motion.png
+  caption: Joh using the Leap Motion
 ---
-
-![Joh using the Leap Motion](/assets/images/joh-leap-motion.png)
 
 It seems we always have a new toy to play with. This time it's attaching the leap motion to the front of the DK2 to play with how interaction using your hands my work.
 

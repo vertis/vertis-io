@@ -3,6 +3,9 @@ published: true
 layout: post
 title: "An update on my AWS bill"
 author: vertis
+feature_image:
+  url: /assets/img/hn-thread-for-litecoin-mining-blog-post.png
+  caption: The HN thread for my previous blog post
 ---
 
 The last 48 hours have been surreal. When I typed up the [experience](https://vertis.io/2013/12/16/unauthorised-litecoin-mining.html) up yesterday morning, I was not expecting it to get more than a handful of votes on Hacker News.

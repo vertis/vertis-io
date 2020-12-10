@@ -3,10 +3,11 @@ published: true
 layout: post
 title: "Oculus Connect"
 author: vertis
+feature_image:
+  url: /assets/images/oculus-connect-1.png
+  caption: Oculus Connect - Registration
 ---
 I really should have posted more but I'm having trouble balancing experiencing vs documenting. To make things worse a lot of my photos are blurry and unintelligible.
-
-![Oculus Connect - Registration](/assets/images/oculus-connect-1.png)
 
 I also got to attend "The First Annual Proto Awards". There was quite a bit of excitement around it despite it being a tiny community so far. I can't help but wonder whether the people here will eventually get pushed aside as the bigger players start to participate.
 

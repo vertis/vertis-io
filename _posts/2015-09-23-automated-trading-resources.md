@@ -3,6 +3,9 @@ published: true
 layout: post
 title: "Automated Trading resources"
 author: vertis
+feature_image:
+  url: /assets/img/jason-briscoe-amLfrL8LGls-unsplash.jpg
+  caption: <span>Photo by <a href="https://unsplash.com/@jsnbrsc?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jason Briscoe</a> on <a href="https://unsplash.com/s/photos/trading?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 ---
 One of the things that I've been doing sporadically over the last couple of years is dabbling in Automated Trading. Now when I say dabbling, I mean small fry. Mostly playing with backtesting and the occasional test with small amounts of real money.
 

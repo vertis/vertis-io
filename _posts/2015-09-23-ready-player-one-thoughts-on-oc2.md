@@ -3,8 +3,10 @@ published: true
 layout: post
 title: "Ready Player One - Thoughts on OC2"
 author: vertis
+feature_image:
+  url: /assets/images/ready-player-one.jpg
+  caption: Ready Player One
 ---
-![Ready Player One](/assets/images/ready-player-one.jpg)
 
 So many thoughts about Oculus Connect 2.
 

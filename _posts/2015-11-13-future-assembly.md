@@ -3,6 +3,9 @@ published: true
 layout: post
 title: "Future Assembly"
 author: vertis
+feature_image:
+  url: /assets/img/future-assembly.jpg
+  caption: CSIRO at Future Assembly
 ---
 I visited the inaugural Future Assembly this weekend. There were some really interesting startups and companies doing emerging technology work (and some crazy bitcoin people wearing suits and looking slightly shady).
 

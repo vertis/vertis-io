@@ -3,9 +3,10 @@ published: true
 layout: post
 title: "Recon Glasses"
 author: vertis
+feature_image:
+  url: /assets/img/rob-recon-glasses.png
+  caption: Rob trying the Recon Glasses
 ---
-
-![Rob using the Recon Glasses](/assets/images/rob-recon-glasses.png)
 
 Google Glass taught me that Smart glasses can be just as cool as VR. In our efforts to keep up with a wide variety of emerging technologies, we got a pair of Recon Glasses.
 
