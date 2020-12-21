@@ -16,6 +16,8 @@ I ended up working on a problem posed by Julian Smith from Julian Smith of the D
 
 While the control centers might have rich information about what is going on accessing this information on the ground is problematic. Often the first thing to go in a bush fire is the telecommunications back to the outside world as cell towers and the like are damaged by the fire.
 
+![FGIS Early Mockup](/assets/img/fgis-early-mockup.jpg)
+
 During the discovery process with Julian it was determined that the fire fighters are almost always in close proximity to their trucks, making it possible to use the trucks as a platform for communication. The team started working on a prototype around mesh networking between the trucks and using the mobile devices of the fire fighters to connect an onboard server to both provide and retreive details entered on the ground.
 
 ![FGIS Mockup](/assets/img/fire-geo-information-mockup.jpg)
