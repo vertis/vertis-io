@@ -32798,13 +32798,9 @@ video {
 
 /* Literal.Number.Integer.Long */
 
-article p {
-  font-size: 1rem;
-  line-height: 1.5rem;
-  margin-top: 0.75rem;
-  --tw-text-opacity: 1;
-  color: rgba(107, 114, 128, var(--tw-text-opacity));
-}
+/* article p {
+  @apply mt-3 text-base text-gray-500;
+} */
 
 article h2 {
   font-weight: 600;

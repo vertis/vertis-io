@@ -4,9 +4,9 @@
 
 @import "./pygments-fruity.css";
 
-article p {
+/* article p {
   @apply mt-3 text-base text-gray-500;
-}
+} */
 
 article h2 {
   @apply mt-4 text-xl sm:text-xl font-semibold text-gray-900;
