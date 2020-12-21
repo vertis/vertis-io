@@ -4,7 +4,7 @@ layout: post
 title: "My run in with Unauthorised Litecoin mining on AWS"
 author: vertis
 feature_image:
-  url: /assets/images/aws-billing-dashboard.png
+  url: /assets/img/aws-billing-dashboard.png
   caption: My AWS Billing Dashboard
 ---
 __Update: You can read an update to this story [here](https://vertis.io/2013/12/17/an-update-on-my-aws-bill.html)__
@@ -19,7 +19,7 @@ After a brief search I found the key buried in an old project that I'd just deci
 
 That wasn't the end of the matter, I was in for a rude shock when I logged into my Amazon account to check for unauthorised usage. $3000+ in pending charges. Woah!
 
-![Billing Dashboard](/assets/images/aws-billing-dashboard.png)
+![Billing Dashboard](/assets/img/aws-billing-dashboard.png)
 
 It didn't take long to find the source of the billing. Twenty cc2.8xlarge instances humming along in the us-east region for the last two days.
 

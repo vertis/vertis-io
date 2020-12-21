@@ -4,7 +4,7 @@ layout: post
 title: "VR at Biennale Sydney"
 author: vertis
 feature_image:
-  url: /assets/images/biennale-1.png
+  url: /assets/img/biennale-1.png
   caption: VR at Biennale Sydney
 ---
 
