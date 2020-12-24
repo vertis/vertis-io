@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: "Spaces Co-working and the Pandemic"
+title: "Spaces Coworking and the Pandemic"
 author: vertis
 minutes_read: 5
 feature_image:
@@ -9,19 +9,19 @@ feature_image:
   caption: Spaces Opéra Garnier sits mostly empty
 ---
 
-In April, I decided to contact [Spaces](https://spacesworks.com) and suspend my co-working membership.  The world had shutdown while it figured out how to deal with the pandemic. The membership wasn't very much use to me given my lack of ability to leave the house. I had no desire to go out to a co-working space and risk other people.
+In April, I decided to contact [Spaces](https://spacesworks.com) and suspend my coworking membership.  The world had shutdown while it figured out how to deal with the pandemic. The membership wasn't very much use to me given my lack of ability to leave the house. I had no desire to go out to a coworking space and risk other people.
  
 My first mistake was emailing the account manager. No response. He had been so enthusiastic in showing me around the facilities 2 months earlier. All salesy and friendly as he walked through London Victoria after I had started my membership.
 
 Even then I'd taken a punt on Spaces because they were now owned by IWG, the same entity that owns Regus. IWG has no lack of bad reviews, 5 minutes of searching will start to turn up [all](https://www.linkedin.com/pulse/regus-review-stay-away-shilo-burt/) [manner](https://regus-sucks.com/) [of](https://www.trustpilot.com/review/regus.com) [stories](https://www.trustpilot.com/review/www.spacesworks.com). I had given Spaces the benefit of the doubt for a lot of reasons. Most of the feedback was for Regus, the older more corporate sibling. It was also less relevant, I wasn't taking up an office lease, stuck in one building.
  
-The co-working membership offered what few others could -- workspace in most cities. I was, and still am, a digital nomad (albeit in the most restricted sense). Looking for a coffee shop or a day pass for a random co-working space gets tedious. Global co-working was a feature that I couldn't pass up. Cheaper if you commit to a year-long membership
+The coworking membership offered what few others could -- workspace in most cities. I was, and still am, a digital nomad (albeit in the most restricted sense). Looking for a coffee shop or a day pass for a random coworking space gets tedious. Global coworking was a feature that I couldn't pass up. Cheaper if you commit to a year-long membership
  
 It sounds funny in the current pandemic environment to even talk about this as a selling feature. Travel has plummeted. 
  
 It was becoming clear that it had been a bad decision signing a 12-month membership. Like most, I spent a lot of time following the news. The fact that I was paying for a membership I couldn't use drifted in and out of my todo-list. IWG hadn't actually charged my credit card for 2 months, so I assumed they might be on top of it (despite the lack of response). Then they sent a large invoice and an automated email saying that billing had not been working. Joy.
  
-After the lockdowns eased a little I returned to the UK and tried to pursue the matter further. IWG had kept all it's centres open under the guise that "essential workers" might need access. The co-working was no exception. The "business lounge" is a way of overselling space that is also shared with private offices. I returned to the London Victoria branch where I signed up. The only difference I could see was that they were now locking the doors and now it required ringing a doorbell. The place was almost empty.
+After the lockdowns eased a little I returned to the UK and tried to pursue the matter further. IWG had kept all it's centres open under the guise that "essential workers" might need access. The coworking was no exception. The "business lounge" is a way of overselling space that is also shared with private offices. I returned to the London Victoria branch where I signed up. The only difference I could see was that they were now locking the doors and now it required ringing a doorbell. The place was almost empty.
  
 On renewing my efforts to suspend my membership, I finally managed to get a form letter response.
  
@@ -39,11 +39,11 @@ I pointed out that they kept using the line "other customers are happy to take u
  
 I resolved that subject to restrictions, I would use the remaining membership. It was that or let IWG get away with ~£2000.
  
-Without a decent home office space, one needs a co-working desk or a private office. AirBnBs almost never have decent workspaces.
+Without a decent home office space, one needs a coworking desk or a private office. AirBnBs almost never have decent workspaces.
  
 Fast forward to late December and we're at the point where they've taken the last payment. I'm expecting a message from someone any day in January offering me some sort of offer if I'll renew my contract. I pity the salesperson tasked with talking with me about it. They won't even do that. They'll work out that I'm a lost cause. While my membership might have been salvageable in June it is now long beyond repair.
  
-Had this been a different year I would have come to the end of the year and been happy with what I'd purchased. The co-working offered by Spaces is very uniform and meets my needs quite well.
+Had this been a different year I would have come to the end of the year and been happy with what I'd purchased. The coworking offered by Spaces is very uniform and meets my needs quite well.
  
 There are limitations. Some of the centres couldn't fit another person if they tried (pre-covid). The best places to sit are a race. Having to wait while the receptionist jots down your membership number. There is a QR code in the app which I have never seen used. The app itself is slow.
  
@@ -53,10 +53,10 @@ Business hours are vague and vary from location to location. All the listings on
  
 It's been enjoyable to use the centres for the later part of the year. Where they were overrun in some cases, before the pandemic, now they're at ~20% capacity. I can only imagine it's other people like me that are using it because they're forced to pay for it.
  
-The short term thinking is the thing that hurts the most. The way they behaved in those few early months could have brought them a lifetime of loyalty. They have forgone 10 years of revenue for 2 months. They could have suspended co-working memberships until the pandemic was over.
+The short term thinking is the thing that hurts the most. The way they behaved in those few early months could have brought them a lifetime of loyalty. They have forgone 10 years of revenue for 2 months. They could have suspended coworking memberships until the pandemic was over.
  
-Instead, I am left telling people a cautionary tale. I'm using co-working when I could have been using a private or home office.
+Instead, I am left telling people a cautionary tale. I'm using coworking when I could have been using a private or home office.
  
-There doesn't seem to be a downside to mistreating your customers. Will people stop coming to them for offices or co-working? People seem to keep using them because they have no choice.
+There doesn't seem to be a downside to mistreating your customers. Will people stop coming to them for offices or coworking? People seem to keep using them because they have no choice.
  
 The world will go on. I will find other places to work. A little shyer about signing any long-term commitment.
