@@ -7,7 +7,7 @@ author: vertis
 Awesome links for the 25th of September 2013
 <!--more-->
 
-![Nathan Gould - Crysis 2](http://i1.ytimg.com/vi/-ld1iFwhIAE/maxresdefault.jpg)
+![Nathan Gould - Crysis 2](https://i1.ytimg.com/vi/-ld1iFwhIAE/maxresdefault.jpg)
 > Nathan Gould - Crysis 2
 
 [Disqus](http://blog.disqus.com/post/62187806135/scaling-django-to-8-billion-page-views) - Scaling Django to 8 billion page views. Good reminder on the importance of mastering caching.
