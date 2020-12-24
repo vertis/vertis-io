@@ -6,7 +6,7 @@ author: vertis
 ---
 Awesome links for the 14th of October 2013.
 <!--more-->
-![Edward Snowden](http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2013/6/23/1372015020195/Edward-Snowden-008.jpg)
+![Edward Snowden](https://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2013/6/23/1372015020195/Edward-Snowden-008.jpg)
 > Edward Snowden courtesy of The Guardian
 
 [Cypherpunks 2.0](http://adi.is/s/cpunk20) - Interesting talk by Andy Isaacson from Noisebridge. Videos are split into a bunch of sections [Part 1](http://www.ustream.tv/recorded/39791560/highlight/423948), [Part 2](http://www.ustream.tv/recorded/39791773/highlight/423949) & [Q & A](http://www.ustream.tv/recorded/39791773/highlight/423954)

@@ -4,7 +4,7 @@ layout: post
 title: "Awesome Reading: Open Companies"
 author: vertis
 feature_image:
-  url: http://farm6.staticflickr.com/5503/9994096423_a4e728a437_c.jpg
+  url: https://farm6.staticflickr.com/5503/9994096423_a4e728a437_c.jpg
   caption: A rare archaeological find at GitHub by <a href="http://www.flickr.com/photos/fumi/9994096423/">fumi</a>
 ---
 

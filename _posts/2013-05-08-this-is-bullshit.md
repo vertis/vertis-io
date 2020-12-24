@@ -5,22 +5,22 @@ title: "This is Bullshit!"
 ---
 
 ### tl;dr
-- My colleagues made a funny [video](http://youtu.be/DmC4eaaGmTw) when there was an incident
+- My colleagues made a funny [video](https://youtu.be/DmC4eaaGmTw) when there was an incident
 - Cake makes everything better
 <!--more-->
 ### Upgrading Github Enterprise
-Yesterday, there was a new release for our [Github Enterprise](http://enterprise.github.com) installation that mitigated a fairly serious vulnerability. This was announced quite late in our work day, but given the severity of the issue I decided to upgrade the appliance before heading home.
+Yesterday, there was a new release for our [Github Enterprise](https://enterprise.github.com) installation that mitigated a fairly serious vulnerability. This was announced quite late in our work day, but given the severity of the issue I decided to upgrade the appliance before heading home.
 
 The upgrade took a little longer than expected, but it eventually finished *successfully* and I headed out the door.
 
-I didn't realise it at the time, but due to a mandatory password change my email wasn't coming through to phone. When I finally sat down at my computer after dinner a few hours later, I discovered that all was not right in the world. Our [Github Enterprise](http://enterprise.github.com) hadn't been able to accept pushes for the last two hours.
+I didn't realise it at the time, but due to a mandatory password change my email wasn't coming through to phone. When I finally sat down at my computer after dinner a few hours later, I discovered that all was not right in the world. Our [Github Enterprise](https://enterprise.github.com) hadn't been able to accept pushes for the last two hours.
 
 ## This is bullshit!
-In fact the entire Xi'an office had gone to the trouble of making me (and [GitHub](http://github.com)) a youtube video.
+In fact the entire Xi'an office had gone to the trouble of making me (and [GitHub](https://github.com)) a youtube video.
 <br/><p>
-<iframe width="560" height="315" src="http://www.youtube.com/embed/DmC4eaaGmTw" frameborder="0" allowfullscreen></iframe></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DmC4eaaGmTw" frameborder="0" allowfullscreen></iframe></p>
 
-Thankfully, the issue didn't take too long to fix. The team at [GitHub](http://github.com) had already created a new package that fixed the issue.
+Thankfully, the issue didn't take too long to fix. The team at [GitHub](https://github.com) had already created a new package that fixed the issue.
 
 ## Some context on 'bullshit'
 Our team in Xi'an put up with all kinds of frustrating problems. The internet and VPN(s) have been known to be unreliable. They occasionally bear the brunt of being a satellite office (getting forgotten when changes are made). There was at least one incident where the team in Xi'an waited through an entire standup without telling the team here in Australia that the sound wasn't working.
