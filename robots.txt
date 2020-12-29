@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://vertis.io/sitemap.xml
