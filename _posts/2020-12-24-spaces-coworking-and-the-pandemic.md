@@ -7,6 +7,7 @@ minutes_read: 5
 feature_image:
   url: /assets/img/spaces-opera-garnier.jpg
   caption: Spaces Opéra Garnier sits mostly empty
+meta_description: "My Spacesworks membership should have been a perfect fit. Then the pandemic hit."
 ---
 
 In April, I decided to contact [Spaces](https://spacesworks.com) and suspend my coworking membership.  The world had shutdown while it figured out how to deal with the pandemic. The membership wasn't very much use to me given my lack of ability to leave the house. I had no desire to go out to a coworking space and risk other people.
