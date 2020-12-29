@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: http://vertis.io/sitemap.xml
+Sitemap: https://vertis.io/sitemap.xml 
