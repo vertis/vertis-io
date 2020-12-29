@@ -38,7 +38,7 @@ Bring the equipment you would bring on a typical day. Start when you would norma
 
 Try to go during a hot or cold day. Temperature is an essential factor. Today I was at [Spaces - Paris, Réaumur](https://www.spacesworks.com/paris/reaumur/), it was so cold that I had to leave. Not an isolated problem. The temperature has been a problem across a lot of their venues.
 
-I also like to check amenties like the coffee machine. If they're not working properly, chances are they'll never be working properly.
+I also like to check amenities like the coffee machine. If they're not working properly, chances are they'll never be working properly.
 
 <figure class="mb-6">
     <img class="mx-auto w-full rounded-lg shadow-lg" src="/assets/img/spaces-no-milk.jpg"/>
@@ -77,9 +77,9 @@ At [Workland](https://wrkland.com) in Tallinn, the interaction with staff was en
 
 On the flipside, [Spaces](https://spacesworks.com) makes it painful to get into a lot of their venues. They have an app that shows your member number, but you have to wait each time they write it down. They lock the doors, so you have to ring a doorbell to get in. At Spaces - Les Halles, there is a barrier to get to the lift that requires a swipe card. If you go for coffee, you have to wait to get back in. It becomes clear that they want your money, but don't want to provide the service.
 
-## Member portal and billing
+## Member Portal, Apps and Billing
 
-Looking at the complaints left for Spaces/Regus, a lot of the problems come from billing. Being mischarged. Having to fight to get your bond back. Being locked into a contract when the internal or external conditions change.
+Looking at the complaints left for Spaces/Regus, a lot of the problems come from billing. Being incorrectly charged. Having to fight to get your bond back. Being locked into a contract when the internal or external conditions change.
 
 Having experienced this, I would be hesitant to do anything more than month-to-month.
 
