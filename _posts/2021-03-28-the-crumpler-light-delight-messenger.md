@@ -16,7 +16,7 @@ It's all fine to fit everything into one bag as a digital nomad, but after arriv
 
 ![Crumpler: Light Delight Messenger in Bag](/assets/img/crumpler-light-delight/CrumplerLDM-24.jpg)
 
-There were a collection of different colours. It didn't take long to find the colour I like and I walked out of the store happy. For the next two and a half years it served as my primary day bag. Eventually it started to get a bit tatty, washing it didn't help, so I decided it was time to replace it.
+There were a collection of different colours. It didn't take long to find the colour I liked and I walked out of the store happy. For the next two and a half years it served as my primary day bag. Eventually it started to get a bit tatty, washing it didn't help, so I decided it was time to replace it.
 
 Having been extremely happy with it, I went searching to see if I could replace it like-for-like. Only to discover that it barely existed in the first place.
 
