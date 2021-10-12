@@ -3,7 +3,7 @@ published: true
 layout: post
 title: "Healthcare in Estonia for Digital Nomads"
 author: vertis
-minutes_read: 5
+minutes_read: 8
 feature_image:
   url: /assets/img/healthcare-in-estonia.jpg
   caption: "On Left: Oxygen Therapy, On Right: An unexpect visit to the emergency room"
