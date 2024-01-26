@@ -26,6 +26,8 @@ Before integrating SingleFile, my process involved capturing web content in Mark
 
 SingleFile, true to its name, allows for downloading webpages as single files and offers much more. Key features include the ability to upload files to a git repository and an 'Infobar' linking back to the original page.
 
+Snapshotting web content helps maintain access to information even when web pages change or disappear. This approach helps mitigate reliance on the Wayback Machine, which has a sadly incomplete coverage. In the same way that companies create mirrors of open-source packages to protect against their disappearance, I'm creating a mirror of the web content I find valuable.
+
 Each file added to my [permanent-web-snapshots](https://github.com/vertis/permanent-web-snapshots) repository triggers a static site deployment to Vercel. I consciously chose not to store this content directly in my Obsidian repository to avoid the previous issue of cluttering. By maintaining the content externally, I preserve the organized and curated nature of my primary notes while still having easy access to the broader information.
 
 Regularly, I review the content added to this system. I don't feel like I'm qualified to talk about the next stage, but I try to distill the information, extract insights, and weave them into my knowledge system. Linking back to my permanent web version. It's working well so far.
