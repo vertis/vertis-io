@@ -36,4 +36,4 @@ It's still a work in progress, but this workflow represents a significant improv
 
 ## Aside: Supporting Open Source
 
-Coming across the SingleFile creator wasn't just about expressing thanks; it highlighted how individual contributions profoundly enhance our digital experiences. This inspired me to find their donation page, a gesture I've realized I should make more often.
+Coming across the SingleFile creator was a reminder of how individual contributions profoundly enhance our digital experiences. There are so many contributions like this that help provide the shoulders we stand on. This inspired me to find their donation page, a gesture I've realized I should make more often.
