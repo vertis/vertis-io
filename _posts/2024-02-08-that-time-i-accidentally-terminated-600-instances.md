@@ -42,3 +42,7 @@ Everyone was reasonably good about it. The CIO, CTO, and Engineering managers de
 I did not lose my job. There was a little ribbing, but nothing that went too far. Eventually, the memory faded a bit, passed down as one of those legends inside the company.
 
 We all mess up. Good companies take it as an opportunity to strengthen the company. Bad companies take it as an opportunity to encourage engineers to work for good companies.
+
+This blog doesn't have comments, but you can share your thoughts on [HN](https://news.ycombinator.com/item?id=39299945).
+
+
