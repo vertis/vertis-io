@@ -15,7 +15,7 @@ The best way of testing is to put the [Matterport](https://matterport.com) tour 
 
 I came up with a solution, in what I hope is true [Lean Startup](https://theleanstartup.com) style. Insert a small javascript embed that loads a clickable banner like the one below. This will sit below the photo carousel
 
-![3D Placeholder](/assets/img/3d-placeholder-2.jpg)
+![3D Placeholder](https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/2027c562-ef94-42f8-ab96-7a1d4759ed00/w=800)
 
 When the users click on the banner they visit to a page that loads the correct [Matterport](https://matterport.com) tour for the listing. I deployed a small webapp using [Heroku](https://heroku.com) that allows us to see analytics about the way they interact.
 

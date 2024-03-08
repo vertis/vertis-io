@@ -30,7 +30,7 @@ With this perspective in mind, here are some things you should focus on when loo
 Most coworking providers offer a trial day. During your trial day, try to sit in as many of the different seats as possible. Plenty of providers optimise for how hip it looks versus comfort while working. I've seen chairs without backs. Tables so close you could touch knees with the person opposite. You won't know until you've tried them.
 
 <figure class="mb-6">
-    <img class="mx-auto w-full rounded-lg shadow-lg" src="/assets/img/impractical-desks.jpg"/>
+    <img class="mx-auto w-full rounded-lg shadow-lg" src="https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/6e0103c6-e94b-4aa5-2714-9f4b60536e00/w=800"/>
     <figcaption class="mt-2 text-center text-xs text-gray-500">So close you could touch knees</figcaption>
 </figure>
 
@@ -41,7 +41,7 @@ Try to go during a hot or cold day. Temperature is an essential factor. Today I 
 I also like to check amenities like the coffee machine. If they're not working properly, chances are they'll never be working properly.
 
 <figure class="mb-6">
-    <img class="mx-auto w-full rounded-lg shadow-lg" src="/assets/img/spaces-no-milk.jpg"/>
+    <img class="mx-auto w-full rounded-lg shadow-lg" src="https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/a4f4be61-04ea-4867-1070-c6d67b484300/w=800"/>
     <figcaption class="mt-2 text-center text-xs text-gray-500">Spaces Les Halles - No milk</figcaption>
 </figure>
 

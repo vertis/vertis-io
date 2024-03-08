@@ -25,7 +25,7 @@ B&H Photo in NY is probably one of the coolest stores in NY. They have this amaz
 # Autodesk Gallery
 Autodesk Gallery in San Francisco is another hidden gem. An amazing space that celebrates the massive variety of things that Autodesk software has been used to design and build.
 
-![Autodesk Gallery](/assets/img/autodesk-gallery.png)
-![Autodesk Gallery 2](/assets/img/autodesk-gallery-2.png)
+![Autodesk Gallery](https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/9972cee1-bd5b-4d4a-7712-f11bffebf400/w=800)
+![Autodesk Gallery 2](https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/8e8416c0-3987-45a3-0585-c9afcd1f5600/w=800)
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.8361889293865!2d-122.39700648383493!3d37.79387857975585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858066a8ce75b5%3A0x7b9724e970bf6347!2sAutodesk+Gallery!5e0!3m2!1sen!2sau!4v1480374753822" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>

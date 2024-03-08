@@ -14,4 +14,4 @@ It must have been rigged because we didn't win, but it was fun :)
 
 View from my hotel while I was there was inspiring as well:
 
-![News Foundry - Hotel](/assets/img/newsfoundry-hotel.png)
+![News Foundry - Hotel](https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/7974ffc1-8c81-4cd6-67ea-7a180150b500/w=800)

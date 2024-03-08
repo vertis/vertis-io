@@ -26,7 +26,7 @@ After the lockdowns eased a little I returned to the UK and tried to pursue the 
  
 On renewing my efforts to suspend my membership, I finally managed to get a form letter response.
  
-!["Offer from IWGPLC"](/assets/img/spaces-offer.png)
+!["Offer from IWGPLC"](https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/bc299e9e-ae0c-46b9-cfd2-d56d06fddf00/w=800)
  
 1 month of relief for 3 extra months of contract seemed exploitative (or 2 for 6). I told them as much. With no real avenues left, I wrote a negative review on Trustpilot. Setting the membership to not renew so I wouldn't forget later.
 
@@ -34,7 +34,7 @@ On renewing my efforts to suspend my membership, I finally managed to get a form
  
 Several days later the review prompted a more senior help desk member to email. 
 
-!["Review Response from IWGPLC"](/assets/img/spaces-review-response.png)
+!["Review Response from IWGPLC"](https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/b3c62570-6486-49b5-6435-7e56afcf3100/w=800)
 
 I pointed out that they kept using the line "other customers are happy to take up the offer" repetitively and didn't get a response. I probably should have used Patio11's evidence gathering technique, but at this stage, I was too annoyed. Annoyed at them, and at myself for giving them a chance.
  

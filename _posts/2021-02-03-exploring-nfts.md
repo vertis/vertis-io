@@ -21,7 +21,7 @@ New marketplaces for NFTs have started to appear. At the time of writing [OpenSe
 I learn by doing, so my next step has to be creating my own artwork and listing it for sale. I spent the better part of the afternoon working on an artwork. For my first artwork, I decided to power-up Unity3D and see what I could create.
 
 <figure class="mb-6">
-    <img class="mx-auto w-full rounded-lg shadow-lg" src="/assets/img/GeometryOne_480p.gif"/>
+    <img class="mx-auto w-full rounded-lg shadow-lg" src="https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/bb4e2335-5e2d-48f9-6c24-25897e9a4900/w=800"/>
     <figcaption class="mt-2 text-center text-xs text-gray-500">Geometry #1 - Luke Chadwick</figcaption>
 </figure>
 

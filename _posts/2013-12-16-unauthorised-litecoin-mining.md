@@ -19,7 +19,7 @@ After a brief search I found the key buried in an old project that I'd just deci
 
 That wasn't the end of the matter, I was in for a rude shock when I logged into my Amazon account to check for unauthorised usage. $3000+ in pending charges. Woah!
 
-![Billing Dashboard](/assets/img/aws-billing-dashboard.png)
+![Billing Dashboard](https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/d7655060-12e0-4176-b230-c91f83d2ea00/w=800)
 
 It didn't take long to find the source of the billing. Twenty cc2.8xlarge instances humming along in the us-east region for the last two days.
 

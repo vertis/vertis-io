@@ -50,7 +50,7 @@ With this in mind, it’s not really a surprise that virtual tours are starting 
 
 Matterport is a fantastic product, by far the superior solution if you’re looking to visualize a space. The problem with Matterport is that it’s quite expensive to produce. The cameras are quite costly to purchase, but more importantly, each tour takes between 30 mins and 4 hours depending on the size of the property.
 
-![Professional House Photo](/assets/img/house-professional-photo.png)
+![Professional House Photo](https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/55121cb0-7fa5-4008-db6d-369799ba0900/w=800)
 
 In properties that are for sale, this amount of time is a valuable investment, however rental properties have a much tighter margin.
 
@@ -74,7 +74,7 @@ During user testing, we were shocked to discover they hated the solution. In no 
 
 This set me to searching for better solutions and building a pool of [Matterport](https://matterport.com/) content. In late 2016 we released the first version of [Realestate VR](https://play.google.com/store/apps/details?id=com.rea.realabs.realestate_vr&hl=en_US). It was a grand accomplishment, and I’m very proud of what the team built.
 
-![Realestate VR](/assets/img/realestate_vr.png)
+![Realestate VR](https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/c2eb994c-a9e9-4dc5-3533-0767ab824600/w=800)
 
 Sadly though, it’s still limited. Primarily, by the fact that only 4–5% of listings have a [Matterport](https://matterport.com/) tour. In my opinion, this is due to the prohibitive cost of producing this content.
 
