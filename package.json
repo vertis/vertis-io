@@ -1,17 +1,21 @@
 {
-  "name": "vertis.io",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/vertis/vertis.github.com",
-  "author": "Luke Chadwick <me@vertis.io>",
-  "license": "MIT",
-  "private": true,
+  "name": "vertis-io",
+  "module": "index.ts",
+  "type": "module",
+  "repository": "https://github.com/vertis/vertis.io",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
   "dependencies": {
     "@tailwindcss/typography": "^0.3.1",
     "autoprefixer": "^10.0.2",
     "postcss": "^8.2.10",
     "postcss-cli": "^8.3.0",
     "postcss-import": "^13.0.0",
-    "tailwindcss": "^2.0.1"
+    "tailwindcss": "^2.0.1",
+    "typescript": "^5.4.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
   }
 }
