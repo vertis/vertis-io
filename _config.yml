@@ -53,7 +53,9 @@ exclude:
   - postcss.config.js
   - tailwind.config.js
   - yarn.lock
+  - bun.lockb
   - CNAME
+  - .env
 
 header_nav_links:
   - href: /blog
