@@ -1,13 +1,17 @@
 ---
 published: true
 layout: post
-title: "Embedding Matterport"
+title: Embedding Matterport
 author: vertis
 minutes_read: 2
 feature_image:
-  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/2a7ba85e-fbf4-4ec5-05d3-7dad520e6a00/w=800
+  url: >-
+    https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/2a7ba85e-fbf4-4ec5-05d3-7dad520e6a00/w=800
   caption: Early screenshot of a Matterport "dollhouse"
+  preview_url: >-
+    https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/2a7ba85e-fbf4-4ec5-05d3-7dad520e6a00/w=450
 ---
+
 
 I have been working on getting [Matterport](https://matterport.com) integrated into the [realestate.com.au](https://realestate.com.au) listings. The teams responsible for those pages have a roadmap that extends for months. This is not an unusual problem within a big company.
 

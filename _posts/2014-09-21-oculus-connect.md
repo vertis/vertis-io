@@ -1,12 +1,16 @@
 ---
 published: true
 layout: post
-title: "Oculus Connect"
+title: Oculus Connect
 author: vertis
 feature_image:
-  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/8a0f0b44-d029-45c5-c9c5-8430fc13af00/w=800
+  url: >-
+    https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/8a0f0b44-d029-45c5-c9c5-8430fc13af00/w=800
   caption: Oculus Connect - Registration
+  preview_url: >-
+    https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/8a0f0b44-d029-45c5-c9c5-8430fc13af00/w=450
 ---
+
 I really should have posted more but I'm having trouble balancing experiencing vs documenting. To make things worse a lot of my photos are blurry and unintelligible.
 
 I also got to attend "The First Annual Proto Awards". There was quite a bit of excitement around it despite it being a tiny community so far. I can't help but wonder whether the people here will eventually get pushed aside as the bigger players start to participate.

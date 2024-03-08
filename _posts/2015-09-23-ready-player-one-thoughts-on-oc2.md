@@ -1,12 +1,16 @@
 ---
 published: true
 layout: post
-title: "Ready Player One - Thoughts on OC2"
+title: Ready Player One - Thoughts on OC2
 author: vertis
 feature_image:
-  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/89de0db5-ef51-4966-e5f6-839f32a0a700/w=800
+  url: >-
+    https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/89de0db5-ef51-4966-e5f6-839f32a0a700/w=800
   caption: Ready Player One
+  preview_url: >-
+    https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/89de0db5-ef51-4966-e5f6-839f32a0a700/w=450
 ---
+
 
 So many thoughts about Oculus Connect 2.
 

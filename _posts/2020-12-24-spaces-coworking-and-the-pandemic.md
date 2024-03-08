@@ -1,14 +1,20 @@
 ---
 published: true
 layout: post
-title: "Spaces Coworking and the Pandemic"
+title: Spaces Coworking and the Pandemic
 author: vertis
 minutes_read: 5
 feature_image:
-  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/b9702e62-7ba8-4661-cc87-d6f79cfd2e00/w=800
+  url: >-
+    https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/b9702e62-7ba8-4661-cc87-d6f79cfd2e00/w=800
   caption: Spaces Opéra Garnier sits mostly empty
-meta_description: "My Spacesworks membership should have been a perfect fit. Then the pandemic hit."
+  preview_url: >-
+    https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/b9702e62-7ba8-4661-cc87-d6f79cfd2e00/w=450
+meta_description: >-
+  My Spacesworks membership should have been a perfect fit. Then the pandemic
+  hit.
 ---
+
 
 In April, I decided to contact [Spaces](https://spacesworks.com) and suspend my coworking membership.  The world had shutdown while it figured out how to deal with the pandemic. The membership wasn't very much use to me given my lack of ability to leave the house. I had no desire to go out to a coworking space and risk other people.
  

@@ -1,14 +1,18 @@
 ---
 published: true
 layout: post
-title: "rEFInd: SIP and Secure Boot"
+title: 'rEFInd: SIP and Secure Boot'
 author: vertis
 minutes_read: 5
 feature_image:
-  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/a237985e-6cb6-4d2d-a9c4-809351f21300/w=800
-  caption: "Boot Recovery Assistant: Unable to verify startup disk after rEFInd install"
-meta_description: "rEFInd: SIP and Secure Boot"
+  url: >-
+    https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/a237985e-6cb6-4d2d-a9c4-809351f21300/w=800
+  caption: 'Boot Recovery Assistant: Unable to verify startup disk after rEFInd install'
+  preview_url: >-
+    https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/a237985e-6cb6-4d2d-a9c4-809351f21300/w=450
+meta_description: 'rEFInd: SIP and Secure Boot'
 ---
+
 For a variety of reasons I dual-boot Mac OS and Windows 10. One minor annoyance is having to hold option to boot the other environment.
 
 There are several solutions to this. One can set the default from commands before restarting. In hindsight, I should have done this. Instead I went to a tool that I have used before, called [rEFInd](https://www.rodsbooks.com/refind/).

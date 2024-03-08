@@ -1,14 +1,18 @@
 ---
 published: true
 layout: post
-title: "Reflections after Two Months of being a Digital Nomad"
+title: Reflections after Two Months of being a Digital Nomad
 author: vertis
 minutes_read: 3
 feature_image:
-  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/cea5c06f-f851-4ed1-ece3-0260e73ae000/w=800
-caption: "Luke Chadwick looking over the Danube River in Budapest, October 2018"
-meta_description: "Reflections after Two Months of being a Digital Nomad"
+  url: >-
+    https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/cea5c06f-f851-4ed1-ece3-0260e73ae000/w=800
+  preview_url: >-
+    https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/cea5c06f-f851-4ed1-ece3-0260e73ae000/w=450
+caption: Luke Chadwick looking over the Danube River in Budapest, October 2018
+meta_description: Reflections after Two Months of being a Digital Nomad
 ---
+
 # Reflections after Two Months of being a Digital Nomad
 It's a little over two months now since I packed my bags and decided to become a Digital Nomad. Together with my partner we moved out of the house and put everything in storage. We sold the house and the car and embarked for Europe.
 

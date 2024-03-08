@@ -1,12 +1,20 @@
 ---
 published: true
 layout: post
-title: "Things I Want To Do This Year (2015)"
+title: Things I Want To Do This Year (2015)
 author: vertis
 feature_image:
-  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/3eef8c4b-63f2-405c-0376-364826346000/w=800
-  caption: <span>Photo by <a href="https://unsplash.com/@elsoar?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Mohammed Fkriy</a> on <a href="https://unsplash.com/s/photos/year?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+  url: >-
+    https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/3eef8c4b-63f2-405c-0376-364826346000/w=800
+  caption: >-
+    <span>Photo by <a
+    href="https://unsplash.com/@elsoar?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Mohammed
+    Fkriy</a> on <a
+    href="https://unsplash.com/s/photos/year?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+  preview_url: >-
+    https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/3eef8c4b-63f2-405c-0376-364826346000/w=450
 ---
+
 
 This will be my second year [documenting](/2014/01/01/things-i-want-to-do-this-year.html) things that I want to do this year and giving myself a mark on the [results](/2015/01/01/scorecard-for-2014.html). I found it to be a valuable exercise last year, though my priorities did shift over the course of the year.
 

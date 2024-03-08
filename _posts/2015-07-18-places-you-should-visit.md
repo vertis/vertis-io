@@ -1,12 +1,16 @@
 ---
 published: true
 layout: post
-title: "Nerdy Places you should visit"
+title: Nerdy Places you should visit
 author: vertis
 feature_image:
-  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/62e16178-22ae-4e3e-a778-95b3f827c200/w=800
+  url: >-
+    https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/62e16178-22ae-4e3e-a778-95b3f827c200/w=800
   caption: B &amp; H Photo in NY
+  preview_url: >-
+    https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/62e16178-22ae-4e3e-a778-95b3f827c200/w=450
 ---
+
 
 
 

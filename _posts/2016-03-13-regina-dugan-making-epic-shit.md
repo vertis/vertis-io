@@ -1,12 +1,16 @@
 ---
 published: true
 layout: post
-title: "SXSW - Regina Dugan - Making Epic Sh*t"
+title: SXSW - Regina Dugan - Making Epic Sh*t
 author: vertis
 feature_image:
-  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/2d338eb2-4a8c-447c-c733-782127bdd800/w=800
+  url: >-
+    https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/2d338eb2-4a8c-447c-c733-782127bdd800/w=800
   caption: Regina Dugan - Making Epic Sh*t
+  preview_url: >-
+    https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/2d338eb2-4a8c-447c-c733-782127bdd800/w=450
 ---
+
 
 Yet another brain dump.
 

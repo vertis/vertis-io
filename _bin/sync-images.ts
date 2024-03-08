@@ -4,6 +4,8 @@ import { readdir, writeFile, readFile } from "fs/promises";
 import fetch from "node-fetch";
 import { createReadStream } from "fs";
 import FormData from "form-data";
+import { exec } from "child_process";
+import { promisify } from "util";
 
 interface CloudflareImageUploadResponse {
   result: {
@@ -18,41 +20,30 @@ interface CloudflareImageUploadResponse {
   messages: unknown[];
 }
 
+const execAsync = promisify(exec);
+
 async function uploadImage(
   apiToken: string,
   file: string
 ): Promise<string | null> {
   console.log(`Uploading ${file}...`);
-  const formData = new FormData();
-  formData.append("file", createReadStream(`./assets/img/${file}`), file);
-  formData.append();
-  const response = await fetch(
-    "https://api.cloudflare.com/client/v4/accounts/e6764d5bc3ad48a191acbcf9bbf00aec/images/v1",
-    {
-      method: "POST",
-      headers: {
-        Authorization: `Bearer ${apiToken}`,
-        // "Content-Type": "multipart/form-data", // This line is commented out because the fetch API and FormData handle the Content-Type header automatically, including the boundary parameter.
-      },
-      body: formData,
+  const command = `curl -X POST -F file=@./assets/img/${file} -H "Authorization: Bearer ${apiToken}" https://api.cloudflare.com/client/v4/accounts/e6764d5bc3ad48a191acbcf9bbf00aec/images/v1 -s`;
+  try {
+    const { stdout, stderr } = await execAsync(command);
+    if (stderr) {
+      console.error(`Error uploading ${file}:`, stderr);
+      return null;
     }
-  );
-
-  if (!response.ok) {
-    console.error("Request Headers:", JSON.stringify(formData.getHeaders()));
-    response.headers.forEach((value, name) => {
-      console.error(`Response Header: ${name} = ${value}`);
-    });
-    console.error("Response Body:", await response.text());
-    console.error(`Error uploading ${file}: ${response.statusText}`);
+    const data: CloudflareImageUploadResponse = JSON.parse(stdout);
+    console.log(`Uploaded ${file}: ${JSON.stringify(data)}`);
+    if (data.success && data.result && data.result.id) {
+      return data.result.id;
+    }
+    return null;
+  } catch (error) {
+    console.error(`Error executing upload command for ${file}:`, error);
     return null;
   }
-  const data = (await response.json()) as CloudflareImageUploadResponse;
-  console.log(`Uploaded ${file}: ${JSON.stringify(data)}`);
-  if (data.success && data.result && data.result.id) {
-    return data.result.id;
-  }
-  return null;
 }
 
 async function uploadImages() {

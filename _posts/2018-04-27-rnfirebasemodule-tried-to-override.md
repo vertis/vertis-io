@@ -1,12 +1,22 @@
 ---
 published: true
 layout: post
-title: "Native module RNFirebaseModule tried to override RNFirebaseModule for module name RNFirebase"
+title: >-
+  Native module RNFirebaseModule tried to override RNFirebaseModule for module
+  name RNFirebase
 author: vertis
 feature_image:
-  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/c19f608c-0ed4-4c8a-9217-163604773b00/w=800
-  caption: <span>Photo by <a href="https://unsplash.com/@markusspiske?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Markus Spiske</a> on <a href="https://unsplash.com/s/photos/programming?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+  url: >-
+    https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/c19f608c-0ed4-4c8a-9217-163604773b00/w=800
+  caption: >-
+    <span>Photo by <a
+    href="https://unsplash.com/@markusspiske?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Markus
+    Spiske</a> on <a
+    href="https://unsplash.com/s/photos/programming?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+  preview_url: >-
+    https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/c19f608c-0ed4-4c8a-9217-163604773b00/w=450
 ---
+
 
 React Native has been a non-stop whirlwind of obscure error messages. For example:
 

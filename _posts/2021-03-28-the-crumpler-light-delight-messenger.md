@@ -1,14 +1,16 @@
 ---
 published: true
 layout: post
-title: "The Crumpler Light Delight Messenger"
+title: The Crumpler Light Delight Messenger
 author: vertis
 minutes_read: 5
 feature_image:
   url: /assets/img/crumpler-light-delight/CrumplerLDM-19.jpg
-caption: "The Crumpler Light Delight Messenger"
-meta_description: "The Crumpler Light Delight Messenger"
+  preview_url: /assets/img/crumpler-light-delight/CrumplerLDM-19.jpg
+caption: The Crumpler Light Delight Messenger
+meta_description: The Crumpler Light Delight Messenger
 ---
+
 # The Crumpler Light Delight Messenger!
 In late 2018, while wandering around Prague I came across a Crumpler store. Crumpler is a brand born in Melbourne, and one that I've carried for years. At the time I was somewhat regreting leaving my Messenger bag behind.
 

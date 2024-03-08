@@ -1,12 +1,20 @@
 ---
 published: true
 layout: post
-title: "Automated Trading resources"
+title: Automated Trading resources
 author: vertis
 feature_image:
-  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/bd8139c3-21b8-49b1-7d5a-df3a60096c00/w=800
-  caption: <span>Photo by <a href="https://unsplash.com/@jsnbrsc?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jason Briscoe</a> on <a href="https://unsplash.com/s/photos/trading?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+  url: >-
+    https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/bd8139c3-21b8-49b1-7d5a-df3a60096c00/w=800
+  caption: >-
+    <span>Photo by <a
+    href="https://unsplash.com/@jsnbrsc?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jason
+    Briscoe</a> on <a
+    href="https://unsplash.com/s/photos/trading?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+  preview_url: >-
+    https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/bd8139c3-21b8-49b1-7d5a-df3a60096c00/w=450
 ---
+
 One of the things that I've been doing sporadically over the last couple of years is dabbling in Automated Trading. Now when I say dabbling, I mean small fry. Mostly playing with backtesting and the occasional test with small amounts of real money.
 
 It's been interesting, and I've learned a lot (many of the 'things not to do').

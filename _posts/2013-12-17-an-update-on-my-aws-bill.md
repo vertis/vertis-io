@@ -1,12 +1,16 @@
 ---
 published: true
 layout: post
-title: "An update on my AWS bill"
+title: An update on my AWS bill
 author: vertis
 feature_image:
-  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/e57fe6f2-5df3-46fc-afc9-2b56bdf5ee00/w=800
+  url: >-
+    https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/e57fe6f2-5df3-46fc-afc9-2b56bdf5ee00/w=800
   caption: The HN thread for my previous blog post
+  preview_url: >-
+    https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/e57fe6f2-5df3-46fc-afc9-2b56bdf5ee00/w=450
 ---
+
 
 The last 48 hours have been surreal. When I typed up the [experience](https://vertis.io/2013/12/16/unauthorised-litecoin-mining.html) up yesterday morning, I was not expecting it to get more than a handful of votes on Hacker News.
 

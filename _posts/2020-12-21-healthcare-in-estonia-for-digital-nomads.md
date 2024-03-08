@@ -1,14 +1,20 @@
 ---
 published: true
 layout: post
-title: "Healthcare in Estonia for Digital Nomads"
+title: Healthcare in Estonia for Digital Nomads
 author: vertis
 minutes_read: 8
 feature_image:
-  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/ca64a949-4754-4ac0-0ce3-ef24963a5e00/w=800
-  caption: "On Left: Oxygen Therapy, On Right: An unexpect visit to the emergency room"
-meta_description: "Healthcare is not a topic that comes up often when talking about being a digital nomad"
+  url: >-
+    https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/ca64a949-4754-4ac0-0ce3-ef24963a5e00/w=800
+  caption: 'On Left: Oxygen Therapy, On Right: An unexpect visit to the emergency room'
+  preview_url: >-
+    https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/ca64a949-4754-4ac0-0ce3-ef24963a5e00/w=450
+meta_description: >-
+  Healthcare is not a topic that comes up often when talking about being a
+  digital nomad
 ---
+
 # Healthcare in Estonia for Digital Nomads
 
 2020 is anything but a normal year, and if you had told me in January that I would be spending several months in Estonia, I would have told you that there were places that I wanted to explore far more than Estonia. The value to me from Estonia had much more to do with it's digital aspirations than the country itself.

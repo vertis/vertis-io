@@ -1,12 +1,16 @@
 ---
 published: true
 layout: post
-title: "News Foundry"
+title: News Foundry
 author: vertis
 feature_image:
-  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/77be0f19-71be-4996-688e-f50af1507300/w=800
+  url: >-
+    https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/77be0f19-71be-4996-688e-f50af1507300/w=800
   caption: The realestate.com.au News Foundry Team
+  preview_url: >-
+    https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/77be0f19-71be-4996-688e-f50af1507300/w=450
 ---
+
 
 Departing from all the VR I've been working on recently, we attended News Foundry this week in Sydney.
 

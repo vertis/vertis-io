@@ -1,14 +1,23 @@
 ---
 published: true
 layout: post
-title: "Awesome Christmas Gifts 2013"
+title: Awesome Christmas Gifts 2013
 author: vertis
-banner_image: "https://upload.wikimedia.org/wikipedia/commons/5/5e/Pebble_watch_trio_group_04.png"
+banner_image: >-
+  https://upload.wikimedia.org/wikipedia/commons/5/5e/Pebble_watch_trio_group_04.png
 featured: true
 feature_image:
-  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/383b6f1a-6264-4369-511b-3b437563bd00/w=800
-  caption: <span>Photo by <a href="https://unsplash.com/@joker2000?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Yannick Pipke</a> on <a href="https://unsplash.com/s/photos/raspberrypi?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+  url: >-
+    https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/383b6f1a-6264-4369-511b-3b437563bd00/w=800
+  caption: >-
+    <span>Photo by <a
+    href="https://unsplash.com/@joker2000?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Yannick
+    Pipke</a> on <a
+    href="https://unsplash.com/s/photos/raspberrypi?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+  preview_url: >-
+    https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/383b6f1a-6264-4369-511b-3b437563bd00/w=450
 ---
+
 
 In a special edition of 'Awesome Links' I share what you should be buying your geeky friends for Christmas (assuming they haven't already bought it for themselves)
 

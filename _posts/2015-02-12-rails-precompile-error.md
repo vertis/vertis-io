@@ -1,12 +1,20 @@
 ---
 published: true
 layout: post
-title: "Rails 3.2 Precompile error"
+title: Rails 3.2 Precompile error
 author: vertis
 feature_image:
-  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/796fa51c-4220-487a-0cb4-f843ba849e00/w=800
-  caption: <span>Photo by <a href="https://unsplash.com/@jaimedantas?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jaime Dantas</a> on <a href="https://unsplash.com/s/photos/ruby-on-rails?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+  url: >-
+    https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/796fa51c-4220-487a-0cb4-f843ba849e00/w=800
+  caption: >-
+    <span>Photo by <a
+    href="https://unsplash.com/@jaimedantas?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jaime
+    Dantas</a> on <a
+    href="https://unsplash.com/s/photos/ruby-on-rails?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+  preview_url: >-
+    https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/796fa51c-4220-487a-0cb4-f843ba849e00/w=450
 ---
+
 
 Every so often I come across an exception that doesn't turn up good search results as a solution. This time it was:
 

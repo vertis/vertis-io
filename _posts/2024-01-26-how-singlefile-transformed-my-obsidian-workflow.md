@@ -1,13 +1,16 @@
 ---
 published: true
 layout: post
-title: "How SingleFile Transformed My Obsidian Workflow"
+title: How SingleFile Transformed My Obsidian Workflow
 author: vertis
 minutes_read: 2
 feature_image:
-  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/c241cf0c-2d5f-464f-ee59-59219d267700/w=800
-caption: "An illustration of a personal knowledge management system (Midjourney)"
-meta_description: "SingleFile"
+  url: >-
+    https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/c241cf0c-2d5f-464f-ee59-59219d267700/w=800
+  preview_url: >-
+    https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/c241cf0c-2d5f-464f-ee59-59219d267700/w=450
+caption: An illustration of a personal knowledge management system (Midjourney)
+meta_description: SingleFile
 tags:
   - knowledge_management
   - digital_workflow
@@ -17,8 +20,8 @@ tags:
   - web_archiving
   - opensource
   - productivity_tools
-
 ---
+
 
 A recent interaction with the creator of [SingleFile](https://addons.mozilla.org/en-GB/firefox/addon/single-file/), a Firefox extension I often use, on [Hacker News](https://news.ycombinator.com/item?id=39143231) led me to reflect on its role in my knowledge workflow. It was also a perfect moment to express gratitude for this outstanding [open-source extension](https://github.com/gildas-lormeau/SingleFile).
 

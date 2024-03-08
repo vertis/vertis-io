@@ -1,14 +1,18 @@
 ---
 published: true
 layout: post
-title: "Migrating from Plausible to Umami for Web Analytics"
+title: Migrating from Plausible to Umami for Web Analytics
 author: vertis
 minutes_read: 2
 feature_image:
-  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/33298321-1d89-40c8-c7f4-b5c18fefe700/w=800
-caption: "Midjourney imagines a Web Analytics Migration"
-meta_description: "Self hosted web analytics setup"
+  url: >-
+    https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/33298321-1d89-40c8-c7f4-b5c18fefe700/w=800
+  preview_url: >-
+    https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/33298321-1d89-40c8-c7f4-b5c18fefe700/w=450
+caption: Midjourney imagines a Web Analytics Migration
+meta_description: Self hosted web analytics setup
 ---
+
 
 # Migrating from Plausible to Umami for Web Analytics
 

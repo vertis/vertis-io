@@ -1,13 +1,16 @@
 ---
 published: true
 layout: post
-title: "Enhancing Note Visuals with Obsidian Image Layouts"
+title: Enhancing Note Visuals with Obsidian Image Layouts
 author: vertis
 minutes_read: 3
 feature_image:
-  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/8f47266b-b65a-4d8c-7fbb-984d1187b300/w=800
-caption: "Layout G from the new plugin"
-meta_description: "Obsidian Plugin for Image Layouts"
+  url: >-
+    https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/8f47266b-b65a-4d8c-7fbb-984d1187b300/w=800
+  preview_url: >-
+    https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/8f47266b-b65a-4d8c-7fbb-984d1187b300/w=450
+caption: Layout G from the new plugin
+meta_description: Obsidian Plugin for Image Layouts
 tags:
   - obsidian
   - image_layouts
@@ -19,9 +22,8 @@ tags:
   - open_source
   - digital_organization
   - visual_storytelling
-
-
 ---
+
 # Enhancing Note Visuals with Obsidian Image Layouts
 
 As an enthusiast of note-taking and knowledge management, I'm pleased to share a new addition to the Obsidian ecosystem - the [**Obsidian Image Layouts**](https://obsidian.md/plugins?id=obsidian-image-layouts) plugin. This tool is a response to the need for a more structured and aesthetically pleasing way to incorporate images into Obsidian notes. For more details, check out the [GitHub repository](https://github.com/vertis/obsidian-image-layouts).

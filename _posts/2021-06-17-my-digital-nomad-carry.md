@@ -1,14 +1,18 @@
 ---
 published: true
 layout: post
-title: "My Digital Nomad Carry"
+title: My Digital Nomad Carry
 author: vertis
 minutes_read: 5
 feature_image:
-  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/2ce02493-3a2d-4dd7-4f0c-7d94e5179b00/w=800
-caption: "My Macbook Lid"
-meta_description: "My Digital Nomad Carry"
+  url: >-
+    https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/2ce02493-3a2d-4dd7-4f0c-7d94e5179b00/w=800
+  preview_url: >-
+    https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/2ce02493-3a2d-4dd7-4f0c-7d94e5179b00/w=450
+caption: My Macbook Lid
+meta_description: My Digital Nomad Carry
 ---
+
 
 # My Digital Nomad Carry
 

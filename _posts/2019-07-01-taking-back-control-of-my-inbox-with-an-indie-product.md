@@ -1,14 +1,22 @@
 ---
 published: true
 layout: post
-title: "Taking back control of my inbox with an indie product"
+title: "Taking back control of my inbox with an indie\_product"
 author: vertis
 minutes_read: 9
 post_date: Jul 1, 2019 2:13pm
 feature_image:
-  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/27856a0a-b04d-43e7-30a3-31d00d236700/w=800
-  caption: <span>Photo by <a href="https://unsplash.com/@brett_jordan?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Brett Jordan</a> on <a href="https://unsplash.com/s/photos/email?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+  url: >-
+    https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/27856a0a-b04d-43e7-30a3-31d00d236700/w=800
+  caption: >-
+    <span>Photo by <a
+    href="https://unsplash.com/@brett_jordan?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Brett
+    Jordan</a> on <a
+    href="https://unsplash.com/s/photos/email?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+  preview_url: >-
+    https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/27856a0a-b04d-43e7-30a3-31d00d236700/w=450
 ---
+
 
 One of the most important things about the indie maker community in general is that they have a willingness to explore and understand how we go about making products and providing value. I'm a big advocate for the need to focus on value rather than squeezing every dollar out of a group of people who are willing to pay.
 

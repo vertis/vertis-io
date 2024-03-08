@@ -1,12 +1,20 @@
 ---
 published: true
 layout: post
-title: "Moped Error"
+title: Moped Error
 author: vertis
 feature_image:
-  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/60615a3c-c253-403e-cc95-b1a5cc3b0200/w=800
-  caption: <span>Photo by <a href="https://unsplash.com/@punttim?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Tim Gouw</a> on <a href="https://unsplash.com/s/photos/frustrated?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+  url: >-
+    https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/60615a3c-c253-403e-cc95-b1a5cc3b0200/w=800
+  caption: >-
+    <span>Photo by <a
+    href="https://unsplash.com/@punttim?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Tim
+    Gouw</a> on <a
+    href="https://unsplash.com/s/photos/frustrated?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+  preview_url: >-
+    https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/60615a3c-c253-403e-cc95-b1a5cc3b0200/w=450
 ---
+
 Yet another of my 'obscure error message' posts:
 
 After upgrading an old Rails app from 3.2.x to 4.0.x I started getting a really weird error. Made all the more confusing by the fact that I couldn't work out why it was trying to load Moped (given Mongoid 5.0.0 no longer uses Moped).

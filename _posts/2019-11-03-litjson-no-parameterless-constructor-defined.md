@@ -1,12 +1,22 @@
 ---
 published: true
 layout: post
-title: "LitJSON causes System.MissingMethodException : No parameterless constructor defined for this object."
+title: >-
+  LitJSON causes System.MissingMethodException : No parameterless constructor
+  defined for this object.
 author: vertis
 feature_image:
-  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/22d2d979-e53f-41a9-267a-bea36fbfd100/w=800
-  caption: <span>Photo by <a href="https://unsplash.com/@maxchen2k?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Max Chen</a> on <a href="https://unsplash.com/s/photos/error?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+  url: >-
+    https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/22d2d979-e53f-41a9-267a-bea36fbfd100/w=800
+  caption: >-
+    <span>Photo by <a
+    href="https://unsplash.com/@maxchen2k?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Max
+    Chen</a> on <a
+    href="https://unsplash.com/s/photos/error?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+  preview_url: >-
+    https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/22d2d979-e53f-41a9-267a-bea36fbfd100/w=450
 ---
+
 Filing another report under hard to google errors, which seems to be my primary reason for posting on this blog these days.
 
 Was working with LitJSON in C# to deserialize an API response. When I started getting `System.MissingMethodException : No parameterless constructor defined for this object.`.

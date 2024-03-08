@@ -1,12 +1,16 @@
 ---
 published: true
 layout: post
-title: "Things I Want To Do This Year"
+title: Things I Want To Do This Year
 author: vertis
 feature_image:
-  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/dbff45bd-66eb-4862-e4b9-960bf5fb1c00/w=800
+  url: >-
+    https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/dbff45bd-66eb-4862-e4b9-960bf5fb1c00/w=800
   caption: First Matterport scans - Mid 2014
+  preview_url: >-
+    https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/dbff45bd-66eb-4862-e4b9-960bf5fb1c00/w=450
 ---
+
 
 While I was on my flight back from visting family in Sydney for Xmas, I started writing a list of everything I want to get done this year.
 <!--more-->

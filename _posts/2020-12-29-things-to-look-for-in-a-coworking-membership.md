@@ -1,14 +1,18 @@
 ---
 published: true
 layout: post
-title: "Things To Look for in a Coworking Membership"
+title: Things To Look for in a Coworking Membership
 author: vertis
 minutes_read: 5
 feature_image:
-  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/848a54be-7515-42b0-f258-7cd40694da00/w=800
+  url: >-
+    https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/848a54be-7515-42b0-f258-7cd40694da00/w=800
   caption: Spaces Reaumur - So cold I'm leaving
-meta_description: "Things to consider when searching for a coworking membership"
+  preview_url: >-
+    https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/848a54be-7515-42b0-f258-7cd40694da00/w=450
+meta_description: Things to consider when searching for a coworking membership
 ---
+
 The quality of coworking memberships and short term office space varies. I want to outline some things you should look for when examining each prospective option.
 
 It is useful to understand where the dream of coworking departs from reality. Coworking sprung out of a desire for more flexible workspace. Hip startups and companies started removing the cubicles and walls in office space. In the extreme, not even the CEO has a dedicated desk. Employees could use the workspace in a more agile way.

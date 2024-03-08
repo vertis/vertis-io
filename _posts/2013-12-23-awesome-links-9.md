@@ -1,12 +1,20 @@
 ---
 published: true
 layout: post
-title: "Awesome Links #9"
+title: 'Awesome Links #9'
 author: vertis
 feature_image:
-  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/814deac4-3126-40ea-f259-90c15bca3900/w=800
-  caption: <span>Photo by <a href="https://unsplash.com/@dulgier?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Nastya Dulhiier</a> on <a href="https://unsplash.com/s/photos/network?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+  url: >-
+    https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/814deac4-3126-40ea-f259-90c15bca3900/w=800
+  caption: >-
+    <span>Photo by <a
+    href="https://unsplash.com/@dulgier?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Nastya
+    Dulhiier</a> on <a
+    href="https://unsplash.com/s/photos/network?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+  preview_url: >-
+    https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/814deac4-3126-40ea-f259-90c15bca3900/w=450
 ---
+
 
 Now that the end of year is upon us, it seems like an opportunity to get some reading done & work on a few small projects.
 <!--more-->

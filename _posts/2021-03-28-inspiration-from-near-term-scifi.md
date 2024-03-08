@@ -1,14 +1,18 @@
 ---
 published: true
 layout: post
-title: "Inspiration from near-term Sci-Fi"
+title: Inspiration from near-term Sci-Fi
 author: vertis
 minutes_read: 5
 feature_image:
-  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/9be08f2e-aeaf-49c3-8799-f09c45d99900/w=800
-caption: "Islands in the Net by Bruce Sterling"
-meta_description: "Inspiration from near-term Sci-Fi"
+  url: >-
+    https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/9be08f2e-aeaf-49c3-8799-f09c45d99900/w=800
+  preview_url: >-
+    https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/9be08f2e-aeaf-49c3-8799-f09c45d99900/w=450
+caption: Islands in the Net by Bruce Sterling
+meta_description: Inspiration from near-term Sci-Fi
 ---
+
 # Inspiration from near-term Sci-Fi
 
 One of the places that I like to find inspiration is from novels. Specifically, near-term sci-fi. This is sometimes called speculative fiction, though that includes other things as well.

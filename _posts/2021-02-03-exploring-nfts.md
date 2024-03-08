@@ -1,14 +1,18 @@
 ---
 published: true
 layout: post
-title: "Exploring NFTs"
+title: Exploring NFTs
 author: vertis
 minutes_read: 5
 feature_image:
-  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/8ad123f2-faaa-4824-2507-5339937cd400/w=800
+  url: >-
+    https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/8ad123f2-faaa-4824-2507-5339937cd400/w=800
   caption: Cryptpunks - One of a number of NFTs for sale at the moment
-meta_description: "Exploring NFTs"
+  preview_url: >-
+    https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/8ad123f2-faaa-4824-2507-5339937cd400/w=450
+meta_description: Exploring NFTs
 ---
+
 I've been meaning to explored Non-Fungible Tokens or NFTs for almost a year now. Yesterday, I finally found the time to sit down and play with the concept. NFTs are a way of encoding ownership of digital items into a blockchain. In the case of most of what we will talk about in this article that's the Ethereum blockchain. 
 
 Disclaimers: This article is my personal exploration of NFTs. I don't pretend to have all the answers or even a complete understanding. Corrections are always welcome. This article also assumes a certain amount of familiarity with cryptocurrency terminology.
