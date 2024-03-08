@@ -5,7 +5,7 @@ title: "Healthcare in Estonia for Digital Nomads"
 author: vertis
 minutes_read: 8
 feature_image:
-  url: /assets/img/healthcare-in-estonia.jpg
+  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/ca64a949-4754-4ac0-0ce3-ef24963a5e00/w=800
   caption: "On Left: Oxygen Therapy, On Right: An unexpect visit to the emergency room"
 meta_description: "Healthcare is not a topic that comes up often when talking about being a digital nomad"
 ---

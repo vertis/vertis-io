@@ -6,7 +6,7 @@ author: vertis
 banner_image: "https://upload.wikimedia.org/wikipedia/commons/5/5e/Pebble_watch_trio_group_04.png"
 featured: true
 feature_image:
-  url: /assets/img/yannick-pipke-GtcA8mw0t1U-unsplash.jpg
+  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/383b6f1a-6264-4369-511b-3b437563bd00/w=800
   caption: <span>Photo by <a href="https://unsplash.com/@joker2000?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Yannick Pipke</a> on <a href="https://unsplash.com/s/photos/raspberrypi?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 ---
 

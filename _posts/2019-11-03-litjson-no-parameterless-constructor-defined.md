@@ -4,7 +4,7 @@ layout: post
 title: "LitJSON causes System.MissingMethodException : No parameterless constructor defined for this object."
 author: vertis
 feature_image:
-  url: /assets/img/max-chen-lud4OaUCP4Q-unsplash.jpg
+  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/22d2d979-e53f-41a9-267a-bea36fbfd100/w=800
   caption: <span>Photo by <a href="https://unsplash.com/@maxchen2k?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Max Chen</a> on <a href="https://unsplash.com/s/photos/error?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 ---
 Filing another report under hard to google errors, which seems to be my primary reason for posting on this blog these days.

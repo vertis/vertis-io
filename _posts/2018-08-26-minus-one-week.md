@@ -5,7 +5,7 @@ title: "Minus One Week"
 author: vertis
 minutes_read: 1
 feature_image:
-  url: /assets/img/minus-one-week.jpg
+  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/a1529af9-b4ee-4087-1eed-51b3fdf60e00/w=800
 caption: "Left: Apartment prepared for sale, Right: Belongings moving into Storage"
 meta_description: "Minus One Week"
 ---

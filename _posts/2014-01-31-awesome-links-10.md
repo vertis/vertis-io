@@ -4,7 +4,7 @@ layout: post
 title: "Awesome Links #10"
 author: vertis
 feature_image:
-  url: /assets/img/h-heyerlein-ndja2LJ4IcM-unsplash.jpg
+  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/c44137e1-fcca-465b-dffb-01b97e86fd00/w=800
   caption: <span>Photo by <a href="https://unsplash.com/@heyerlein?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">h heyerlein</a> on <a href="https://unsplash.com/collections/5047254/brain-science?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 ---
 

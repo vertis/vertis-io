@@ -4,7 +4,7 @@ layout: post
 title: "Random Hacks of Kindess: FGIS"
 author: vertis
 feature_image:
-  url: /assets/img/rhok-melb-fgis.jpg
+  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/a33930b7-4158-4847-9e39-0d4caadf5f00/w=800
   caption: Our RHoK Team Holding Trophy
 ---
 

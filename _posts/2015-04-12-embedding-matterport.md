@@ -5,7 +5,7 @@ title: "Embedding Matterport"
 author: vertis
 minutes_read: 2
 feature_image:
-  url: /assets/img/matterport-2016-02-01.jpg
+  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/2a7ba85e-fbf4-4ec5-05d3-7dad520e6a00/w=800
   caption: Early screenshot of a Matterport "dollhouse"
 ---
 

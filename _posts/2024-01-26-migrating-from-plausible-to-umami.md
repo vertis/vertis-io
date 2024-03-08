@@ -5,7 +5,7 @@ title: "Migrating from Plausible to Umami for Web Analytics"
 author: vertis
 minutes_read: 2
 feature_image:
-  url: /assets/img/vert1s_illustration_of_a_web_analytics_migration_fcb0a32b-8b78-4ed0-bba1-949016d621df.png
+  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/33298321-1d89-40c8-c7f4-b5c18fefe700/w=800
 caption: "Midjourney imagines a Web Analytics Migration"
 meta_description: "Self hosted web analytics setup"
 ---

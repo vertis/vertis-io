@@ -5,7 +5,7 @@ title: "rEFInd: SIP and Secure Boot"
 author: vertis
 minutes_read: 5
 feature_image:
-  url: /assets/img/unable-to-verify-startup-disk.jpg
+  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/a237985e-6cb6-4d2d-a9c4-809351f21300/w=800
   caption: "Boot Recovery Assistant: Unable to verify startup disk after rEFInd install"
 meta_description: "rEFInd: SIP and Secure Boot"
 ---

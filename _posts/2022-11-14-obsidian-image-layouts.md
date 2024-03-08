@@ -5,7 +5,7 @@ title: "Enhancing Note Visuals with Obsidian Image Layouts"
 author: vertis
 minutes_read: 3
 feature_image:
-  url: /assets/img/obsidian-image-layouts-layout-g.png
+  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/8f47266b-b65a-4d8c-7fbb-984d1187b300/w=800
 caption: "Layout G from the new plugin"
 meta_description: "Obsidian Plugin for Image Layouts"
 tags:

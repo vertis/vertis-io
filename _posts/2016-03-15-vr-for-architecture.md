@@ -4,7 +4,7 @@ layout: post
 title: "SXSW - VR for Architecture"
 author: vertis
 feature_image:
-  url: /assets/img/architecture-sxsw.png
+  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/39c4c3fa-d670-4bc7-f632-56ace9736a00/w=800
   caption: VR for Architecture talk - InsiteVR Demo @ SXSW
 ---
 

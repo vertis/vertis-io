@@ -5,7 +5,7 @@ title: "That Time I Accidentally Terminated 600 Instances"
 author: vertis
 minutes_read: 3
 feature_image:
-  url: /assets/img/doom-zombies.jpg
+  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/1d006da8-0186-4248-c58e-55bc8abfb800/w=800
 caption: "DALL-E imagines \"The Zombie Apocalypse\""
 meta_description: "That Time I Accidentally Terminated 600 Instances - Otherwise known as \"The Zombie Apocalypse\""
 ---

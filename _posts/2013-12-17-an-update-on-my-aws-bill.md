@@ -4,7 +4,7 @@ layout: post
 title: "An update on my AWS bill"
 author: vertis
 feature_image:
-  url: /assets/img/hn-thread-for-litecoin-mining-blog-post.png
+  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/e57fe6f2-5df3-46fc-afc9-2b56bdf5ee00/w=800
   caption: The HN thread for my previous blog post
 ---
 

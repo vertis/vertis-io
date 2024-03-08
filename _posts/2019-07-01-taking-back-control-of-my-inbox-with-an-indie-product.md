@@ -6,7 +6,7 @@ author: vertis
 minutes_read: 9
 post_date: Jul 1, 2019 2:13pm
 feature_image:
-  url: /assets/img/brett-jordan-LPZy4da9aRo-unsplash.jpg
+  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/27856a0a-b04d-43e7-30a3-31d00d236700/w=800
   caption: <span>Photo by <a href="https://unsplash.com/@brett_jordan?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Brett Jordan</a> on <a href="https://unsplash.com/s/photos/email?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 ---
 

@@ -6,7 +6,7 @@ author: vertis
 minutes_read: 10
 post_date: Feb 7, 2019 at 2:44pm
 feature_image:
-  url: /assets/img/aframe-sample-screenshot.png
+  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/03d82851-b6bf-4699-672d-e6755ab28c00/w=800
   caption: <a href="https://dtourstatic.com/?t=f52c6c7a-12be-4148-8947-a47779966cf8">Graphql360 Example</a>
 ---
 

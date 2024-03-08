@@ -4,7 +4,7 @@ layout: post
 title: "VR at Officeworks"
 author: vertis
 feature_image:
-  url: /assets/img/vr-at-officeworks.png
+  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/13fc8dc5-389c-44f1-d219-65f271cad800/w=800
   caption: VR at Officeworks
 ---
 

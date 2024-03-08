@@ -5,7 +5,7 @@ title: "Inspiration from near-term Sci-Fi"
 author: vertis
 minutes_read: 5
 feature_image:
-  url: /assets/img/islands-in-the-net.jpg
+  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/9be08f2e-aeaf-49c3-8799-f09c45d99900/w=800
 caption: "Islands in the Net by Bruce Sterling"
 meta_description: "Inspiration from near-term Sci-Fi"
 ---

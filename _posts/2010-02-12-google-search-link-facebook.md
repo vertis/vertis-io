@@ -6,7 +6,7 @@ minutes_read: 1
 post_date: Feb 12th, 2010 12:57:21am
 permalink: /post/385065542/i-was-actually-looking-to-connect-facebook-and
 feature_image:
-  url: /assets/img/google-search-link-facebook.png
+  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/edf2f388-e215-48c4-fb5d-d393e40b6800/w=800
   caption: Google Instant suggestions for searches
 ---
 

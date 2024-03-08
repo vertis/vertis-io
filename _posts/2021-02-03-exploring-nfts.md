@@ -5,7 +5,7 @@ title: "Exploring NFTs"
 author: vertis
 minutes_read: 5
 feature_image:
-  url: /assets/img/cryptopunks.png
+  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/8ad123f2-faaa-4824-2507-5339937cd400/w=800
   caption: Cryptpunks - One of a number of NFTs for sale at the moment
 meta_description: "Exploring NFTs"
 ---

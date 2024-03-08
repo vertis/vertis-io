@@ -4,7 +4,7 @@ layout: post
 title: "Awesome Links #9"
 author: vertis
 feature_image:
-  url: /assets/img/nastya-dulhiier-OKOOGO578eo-unsplash.jpg
+  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/814deac4-3126-40ea-f259-90c15bca3900/w=800
   caption: <span>Photo by <a href="https://unsplash.com/@dulgier?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Nastya Dulhiier</a> on <a href="https://unsplash.com/s/photos/network?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 ---
 

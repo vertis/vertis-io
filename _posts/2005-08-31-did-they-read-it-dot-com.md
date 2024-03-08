@@ -5,7 +5,7 @@ title: "DidTheyReadIt.com - Worth the Risk?"
 author: vertis
 minutes_read: 4
 feature_image:
-  url: /assets/img/didtheyreadit-20050831.png
+  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/dc52310a-1726-4cd6-f1c1-41440bdf7e00/w=800
   caption: didtheyreadit.com
 ---
 More than once I have wanted to know whether a message has been successfully recieved and read. Mostly my desire to check, is based on my mistrust of email rather than a desire to invade the privacy of the person I'm sending email to. Yeah I'm aware of read reciepts but, mostly they're clunky and rely on the users willingness to track you recieving the email. A revolutionary service from [DidTheyReadIt.com](http://www.didtheyreadit.com) changes all that. By taking the address that your sending to [example@example.com]() and reformatting so it becomes [example@example.com.didtheyreadit.com]() you can invisibly check when people are reading your message.

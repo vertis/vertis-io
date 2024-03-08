@@ -5,7 +5,7 @@ title: "Spaces Coworking and the Pandemic"
 author: vertis
 minutes_read: 5
 feature_image:
-  url: /assets/img/spaces-opera-garnier.jpg
+  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/b9702e62-7ba8-4661-cc87-d6f79cfd2e00/w=800
   caption: Spaces Opéra Garnier sits mostly empty
 meta_description: "My Spacesworks membership should have been a perfect fit. Then the pandemic hit."
 ---

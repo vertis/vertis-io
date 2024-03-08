@@ -5,7 +5,7 @@ title: "Reflections after Two Months of being a Digital Nomad"
 author: vertis
 minutes_read: 3
 feature_image:
-  url: /assets/img/luke-chadwick-budapest.jpg
+  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/cea5c06f-f851-4ed1-ece3-0260e73ae000/w=800
 caption: "Luke Chadwick looking over the Danube River in Budapest, October 2018"
 meta_description: "Reflections after Two Months of being a Digital Nomad"
 ---

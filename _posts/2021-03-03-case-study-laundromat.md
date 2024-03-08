@@ -5,7 +5,7 @@ title: "Case Study: Self-Service Laundry"
 author: vertis
 minutes_read: 5
 feature_image:
-  url: /assets/img/laundromat-paris.jpg
+  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/0ad243b4-9a1d-4433-528a-226543c79300/w=800
   caption: "Self-Service Laundry in Paris"
 meta_description: "Case Study: Self-Service Laundry"
 ---

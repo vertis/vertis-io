@@ -5,7 +5,7 @@ title: "My Digital Nomad Carry"
 author: vertis
 minutes_read: 5
 feature_image:
-  url: /assets/img/macbook-lid.jpg
+  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/2ce02493-3a2d-4dd7-4f0c-7d94e5179b00/w=800
 caption: "My Macbook Lid"
 meta_description: "My Digital Nomad Carry"
 ---

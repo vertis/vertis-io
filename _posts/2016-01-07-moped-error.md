@@ -4,7 +4,7 @@ layout: post
 title: "Moped Error"
 author: vertis
 feature_image:
-  url: /assets/img/tim-gouw-1K9T5YiZ2WU-unsplash.jpg
+  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/60615a3c-c253-403e-cc95-b1a5cc3b0200/w=800
   caption: <span>Photo by <a href="https://unsplash.com/@punttim?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Tim Gouw</a> on <a href="https://unsplash.com/s/photos/frustrated?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 ---
 Yet another of my 'obscure error message' posts:

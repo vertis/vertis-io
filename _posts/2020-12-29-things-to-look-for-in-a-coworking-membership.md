@@ -5,7 +5,7 @@ title: "Things To Look for in a Coworking Membership"
 author: vertis
 minutes_read: 5
 feature_image:
-  url: /assets/img/spaces-reaumur.jpg
+  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/848a54be-7515-42b0-f258-7cd40694da00/w=800
   caption: Spaces Reaumur - So cold I'm leaving
 meta_description: "Things to consider when searching for a coworking membership"
 ---

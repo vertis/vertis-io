@@ -4,7 +4,7 @@ layout: post
 title: "SXSW - Regina Dugan - Making Epic Sh*t"
 author: vertis
 feature_image:
-  url: /assets/img/regina-dugan-making-epic-shit.jpg
+  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/2d338eb2-4a8c-447c-c733-782127bdd800/w=800
   caption: Regina Dugan - Making Epic Sh*t
 ---
 

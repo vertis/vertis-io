@@ -4,7 +4,7 @@ layout: post
 title: "Nerdy Places you should visit"
 author: vertis
 feature_image:
-  url: /assets/img/bandh-photo.png
+  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/62e16178-22ae-4e3e-a778-95b3f827c200/w=800
   caption: B &amp; H Photo in NY
 ---
 

@@ -4,7 +4,7 @@ layout: post
 title: "HackDay 17: Virtual Museum of Homelessness"
 author: vertis
 feature_image:
-  url: /assets/img/HD17-8_2.jpg
+  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/9ec98c74-1613-4cf1-84f2-31899bef7d00/w=800
   caption: Matt Butt explains our project at the HD Marketplace   
 ---
 

@@ -5,7 +5,7 @@ title: "How SingleFile Transformed My Obsidian Workflow"
 author: vertis
 minutes_read: 2
 feature_image:
-  url: /assets/img/vert1s_illustration_of_a_personal_knowledge_managemen_fb01bc16-d582-4812-b0ee-b495105bc80d.png
+  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/c241cf0c-2d5f-464f-ee59-59219d267700/w=800
 caption: "An illustration of a personal knowledge management system (Midjourney)"
 meta_description: "SingleFile"
 tags:

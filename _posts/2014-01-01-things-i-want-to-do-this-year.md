@@ -4,7 +4,7 @@ layout: post
 title: "Things I Want To Do This Year"
 author: vertis
 feature_image:
-  url: /assets/img/rea-first-3d-room-scans-4.jpeg
+  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/dbff45bd-66eb-4862-e4b9-960bf5fb1c00/w=800
   caption: First Matterport scans - Mid 2014
 ---
 

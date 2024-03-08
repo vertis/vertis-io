@@ -4,7 +4,7 @@ layout: post
 title: "AREC + Zero Latency"
 author: vertis
 feature_image:
-  url: /assets/img/arec-zerolatency.png
+  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/a4ec1496-e512-4be9-aa4c-b41027cac600/w=800
   caption: An agent walks around a house untethered
 ---
 

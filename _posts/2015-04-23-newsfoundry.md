@@ -4,7 +4,7 @@ layout: post
 title: "News Foundry"
 author: vertis
 feature_image:
-  url: /assets/img/newsfoundry.png
+  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/77be0f19-71be-4996-688e-f50af1507300/w=800
   caption: The realestate.com.au News Foundry Team
 ---
 

@@ -4,7 +4,7 @@ layout: post
 title: "Techcrunch VR meetup"
 author: vertis
 feature_image:
-  url: /assets/img/darknet.png
+  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/caeb647f-17cd-40b8-d615-9f01e15b4900/w=800
   caption: Darknet at the Techcrunch VR meetup
 ---
 My visit to the US just keeps getting more and more surreal. Tomorrow is the start of Oculus Connect, tonight however I'm attending the Techcrunch VR meetup.

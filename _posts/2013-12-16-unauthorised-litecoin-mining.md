@@ -4,7 +4,7 @@ layout: post
 title: "My run in with Unauthorised Litecoin mining on AWS"
 author: vertis
 feature_image:
-  url: /assets/img/aws-billing-dashboard.png
+  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/d7655060-12e0-4176-b230-c91f83d2ea00/w=800
   caption: My AWS Billing Dashboard
 ---
 __Update: You can read an update to this story [here](https://vertis.io/2013/12/17/an-update-on-my-aws-bill.html)__

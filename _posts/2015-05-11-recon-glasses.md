@@ -4,7 +4,7 @@ layout: post
 title: "Recon Glasses"
 author: vertis
 feature_image:
-  url: /assets/img/rob-recon-glasses.png
+  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/1d7bbcad-b012-4017-c3ba-5382669cf600/w=800
   caption: Rob trying the Recon Glasses
 ---
 

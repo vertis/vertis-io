@@ -4,7 +4,7 @@ layout: post
 title: "Leap Motion + DK2"
 author: vertis
 feature_image:
-  url: /assets/img/joh-leap-motion.png
+  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/29601314-a975-4eb7-610a-0974b028a500/w=800
   caption: Joh using the Leap Motion
 ---
 
