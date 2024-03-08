@@ -17,7 +17,11 @@ article h3 {
 }
 
 article a {
-  @apply text-lg font-semibold text-yellow-600 hover:text-yellow-500;
+  @apply text-lg font-semibold text-cyan-400 hover:text-cyan-500;
+}
+
+.obv-link {
+  @apply font-semibold text-cyan-400 hover:text-cyan-500 underline;
 }
 
 article iframe {

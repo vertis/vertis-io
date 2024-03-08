@@ -1,0 +1,2 @@
+web: bundle exec jekyll serve --watch --livereload
+css: bun run postcss -w _src/new-styles.css -o assets/css/new-styles-compiled.css
