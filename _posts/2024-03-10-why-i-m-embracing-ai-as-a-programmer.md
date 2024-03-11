@@ -34,7 +34,7 @@ A recent video from the [Singapore Parliament](https://www.parliament.gov.sg/) r
   Your browser does not support the video tag.
 </video>
 
-To be clear, I don't think this will go far enough. It won't be enough to retrain. <speaker name> understands this, though, that even if Singapore were to try and block AI from impacting their citizens, it's an arms race. Some other country will embrace it, and it will just disadvantage the laggards.
+To be clear, I don't think this will go far enough. It won't be enough to retrain. The member understands this, though, that even if Singapore were to try and block AI from impacting their citizens, it's an arms race. Some other country will embrace it, and it will just disadvantage the laggards.
 
 For now, though, AI is giving me more advantages than many others. I've always been a generalist. The maxim "[Jack of all trades, master of none](https://en.wikipedia.org/wiki/Jack_of_all_trades,_master_of_none)" is often applied and is true in some senses.
 
