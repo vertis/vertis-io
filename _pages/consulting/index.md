@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 meta_description: "Luke Chadwick is available to consult in a variety of domains"
 ---
 

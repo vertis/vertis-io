@@ -1,6 +1,6 @@
 # Site Settings
 title: "vertis.io"
-email: "me@vertis.io"
+email: "luke@vertis.io"
 description: "Writings about development, future technology and life"
 baseurl: ""
 url: "https://vertis.io"
@@ -66,3 +66,8 @@ header_nav_links:
     name: About Me
   - href: /contact
     name: Contact
+
+collections:
+  pages:
+    output: true
+    permalink: /:path

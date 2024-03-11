@@ -30,7 +30,7 @@ Not me. I'm all in. I accept that there are risks around AI. I accept that there
 A recent video from the [Singapore Parliament](https://www.parliament.gov.sg/) really highlights that the Powers That Be™ understand this.
 
 <video controls>
-  <source src="path_to_video.mp4" type="video/mp4">
+  <source src="https://video.vertis.io/singapore_parliament_on_ai_learning_subsidy.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -38,7 +38,7 @@ To be clear, I don't think this will go far enough. It won't be enough to retrai
 
 For now, though, AI is giving me more advantages than many others. I've always been a generalist. The maxim "[Jack of all trades, master of none](https://en.wikipedia.org/wiki/Jack_of_all_trades,_master_of_none)" is often applied and is true in some senses.
 
-In my two-decade career, I've moved through so many [languages](https://en.wikipedia.org/wiki/Programming_language), [frameworks](https://en.wikipedia.org/wiki/Software_framework), and job roles that it becomes impossible to remember everything. If you don't do a task frequently, you might know it's possible, you might even know the correct result when you see it, but you're still going to have to look up how to do it.
+In my two-decade career, I've moved through so many [languages](/garden/programming-languages-i-ve-known-and-loved), frameworks, and job roles that it becomes impossible to remember everything. If you don't do a task frequently, you might know it's possible, you might even know the correct result when you see it, but you're still going to have to look up how to do it.
 
 All that changed substantially with the various tools that have become available over the last 2-3 years. Previously, it would be a cycle of doing a web search and then poring through various documentation and [Stack Overflow](https://stackoverflow.com/) posts looking for how to do that. An attention-diverting, momentum-destroying pause.
 

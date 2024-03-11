@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 meta_description: "I have an open contact policy. This is how you can get in touch."
 ---
 
