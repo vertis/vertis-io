@@ -5,7 +5,6 @@ from chromadb.utils import embedding_functions
 
 chroma_client = chromadb.Client()
 default_ef = embedding_functions.DefaultEmbeddingFunction()
-#default_ef = embedding_functions.OpenAIEmbeddingFunction(api_key="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")
 
 collection = chroma_client.create_collection(name="vertis-io", embedding_function=default_ef, metadata={ "hnsw:space": "cosine" })
 

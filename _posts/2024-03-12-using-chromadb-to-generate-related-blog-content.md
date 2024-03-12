@@ -94,22 +94,22 @@ From there it's a simple matter to use the data in `_data/related_content.yml` t
 
 ```liquid
 {% raw %}
-<section class="mt-12">
-    <h2 class="text-2xl font-bold">Related Content</h2>
-    <ul>
-        {% assign related_content = site.data.related_content[page.name] %}
-        {% if related_content %}
+{% assign related_content = site.data.related_content[page.name] %}
+{% if related_content.size > 0 %}
+    <section class="mt-12">
+        <h2 class="text-2xl font-bold">Related Content</h2>
+        <ul class="mt-4 list-disc">
             {% for post_filename in related_content %}
                 {% assign post = site.posts | where: "name", post_filename | first %}
                 {% if post %}
                     <li>
-                        <a href="{{ post.url }}">{{ post.title }}</a>
+                        <a class="text-blue-500 hover:underline" href="{{ post.url }}">{{ post.title }}</a>
                     </li>
                 {% endif %}
             {% endfor %}
-        {% endif %}
-    </ul>
-</section>
+        </ul>
+    </section>
+{% endif %}
 {% endraw %}
 ```
 
