@@ -5,7 +5,7 @@ layout: default
 <div class="relative bg-white overflow-hidden">
   <div class="relative px-4 sm:px-6 lg:px-8">
     <div class="text-lg max-w-prose mx-auto">
-            <section class="">
+        <section class="">
             <article class="mt-12 mb-24">
                 <header>
                     <h1 class="mt-2 block text-xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-2xl">{{ page.title }}</h1>
@@ -33,6 +33,23 @@ layout: default
                 <hr class="mt-12"/>
             </article>
         </section>
+
+        {% assign related_content = site.data.related_content[page.name] %}
+        {% if related_content.size > 0 %}
+            <section class="mt-12">
+                <h2 class="text-2xl font-bold">Related Content</h2>
+                <ul class="mt-4 list-disc">
+                    {% for post_filename in related_content %}
+                        {% assign post = site.posts | where: "name", post_filename | first %}
+                        {% if post %}
+                            <li>
+                                <a class="text-blue-500 hover:underline" href="{{ post.url }}">{{ post.title }}</a>
+                            </li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            </section>
+        {% endif %}
     </div>
   </div>
 </div>
