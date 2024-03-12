@@ -5,7 +5,8 @@ title: "Using ChromaDB to Generate Related Blog Content"
 author: vertis
 minutes_read: 3
 feature_image:
-  url: 
+  url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/623eaa5b-22de-4fb6-ccbb-e38e9bea8e00/w=800
+  preview_url: https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/623eaa5b-22de-4fb6-ccbb-e38e9bea8e00/w=450
 caption: ""
 meta_description: ""
 tags:
