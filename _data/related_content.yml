@@ -1,0 +1,522 @@
+2004-06-08-hackers-don-t-fear-them-learn-from-them.md: []
+2005-08-10-remote-x11-applications-on-windows.md: []
+2005-08-31-did-they-read-it-dot-com.md: []
+2005-10-26-stronghold-2-review.md: []
+2006-01-30-the-0th-law-of-security.md: []
+2007-04-19-secure-your-java-source-code.md: []
+2008-06-19-passenger-typo-and-sqlite.md: []
+2008-06-21-a-little-sql-injection-to-make-the-weekend-more-interesting.md: []
+2008-09-20-apple-iphone-dev.md: []
+2008-09-20-etsytools.md: []
+2008-09-22-the-pain-that-is-vs-2008.md: []
+2008-10-02-word-of-the-day-resource.md: []
+2008-10-15-rails-rumble-2008.md:
+  - - 2009-07-07-rails-rumble-2009.md
+    - 2009-01-10-getting-started-twitter.md
+    - 2010-09-28-daily-stand-up-1.md
+    - 2010-02-08-the-building-blocks-of-ruby-katz-got-your.md
+    - 2009-04-29-re-rails-is-not-a-ghetto-it-s-a-train-station.md
+2008-11-06-jrubyonrails-for-the-enterprise.md:
+  - - 2010-02-21-sinatra-on-java.md
+    - 2010-08-30-rails-security-resources.md
+    - 2009-04-28-d6-5-experiments-part-1.md
+    - 2007-04-19-secure-your-java-source-code.md
+    - 2009-01-10-getting-started-twitter.md
+2008-11-06-turn-on-authentication-tracing-in-documentum-administrator.md: []
+2008-11-10-are-linux-users-lemmings-collectively-jumping-off-of-the-cliff-of-reliable-well-engineered-commercial-software-matt-welsh.md:
+  []
+2008-11-12-corkscrew-to-the-net.md: []
+2008-11-12-mongrel-service-tip.md: []
+2008-11-30-internet-filtering-one-ticket-to-anywhere-else.md: []
+2008-12-05-etsy-api-repositories-x2.md: []
+2008-12-10-documentum-old-world-document-management-or-why-to-avoid-documentum-6-0sp1.md:
+  - - 2009-03-11-quick-update.md
+    - 2009-05-07-activedocumentum-teaser-1.md
+    - 2010-02-08-multi-tasking-the-presentation-away.md
+    - 2009-05-04-d6-5-experiments-part-2.md
+    - 2009-11-30-activedocumentum.md
+2008-12-10-dql-stuff.md: []
+2008-12-13-the-christmas-cleanup.md: []
+2009-01-01-back-from-melbourne-ssh-botnets.md: []
+2009-01-10-boiler-updated.md: []
+2009-01-10-getting-started-twitter.md:
+  - - 2009-02-04-falling-in-with-the-wrong-twrowd.md
+    - 2010-02-11-less-twitter-more-tumblr.md
+    - 2009-07-07-rails-rumble-2009.md
+    - 2008-10-15-rails-rumble-2008.md
+    - 2010-02-08-the-building-blocks-of-ruby-katz-got-your.md
+2009-01-12-css-design-learning-from-scratch.md: []
+2009-02-04-falling-in-with-the-wrong-twrowd.md:
+  - - 2009-01-10-getting-started-twitter.md
+    - 2010-02-11-less-twitter-more-tumblr.md
+    - 2009-05-01-zillow-vs-social-media.md
+    - 2011-01-12-awesome-post-about-how-twitter-analyzes-data-in.md
+    - 2013-10-03-awesome-links-no-5.md
+2009-03-11-quick-update.md:
+  - - 2008-12-10-documentum-old-world-document-management-or-why-to-avoid-documentum-6-0sp1.md
+    - 2010-09-28-daily-stand-up-1.md
+    - 2024-01-26-how-singlefile-transformed-my-obsidian-workflow.md
+    - 2013-12-17-an-update-on-my-aws-bill.md
+    - 2009-07-08-exploring-documentum-restful-services-part-1.md
+2009-04-09-is-t-in-an-economic-crisis.md: []
+2009-04-28-d6-5-experiments-part-1.md:
+  - - 2010-02-21-sinatra-on-java.md
+    - 2009-05-04-my-ongoing-battle-to-get-oracle-working-on-centos-5-3.md
+    - 2009-07-08-exploring-documentum-restful-services-part-1.md
+    - 2008-11-06-jrubyonrails-for-the-enterprise.md
+    - 2009-05-04-d6-5-experiments-part-2.md
+2009-04-28-rails-is-not-a-ghetto-it-s-a-train-station.md:
+  - - 2009-04-29-re-rails-is-not-a-ghetto-it-s-a-train-station.md
+    - 2010-02-08-the-building-blocks-of-ruby-katz-got-your.md
+    - 2015-02-12-rails-precompile-error.md
+    - 2017-04-13-things-I-wish-ok-google-handled.md
+    - 2010-02-12-google-search-link-facebook.md
+2009-04-29-re-rails-is-not-a-ghetto-it-s-a-train-station.md:
+  - - 2009-04-28-rails-is-not-a-ghetto-it-s-a-train-station.md
+    - 2009-01-10-getting-started-twitter.md
+    - 2008-10-15-rails-rumble-2008.md
+    - 2010-09-28-daily-stand-up-1.md
+    - 2009-07-07-rails-rumble-2009.md
+2009-05-01-zillow-vs-social-media.md:
+  - - 2009-02-04-falling-in-with-the-wrong-twrowd.md
+    - 2013-12-17-an-update-on-my-aws-bill.md
+    - 2013-03-15-searching-for-a-new-name.md
+    - 2010-03-07-why-mad-libs-style-signup-forms-are-just-a-gimmick.md
+    - 2010-02-08-the-building-blocks-of-ruby-katz-got-your.md
+2009-05-04-d6-5-experiments-part-2.md:
+  - - 2009-05-04-my-ongoing-battle-to-get-oracle-working-on-centos-5-3.md
+    - 2009-05-07-activedocumentum-teaser-1.md
+    - 2009-06-12-installing-documentum-administrator-6sp1-patch-release-on-ibm-websphere-6-1-0-23.md
+    - 2009-04-28-d6-5-experiments-part-1.md
+    - 2008-12-10-documentum-old-world-document-management-or-why-to-avoid-documentum-6-0sp1.md
+2009-05-04-my-ongoing-battle-to-get-oracle-working-on-centos-5-3.md:
+  - - 2009-05-04-d6-5-experiments-part-2.md
+    - 2009-04-28-d6-5-experiments-part-1.md
+    - 2009-11-30-activedocumentum.md
+    - 2009-07-08-exploring-documentum-restful-services-part-1.md
+    - 2005-08-10-remote-x11-applications-on-windows.md
+2009-05-07-activedocumentum-teaser-1.md:
+  - - 2008-12-10-documentum-old-world-document-management-or-why-to-avoid-documentum-6-0sp1.md
+    - 2008-12-10-dql-stuff.md
+    - 2009-05-04-d6-5-experiments-part-2.md
+    - 2009-07-30-lotus-notes-8-development.md
+    - 2010-02-08-multi-tasking-the-presentation-away.md
+2009-06-12-installing-documentum-administrator-6sp1-patch-release-on-ibm-websphere-6-1-0-23.md:
+  []
+2009-07-07-rails-rumble-2009.md:
+  - - 2008-10-15-rails-rumble-2008.md
+    - 2009-01-10-getting-started-twitter.md
+    - 2009-01-10-boiler-updated.md
+    - 2010-02-08-the-building-blocks-of-ruby-katz-got-your.md
+    - 2009-04-29-re-rails-is-not-a-ghetto-it-s-a-train-station.md
+2009-07-08-exploring-documentum-restful-services-part-1.md:
+  - - 2010-02-19-exploring-documentum-restful-services-part-2.md
+    - 2011-02-01-review-data-source-handbook-by-peter-warden-o-reilly.md
+    - 2009-04-28-d6-5-experiments-part-1.md
+    - 2010-02-08-multi-tasking-the-presentation-away.md
+    - 2009-03-11-quick-update.md
+2009-07-30-lotus-notes-8-development.md: []
+2009-09-09-rack-nomethoderror-undefined-method-call-for-nil-nilclass.md: []
+2009-09-17-transport-out-has-not-been-set.md: []
+2009-10-22-the-api-challenge.md: []
+2009-10-23-foursquare.md:
+  - - 2009-10-25-getting-started-with-google-maps.md
+    - 2013-10-03-awesome-links-no-5.md
+    - 2013-10-08-awesome-links-no-6.md
+    - 2017-07-01-redirecting-using-google-app-engine.md
+    - 2009-10-22-the-api-challenge.md
+2009-10-25-getting-started-with-google-maps.md:
+  - - 2009-10-23-foursquare.md
+    - 2010-02-21-sinatra-on-java.md
+    - 2008-12-05-etsy-api-repositories-x2.md
+    - 2013-09-30-awesome-links-no-4.md
+    - 2010-02-08-the-building-blocks-of-ruby-katz-got-your.md
+2009-10-28-kilroy-was-here.md: []
+2009-11-30-activedocumentum.md:
+  - - 2010-02-19-exploring-documentum-restful-services-part-2.md
+    - 2010-02-08-multi-tasking-the-presentation-away.md
+    - 2024-03-12-using-chromadb-to-generate-related-blog-content.md
+    - 2010-02-21-sinatra-on-java.md
+    - 2008-12-05-etsy-api-repositories-x2.md
+2009-12-17-rockyou-gets-rocked-by-hackers.md: []
+2010-02-01-lighter-weight-deployment-with-git-deploy.md: []
+2010-02-08-copy-the-structure-but-not-the-data.md:
+  - - 2010-02-09-copy-the-structure-but-not-the-data.md
+    - 2009-05-04-d6-5-experiments-part-2.md
+    - 2010-02-08-multi-tasking-the-presentation-away.md
+    - 2009-05-07-activedocumentum-teaser-1.md
+    - 2008-12-10-documentum-old-world-document-management-or-why-to-avoid-documentum-6-0sp1.md
+2010-02-08-multi-tasking-the-presentation-away.md: []
+2010-02-08-the-building-blocks-of-ruby-katz-got-your.md:
+  - - 2010-02-09-i-dont-get-it.md
+    - 2015-02-12-rails-precompile-error.md
+    - 2009-01-10-getting-started-twitter.md
+    - 2009-04-28-rails-is-not-a-ghetto-it-s-a-train-station.md
+    - 2008-12-05-etsy-api-repositories-x2.md
+2010-02-09-copy-the-structure-but-not-the-data.md:
+  - - 2010-02-08-copy-the-structure-but-not-the-data.md
+    - 2010-09-28-daily-stand-up-1.md
+    - 2010-03-24-ruby-non-greedy-matching-or-how-interro-saved-the-day.md
+    - 2024-03-12-using-chromadb-to-generate-related-blog-content.md
+    - 2008-12-10-documentum-old-world-document-management-or-why-to-avoid-documentum-6-0sp1.md
+2010-02-09-i-dont-get-it.md:
+  - - 2010-02-08-the-building-blocks-of-ruby-katz-got-your.md
+    - 2013-12-17-an-update-on-my-aws-bill.md
+    - 2012-12-02-random-hacks-of-kindness-fgis.md
+    - 2013-12-16-unauthorised-litecoin-mining.md
+    - 2009-03-11-quick-update.md
+2010-02-11-less-twitter-more-tumblr.md:
+  - - 2009-02-04-falling-in-with-the-wrong-twrowd.md
+    - 2009-01-10-getting-started-twitter.md
+    - 2010-05-18-why-the-lucky-stiff.md
+    - 2010-02-08-the-building-blocks-of-ruby-katz-got-your.md
+    - 2011-01-12-awesome-post-about-how-twitter-analyzes-data-in.md
+2010-02-12-google-search-link-facebook.md: []
+2010-02-19-exploring-documentum-restful-services-part-2.md:
+  - - 2009-07-08-exploring-documentum-restful-services-part-1.md
+    - 2009-11-30-activedocumentum.md
+    - 2010-02-21-sinatra-on-java.md
+    - 2009-10-25-getting-started-with-google-maps.md
+    - 2008-12-05-etsy-api-repositories-x2.md
+2010-02-21-sinatra-on-java.md:
+  - - 2008-11-06-jrubyonrails-for-the-enterprise.md
+    - 2009-04-28-d6-5-experiments-part-1.md
+    - 2009-10-25-getting-started-with-google-maps.md
+    - 2010-02-19-exploring-documentum-restful-services-part-2.md
+    - 2009-11-30-activedocumentum.md
+2010-03-05-security-wake-up-call.md: []
+2010-03-07-why-mad-libs-style-signup-forms-are-just-a-gimmick.md: []
+2010-03-24-ruby-non-greedy-matching-or-how-interro-saved-the-day.md: []
+2010-05-18-why-the-lucky-stiff.md: []
+2010-05-19-the-longer-im-in-this-profession-of-lecturing-and.md: []
+2010-08-01-this-week-i-learned-that-bundler-needs-work.md:
+  - - 2013-03-03-rails3-asset-pipeline-on-heroku.md
+    - 2013-09-23-awesome-links-no-1.md
+    - 2009-09-09-rack-nomethoderror-undefined-method-call-for-nil-nilclass.md
+    - 2010-08-30-rails-security-resources.md
+    - 2010-09-30-switching-to-rvm-ree-nginx-passenger.md
+2010-08-30-rails-security-resources.md: []
+2010-09-28-daily-stand-up-1.md: []
+2010-09-30-switching-to-rvm-ree-nginx-passenger.md: []
+2011-01-12-awesome-post-about-how-twitter-analyzes-data-in.md: []
+2011-01-19-quick-reminder-ssh-copy-id-on-mac-os-x.md: []
+2011-02-01-review-data-source-handbook-by-peter-warden-o-reilly.md: []
+2011-03-30-removing-a-collaborator-from-all-github-repos.md: []
+2011-04-02-list-of-rackspace-flavors-and-images.md: []
+2011-05-25-an-inefficient-mongodb-query.md: []
+2011-06-03-getting-the-root-directory-of-your-gem.md: []
+2011-06-16-tiny-tds-unable-to-open-socket.md: []
+2012-01-15-renaming-a-rails3-app.md: []
+2012-01-24-git-fatal-index-file-smaller-than-expected.md: []
+2012-01-29-const_defined-wrong-constant-name-yumkey-nameerror.md: []
+2012-10-23-jeg2-speaker-deck.md: []
+2012-11-02-creating-a-vagrant-base-box-from-an-existing-vmdk.md: []
+2012-12-02-random-hacks-of-kindness-fgis.md:
+  - - 2013-11-11-links-no-8.md
+    - 2015-12-20-reprap-prusa-i3.md
+    - 2010-02-09-i-dont-get-it.md
+    - 2013-12-17-an-update-on-my-aws-bill.md
+    - 2014-09-21-oculus-connect.md
+2013-03-03-rails3-asset-pipeline-on-heroku.md:
+  - - 2010-08-01-this-week-i-learned-that-bundler-needs-work.md
+    - 2009-09-09-rack-nomethoderror-undefined-method-call-for-nil-nilclass.md
+    - 2012-01-15-renaming-a-rails3-app.md
+    - 2010-09-30-switching-to-rvm-ree-nginx-passenger.md
+    - 2015-02-12-rails-precompile-error.md
+2013-03-14-bootstrapping-a-fitness-app-in-30-days.md:
+  - - 2013-03-15-searching-for-a-new-name.md
+    - 2013-10-03-awesome-links-no-5.md
+    - 2010-09-28-daily-stand-up-1.md
+    - 2024-03-09-reflections-on-a-startup-misstep-a-decade-of-perspective.md
+    - 2017-07-01-redirecting-using-google-app-engine.md
+2013-03-15-searching-for-a-new-name.md:
+  - - 2013-03-14-bootstrapping-a-fitness-app-in-30-days.md
+    - 2017-07-01-redirecting-using-google-app-engine.md
+    - 2009-05-01-zillow-vs-social-media.md
+    - 2013-10-03-awesome-links-no-5.md
+    - 2009-02-04-falling-in-with-the-wrong-twrowd.md
+2013-05-08-this-is-bullshit.md: []
+2013-09-19-how-to-build-an-rpm-using-mock.md: []
+2013-09-23-awesome-links-no-1.md: []
+2013-09-24-awesome-links-no-2.md: []
+2013-09-25-awesome-links-no-3.md:
+  - - 2013-09-30-awesome-links-no-4.md
+    - 2024-03-12-using-chromadb-to-generate-related-blog-content.md
+    - 2013-10-03-awesome-links-no-5.md
+    - 2009-03-11-quick-update.md
+    - 2013-09-23-awesome-links-no-1.md
+2013-09-30-awesome-links-no-4.md:
+  - - 2013-09-25-awesome-links-no-3.md
+    - 2009-10-25-getting-started-with-google-maps.md
+    - 2009-01-12-css-design-learning-from-scratch.md
+    - 2013-10-03-awesome-links-no-5.md
+    - 2009-01-10-getting-started-twitter.md
+2013-10-03-awesome-links-no-5.md: []
+2013-10-08-awesome-links-no-6.md: []
+2013-10-14-awesome-links-no-7.md: []
+2013-11-11-links-no-8.md:
+  - - 2012-12-02-random-hacks-of-kindness-fgis.md
+    - 2015-04-23-newsfoundry.md
+    - 2013-11-22-open-companies.md
+    - 2015-07-18-places-you-should-visit.md
+    - 2013-10-03-awesome-links-no-5.md
+2013-11-22-open-companies.md:
+  - - 2013-12-16-unauthorised-litecoin-mining.md
+    - 2019-02-07-solving-real-business-issues-as-an-indie-maker.md
+    - 2013-11-11-links-no-8.md
+    - 2009-04-09-is-t-in-an-economic-crisis.md
+    - 2015-04-12-embedding-matterport.md
+2013-12-05-awesome-christmas-gifts.md:
+  - - 2013-12-23-awesome-links-9.md
+    - 2019-07-01-taking-back-control-of-my-inbox-with-an-indie-product.md
+    - 2014-01-31-awesome-links-10.md
+    - 2015-01-01-things-i-want-to-do-this-year.md
+    - 2017-04-13-things-I-wish-ok-google-handled.md
+2013-12-10-mesh-networking-with-the-synapse-rf266pc1.md: []
+2013-12-16-unauthorised-litecoin-mining.md:
+  - - 2013-12-17-an-update-on-my-aws-bill.md
+    - 2013-11-22-open-companies.md
+    - 2024-01-26-how-singlefile-transformed-my-obsidian-workflow.md
+    - 2014-06-17-mount-an-s3-bucket-using-iam-roles.md
+    - 2019-02-07-solving-real-business-issues-as-an-indie-maker.md
+2013-12-17-an-update-on-my-aws-bill.md:
+  - - 2024-02-08-that-time-i-accidentally-terminated-600-instances.md
+    - 2013-12-16-unauthorised-litecoin-mining.md
+    - 2015-04-23-newsfoundry.md
+    - 2024-01-26-migrating-from-plausible-to-umami.md
+    - 2009-05-01-zillow-vs-social-media.md
+2013-12-23-awesome-links-9.md:
+  - - 2014-01-31-awesome-links-10.md
+    - 2016-01-07-moped-error.md
+    - 2017-04-13-things-I-wish-ok-google-handled.md
+    - 2015-01-01-things-i-want-to-do-this-year.md
+    - 2015-09-23-automated-trading-resources.md
+2014-01-01-things-i-want-to-do-this-year.md:
+  - - 2015-01-01-scorecard-for-2014.md
+    - 2015-04-12-embedding-matterport.md
+    - 2024-03-10-why-i-m-embracing-ai-as-a-programmer.md
+    - 2020-12-29-things-to-look-for-in-a-coworking-membership.md
+    - 2021-06-17-my-digital-nomad-carry.md
+2014-01-31-awesome-links-10.md:
+  - - 2013-12-23-awesome-links-9.md
+    - 2017-04-13-things-I-wish-ok-google-handled.md
+    - 2019-07-01-taking-back-control-of-my-inbox-with-an-indie-product.md
+    - 2015-01-01-things-i-want-to-do-this-year.md
+    - 2016-01-07-moped-error.md
+2014-06-17-mount-an-s3-bucket-using-iam-roles.md:
+  - - 2014-06-19-convert-a-route53-rrset-to-be-an-alias-target.md
+    - 2017-04-13-things-I-wish-ok-google-handled.md
+    - 2013-12-23-awesome-links-9.md
+    - 2016-01-07-moped-error.md
+    - 2019-07-01-taking-back-control-of-my-inbox-with-an-indie-product.md
+2014-06-19-convert-a-route53-rrset-to-be-an-alias-target.md:
+  - - 2014-06-17-mount-an-s3-bucket-using-iam-roles.md
+    - 2015-01-01-things-i-want-to-do-this-year.md
+    - 2013-12-23-awesome-links-9.md
+    - 2017-04-13-things-I-wish-ok-google-handled.md
+    - 2016-01-07-moped-error.md
+2014-09-12-svvr.md:
+  - - 2014-09-18-techcrunch-vr-meetup.md
+    - 2016-03-15-vr-for-architecture.md
+    - 2015-10-05-htc-vive-devkit.md
+    - 2015-11-13-future-assembly.md
+    - 2016-03-04-vr-at-biennale-sydney.md
+2014-09-18-techcrunch-vr-meetup.md:
+  - - 2015-10-05-htc-vive-devkit.md
+    - 2014-09-12-svvr.md
+    - 2014-09-21-oculus-connect.md
+    - 2015-09-23-ready-player-one-thoughts-on-oc2.md
+    - 2014-10-03-hackday-17-virtual-museum-of-homeless.md
+2014-09-21-oculus-connect.md:
+  - - 2015-09-23-ready-player-one-thoughts-on-oc2.md
+    - 2014-09-18-techcrunch-vr-meetup.md
+    - 2015-10-05-htc-vive-devkit.md
+    - 2015-04-23-newsfoundry.md
+    - 2015-01-01-scorecard-for-2014.md
+2014-10-03-hackday-17-virtual-museum-of-homeless.md:
+  - - 2015-10-05-htc-vive-devkit.md
+    - 2014-09-18-techcrunch-vr-meetup.md
+    - 2016-03-15-vr-for-architecture.md
+    - 2016-03-04-vr-at-biennale-sydney.md
+    - 2014-09-21-oculus-connect.md
+2015-01-01-scorecard-for-2014.md:
+  - - 2014-01-01-things-i-want-to-do-this-year.md
+    - 2014-09-21-oculus-connect.md
+    - 2015-04-12-embedding-matterport.md
+    - 2024-01-26-how-singlefile-transformed-my-obsidian-workflow.md
+    - 2015-09-23-ready-player-one-thoughts-on-oc2.md
+2015-01-01-things-i-want-to-do-this-year.md:
+  - - 2017-04-13-things-I-wish-ok-google-handled.md
+    - 2013-12-23-awesome-links-9.md
+    - 2019-07-01-taking-back-control-of-my-inbox-with-an-indie-product.md
+    - 2016-01-07-moped-error.md
+    - 2014-01-31-awesome-links-10.md
+2015-02-12-rails-precompile-error.md:
+  - - 2016-01-07-moped-error.md
+    - 2017-04-13-things-I-wish-ok-google-handled.md
+    - 2013-12-23-awesome-links-9.md
+    - 2015-01-01-things-i-want-to-do-this-year.md
+    - 2019-11-03-litjson-no-parameterless-constructor-defined.md
+2015-04-01-leap-motion-vr.md: []
+2015-04-12-embedding-matterport.md:
+  - - 2014-01-01-things-i-want-to-do-this-year.md
+    - 2015-05-31-arec-zero-latency.md
+    - 2020-12-29-things-to-look-for-in-a-coworking-membership.md
+    - 2015-08-04-raywhite-matterport.md
+    - 2014-09-21-oculus-connect.md
+2015-04-23-newsfoundry.md:
+  - - 2014-09-21-oculus-connect.md
+    - 2016-03-15-vr-for-architecture.md
+    - 2014-09-18-techcrunch-vr-meetup.md
+    - 2016-03-04-vr-at-biennale-sydney.md
+    - 2014-09-12-svvr.md
+2015-05-11-recon-glasses.md: []
+2015-05-31-arec-zero-latency.md: []
+2015-07-18-places-you-should-visit.md: []
+2015-08-04-raywhite-matterport.md:
+  - - 2015-09-23-ready-player-one-thoughts-on-oc2.md
+    - 2015-04-12-embedding-matterport.md
+    - 2015-11-13-future-assembly.md
+    - 2014-09-21-oculus-connect.md
+    - 2014-09-18-techcrunch-vr-meetup.md
+2015-09-23-automated-trading-resources.md:
+  - - 2013-12-23-awesome-links-9.md
+    - 2019-07-01-taking-back-control-of-my-inbox-with-an-indie-product.md
+    - 2016-01-07-moped-error.md
+    - 2015-01-01-things-i-want-to-do-this-year.md
+    - 2017-04-13-things-I-wish-ok-google-handled.md
+2015-09-23-ready-player-one-thoughts-on-oc2.md:
+  - - 2014-09-21-oculus-connect.md
+    - 2014-09-18-techcrunch-vr-meetup.md
+    - 2015-08-04-raywhite-matterport.md
+    - 2014-09-12-svvr.md
+    - 2015-04-23-newsfoundry.md
+2015-10-05-htc-vive-devkit.md:
+  - - 2014-09-18-techcrunch-vr-meetup.md
+    - 2016-07-16-vr-at-officeworks.md
+    - 2014-10-03-hackday-17-virtual-museum-of-homeless.md
+    - 2016-03-15-vr-for-architecture.md
+    - 2014-09-21-oculus-connect.md
+2015-11-13-future-assembly.md:
+  - - 2014-09-12-svvr.md
+    - 2015-08-04-raywhite-matterport.md
+    - 2016-03-15-vr-for-architecture.md
+    - 2014-09-18-techcrunch-vr-meetup.md
+    - 2015-05-31-arec-zero-latency.md
+2015-12-20-reprap-prusa-i3.md:
+  - - 2012-12-02-random-hacks-of-kindness-fgis.md
+    - 2015-11-13-future-assembly.md
+    - 2024-03-10-why-i-m-embracing-ai-as-a-programmer.md
+    - 2024-01-26-migrating-from-plausible-to-umami.md
+    - 2015-04-12-embedding-matterport.md
+2016-01-07-moped-error.md:
+  - - 2013-12-23-awesome-links-9.md
+    - 2017-04-13-things-I-wish-ok-google-handled.md
+    - 2015-01-01-things-i-want-to-do-this-year.md
+    - 2019-07-01-taking-back-control-of-my-inbox-with-an-indie-product.md
+    - 2014-01-31-awesome-links-10.md
+2016-03-04-vr-at-biennale-sydney.md:
+  - - 2016-03-15-vr-for-architecture.md
+    - 2014-09-12-svvr.md
+    - 2015-04-23-newsfoundry.md
+    - 2014-10-03-hackday-17-virtual-museum-of-homeless.md
+    - 2014-09-18-techcrunch-vr-meetup.md
+2016-03-13-regina-dugan-making-epic-shit.md: []
+2016-03-15-vr-for-architecture.md:
+  - - 2014-09-12-svvr.md
+    - 2015-10-05-htc-vive-devkit.md
+    - 2014-09-18-techcrunch-vr-meetup.md
+    - 2014-10-03-hackday-17-virtual-museum-of-homeless.md
+    - 2016-03-04-vr-at-biennale-sydney.md
+2016-07-16-vr-at-officeworks.md:
+  - - 2015-10-05-htc-vive-devkit.md
+    - 2014-09-18-techcrunch-vr-meetup.md
+    - 2016-03-15-vr-for-architecture.md
+    - 2014-09-12-svvr.md
+    - 2014-10-03-hackday-17-virtual-museum-of-homeless.md
+2017-04-13-things-I-wish-ok-google-handled.md:
+  - - 2013-12-23-awesome-links-9.md
+    - 2015-01-01-things-i-want-to-do-this-year.md
+    - 2016-01-07-moped-error.md
+    - 2019-07-01-taking-back-control-of-my-inbox-with-an-indie-product.md
+    - 2014-01-31-awesome-links-10.md
+2017-07-01-redirecting-using-google-app-engine.md: []
+2018-04-27-rnfirebasemodule-tried-to-override.md:
+  - - 2016-01-07-moped-error.md
+    - 2013-12-23-awesome-links-9.md
+    - 2019-07-01-taking-back-control-of-my-inbox-with-an-indie-product.md
+    - 2019-11-03-litjson-no-parameterless-constructor-defined.md
+    - 2015-02-12-rails-precompile-error.md
+2018-08-26-minus-one-week.md: []
+2018-10-23-reflections-after-two-months-of-being-a-digital-nomad.md:
+  - - 2021-06-17-my-digital-nomad-carry.md
+    - 2018-08-26-minus-one-week.md
+    - 2020-12-21-healthcare-in-estonia-for-digital-nomads.md
+    - 2020-11-24-my-digital-nomad-and-indie-hacker-xmas-suggestions.md
+    - 2021-03-28-the-crumpler-light-delight-messenger.md
+2019-02-07-solving-real-business-issues-as-an-indie-maker.md:
+  - - 2024-03-10-why-i-m-embracing-ai-as-a-programmer.md
+    - 2024-01-26-how-singlefile-transformed-my-obsidian-workflow.md
+    - 2015-09-23-automated-trading-resources.md
+    - 2022-11-14-obsidian-image-layouts.md
+    - 2013-12-23-awesome-links-9.md
+2019-07-01-taking-back-control-of-my-inbox-with-an-indie-product.md:
+  - - 2015-01-01-things-i-want-to-do-this-year.md
+    - 2013-12-23-awesome-links-9.md
+    - 2017-04-13-things-I-wish-ok-google-handled.md
+    - 2015-09-23-automated-trading-resources.md
+    - 2016-01-07-moped-error.md
+2019-11-03-litjson-no-parameterless-constructor-defined.md:
+  - - 2016-01-07-moped-error.md
+    - 2013-12-23-awesome-links-9.md
+    - 2015-01-01-things-i-want-to-do-this-year.md
+    - 2015-02-12-rails-precompile-error.md
+    - 2018-04-27-rnfirebasemodule-tried-to-override.md
+2020-11-24-my-digital-nomad-and-indie-hacker-xmas-suggestions.md:
+  - - 2016-01-07-moped-error.md
+    - 2013-12-05-awesome-christmas-gifts.md
+    - 2021-06-17-my-digital-nomad-carry.md
+    - 2017-04-13-things-I-wish-ok-google-handled.md
+    - 2024-03-10-why-i-m-embracing-ai-as-a-programmer.md
+2020-12-21-healthcare-in-estonia-for-digital-nomads.md: []
+2020-12-24-spaces-coworking-and-the-pandemic.md: []
+2020-12-29-things-to-look-for-in-a-coworking-membership.md: []
+2021-02-03-exploring-nfts.md: []
+2021-02-06-refind-sip-and-secureboot.md: []
+2021-03-03-case-study-laundromat.md: []
+2021-03-28-inspiration-from-near-term-scifi.md: []
+2021-03-28-the-crumpler-light-delight-messenger.md: []
+2021-06-17-my-digital-nomad-carry.md:
+  - - 2018-10-23-reflections-after-two-months-of-being-a-digital-nomad.md
+    - 2020-11-24-my-digital-nomad-and-indie-hacker-xmas-suggestions.md
+    - 2021-03-28-the-crumpler-light-delight-messenger.md
+    - 2014-01-01-things-i-want-to-do-this-year.md
+    - 2015-11-13-future-assembly.md
+2022-01-19-my-borrowed-dan-dan-noodle-recipe.md: []
+2022-11-14-obsidian-image-layouts.md:
+  - - 2024-01-26-how-singlefile-transformed-my-obsidian-workflow.md
+    - 2019-02-07-solving-real-business-issues-as-an-indie-maker.md
+    - 2024-03-10-why-i-m-embracing-ai-as-a-programmer.md
+    - 2013-12-05-awesome-christmas-gifts.md
+    - 2015-04-23-newsfoundry.md
+2024-01-26-how-singlefile-transformed-my-obsidian-workflow.md:
+  - - 2022-11-14-obsidian-image-layouts.md
+    - 2019-02-07-solving-real-business-issues-as-an-indie-maker.md
+    - 2024-03-10-why-i-m-embracing-ai-as-a-programmer.md
+    - 2016-01-07-moped-error.md
+    - 2015-09-23-automated-trading-resources.md
+2024-01-26-migrating-from-plausible-to-umami.md: []
+2024-02-08-that-time-i-accidentally-terminated-600-instances.md:
+  - - 2013-12-17-an-update-on-my-aws-bill.md
+    - 2024-01-26-migrating-from-plausible-to-umami.md
+    - 2020-12-24-spaces-coworking-and-the-pandemic.md
+    - 2024-03-10-why-i-m-embracing-ai-as-a-programmer.md
+    - 2009-09-17-transport-out-has-not-been-set.md
+2024-03-09-reflections-on-a-startup-misstep-a-decade-of-perspective.md: []
+2024-03-10-why-i-m-embracing-ai-as-a-programmer.md:
+  - - 2014-01-31-awesome-links-10.md
+    - 2019-02-07-solving-real-business-issues-as-an-indie-maker.md
+    - 2024-01-26-how-singlefile-transformed-my-obsidian-workflow.md
+    - 2013-12-23-awesome-links-9.md
+    - 2016-01-07-moped-error.md
+2024-03-12-using-chromadb-to-generate-related-blog-content.md: []
