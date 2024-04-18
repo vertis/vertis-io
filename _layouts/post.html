@@ -34,7 +34,7 @@ layout: default
             </article>
         </section>
 
-        {% assign related_content = site.data.related_content[page.name] %}
+        {% assign related_content = site.data.related_content[page.name][0] %}
         {% if related_content.size > 0 %}
             <section class="mt-12">
                 <h2 class="text-2xl font-bold">Related Content</h2>
@@ -45,6 +45,8 @@ layout: default
                             <li>
                                 <a class="text-blue-500 hover:underline" href="{{ post.url }}">{{ post.title }}</a>
                             </li>
+                        {% else %}
+                            <li>Post not found for filename: {{ post_filename }}</li>
                         {% endif %}
                     {% endfor %}
                 </ul>
