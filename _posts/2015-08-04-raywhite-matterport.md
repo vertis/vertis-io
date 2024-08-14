@@ -9,6 +9,8 @@ feature_image:
   caption: REA+Matterport stand at Ray White Conference
   preview_url: >-
     https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/143f929b-3394-4423-578d-ab63bc81ec00/w=450
+tags:
+  - emerging-technologies
 ---
 
 Slightly simpler than the AREC stand, however still cool. Spent a lot of the time explaining and demoing the Matterport the attendees.

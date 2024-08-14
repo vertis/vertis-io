@@ -10,6 +10,8 @@ feature_image:
   caption: Early screenshot of a Matterport "dollhouse"
   preview_url: >-
     https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/2a7ba85e-fbf4-4ec5-05d3-7dad520e6a00/w=450
+tags:
+  - emerging-technologies
 ---
 
 

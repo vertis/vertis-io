@@ -9,6 +9,8 @@ feature_image:
   caption: Regina Dugan - Making Epic Sh*t
   preview_url: >-
     https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/2d338eb2-4a8c-447c-c733-782127bdd800/w=450
+tags:
+  - emerging-technologies
 ---
 
 

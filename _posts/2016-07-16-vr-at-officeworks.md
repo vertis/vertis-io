@@ -9,6 +9,8 @@ feature_image:
   caption: VR at Officeworks
   preview_url: >-
     https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/13fc8dc5-389c-44f1-d219-65f271cad800/w=450
+tags:
+  - emerging-technologies
 ---
 
 

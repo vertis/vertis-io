@@ -11,6 +11,8 @@ feature_image:
   preview_url: >-
     https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/8ad123f2-faaa-4824-2507-5339937cd400/w=450
 meta_description: Exploring NFTs
+tags:
+  - emerging-technologies
 ---
 
 I've been meaning to explored Non-Fungible Tokens or NFTs for almost a year now. Yesterday, I finally found the time to sit down and play with the concept. NFTs are a way of encoding ownership of digital items into a blockchain. In the case of most of what we will talk about in this article that's the Ethereum blockchain. 

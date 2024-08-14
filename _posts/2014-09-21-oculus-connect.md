@@ -9,6 +9,8 @@ feature_image:
   caption: Oculus Connect - Registration
   preview_url: >-
     https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/8a0f0b44-d029-45c5-c9c5-8430fc13af00/w=450
+tags:
+  - emerging-technologies
 ---
 
 I really should have posted more but I'm having trouble balancing experiencing vs documenting. To make things worse a lot of my photos are blurry and unintelligible.

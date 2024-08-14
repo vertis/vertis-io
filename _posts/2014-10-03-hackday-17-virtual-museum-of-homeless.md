@@ -9,6 +9,8 @@ feature_image:
   caption: Matt Butt explains our project at the HD Marketplace
   preview_url: >-
     https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/9ec98c74-1613-4cf1-84f2-31899bef7d00/w=450
+tags:
+  - emerging-technologies
 ---
 
 

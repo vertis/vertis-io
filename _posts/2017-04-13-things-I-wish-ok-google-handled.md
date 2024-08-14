@@ -13,6 +13,8 @@ feature_image:
     href="https://unsplash.com/s/photos/google-home?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
   preview_url: >-
     https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/fb568bf5-9cbe-435a-74af-bb6fd1344000/w=450
+tags:
+  - emerging-technologies
 ---
 
 

@@ -9,6 +9,8 @@ feature_image:
   caption: Rob trying the Recon Glasses
   preview_url: >-
     https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/1d7bbcad-b012-4017-c3ba-5382669cf600/w=450
+tags:
+  - emerging-technologies
 ---
 
 

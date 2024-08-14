@@ -9,6 +9,8 @@ feature_image:
   caption: VR at Biennale Sydney
   preview_url: >-
     https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/a9ccc115-eb65-4648-8150-a9200faac800/w=450
+tags:
+  - emerging-technologies
 ---
 
 

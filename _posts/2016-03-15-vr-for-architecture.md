@@ -9,6 +9,8 @@ feature_image:
   caption: VR for Architecture talk - InsiteVR Demo @ SXSW
   preview_url: >-
     https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/39c4c3fa-d670-4bc7-f632-56ace9736a00/w=450
+tags:
+  - emerging-technologies
 ---
 
 

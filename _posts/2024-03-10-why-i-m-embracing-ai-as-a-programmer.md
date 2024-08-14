@@ -12,7 +12,7 @@ feature_image:
 caption: ""
 meta_description: ""
 tags:
-  - 
+  - emerging-technologies
 ---
 
 I was on the wrong side, apparently, of the game [Ingress](https://www.ingress.com/) from [Niantic](https://nianticlabs.com/). While I don't play it anymore, I invested many hours when the game was new in 2013. The game revolved around two factions trying to capture nodes: the Enlightened (green) and the Resistance (blue). It had a simple storyline about exotic matter that some thought could be positive and others the dangerous, loosely reminiscent of "[Earth: Final Conflict](https://en.wikipedia.org/wiki/Earth:_Final_Conflict)".

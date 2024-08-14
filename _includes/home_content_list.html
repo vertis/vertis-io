@@ -1,0 +1,22 @@
+{% assign posts = include.posts | default: site.posts %} {% assign limit =
+include.limit | default: 5 %}
+
+<div>
+  <h3 class="text-xl font-semibold border-b border-gray-300 mb-4">
+    {{ include.title }}
+  </h3>
+  <ul class="text-gray-600 text-sm flex flex-col gap-2">
+    {% for post in posts limit:limit %}
+    <li class="flex items-center gap-2">
+      {% if post.feature_image %}
+      <img
+        class="w-12 h-12 flex-shrink-0 object-cover inline-block rounded"
+        src="{{post.feature_image.preview_url}}"
+        alt=""
+      />
+      {% endif %}
+      <a href="{{ post.url }}" class="hover:underline">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

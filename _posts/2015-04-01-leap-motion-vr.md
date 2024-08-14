@@ -9,6 +9,8 @@ feature_image:
   caption: Joh using the Leap Motion
   preview_url: >-
     https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/29601314-a975-4eb7-610a-0974b028a500/w=450
+tags:
+  - emerging-technologies
 ---
 
 

@@ -9,6 +9,8 @@ feature_image:
   caption: Ready Player One
   preview_url: >-
     https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/89de0db5-ef51-4966-e5f6-839f32a0a700/w=450
+tags:
+  - emerging-technologies
 ---
 
 
