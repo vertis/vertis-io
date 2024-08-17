@@ -25,28 +25,25 @@ This error message is too generic to Google, and there is nothing in the results
 
 My class was something like this
 
-{% highlight csharp %}
-{% raw %} 
+```csharp
+
 public class Foo {
-  public string bar
+public string bar
 }
-{% endraw %} 
-{% endhighlight %}
+```
 
 When in reality to JSON was:
 
-{% highlight json %}
-{% raw %} 
+```json
 {
-  "bar": {}
+	"bar": {}
 }
-{% endraw %} 
-{% endhighlight %}
+```
 
 Calling:
 
-{% highlight csharp %}
-var jsonObject = JsonMapper.ToObject<Foo>(res.body); 
-{% endhighlight %}
+```csharp
+var jsonObject = JsonMapper.ToObject<Foo>(res.body);
+```
 
 Works much better when you're not trying to shove a Map into a string.

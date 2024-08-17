@@ -1,22 +1,24 @@
 ---
 layout: post
-title: "Removing a collaborator from all GitHub repos"
+title: 'Removing a collaborator from all GitHub repos'
 ---
 
 I help manage the [GitHub](http://www.github.com) account for the company I work for. Recently, I've been in a situation where I needed to remove a former colleague from about 25 [GitHub](http://www.github.com) repositories. Admittedly this is only painful because the account we're using is an individual account. Frustratingly, ["Organizations"](https://github.com/blog/675-organizations-for-small-businesses) an account type introduced to deal with this exact issue, is difficult to justify to management because of the additional cost.
+
 <!--more-->
+
 In the meantime I've written a quick script using the [GitHub Api](http://develop.github.com/) that iterates through the repositories and removes a given collaborator. You can find the source code below:
 
-{% highlight ruby %}
+```ruby
 #Gemfile
 source "http://rubygems.org"
 
 gem 'httparty'
-{% endhighlight%}
+```
 
 A library to package up some functionality:
 
-{% highlight ruby %}
+```ruby
 #lib/github.rb
 require 'rubygems'
 require 'bundler/setup'
@@ -45,11 +47,11 @@ class Github
     Github.post("/repos/collaborators/#{@username}/#{repository}/remove/#{name}")
   end
 end
-{% endhighlight %}
+```
 
 And the actual script:
 
-{% highlight ruby %}
+```ruby
 # remove_user.rb
 require 'lib/github'
 
@@ -71,6 +73,6 @@ github.repositories.each do |repo|
     end
   end
 end
-{% endhighlight%}
+```
 
-It's certainly not a *polished* script, but it does the job. Hopefully, I'll eventually be able to convince my manager to upgrade :)
+It's certainly not a _polished_ script, but it does the job. Hopefully, I'll eventually be able to convince my manager to upgrade :)

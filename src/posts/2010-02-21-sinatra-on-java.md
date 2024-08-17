@@ -1,10 +1,12 @@
 ---
 layout: post
-title: "Sinatra on Java"
+title: 'Sinatra on Java'
 ---
 
 With <a href="http://www.jruby.org/">JRuby</a> and Warbler it's possible to get <a href="http://www.sinatrarb.org">Sinatra</a>, or any WebApp based on Rack, running on a myriad of different Java application servers. There are of course gotchas when it comes to using Warbler with the many different app servers, so this is a definitive guide to everything you have to do to get a simple <a href="http://www.sinatrarb.org">Sinatra</a> app running on the various application servers.
+
 <!--more-->
+
 <strong>Why <a href="http://www.sinatrarb.org">Sinatra</a>?</strong>
 
 There are examples of how to get Rails running on Tomcat and Websphere floating around the web, but I find Rails overkill for small projects. With that in mind, it's worth looking at how to get Sinatra running on java application servers. Besides the weight of rails, Sinatra is a nice, easy to learn framework.
@@ -44,7 +46,8 @@ Go to http://localhost:9292/ and you should see our default page.
 Lets look at the config file that was generated:
 
 <!-- [gist id=250634] -->
-{% highlight ruby %}
+
+```ruby
 # Disable automatic framework detection by uncommenting/setting to false
 # Warbler.framework_detection = false
 
@@ -134,16 +137,17 @@ Warbler::Config.new do |config|
   # JNDI data source name
   # config.webxml.jndi = 'jdbc/rails'
 end
-{% endhighlight %}
-
+```
 
 If you tried packaging and installing this now, it would fail miserably because, the 'init.rb' file would not be included. The generated warble.rb only includes the following
 
 config.dirs = %w(app config lib log vendor tmp)
 
 In addition to this the gems that we installed above would not be install. Here is same config with the lines we need (and the other cruft removed).
+
 <!-- [gist id=250647] -->
-{% highlight ruby %}
+
+```ruby
 Warbler::Config.new do |config|
   config.dirs = %w(app config tmp)
   config.includes = FileList["init.rb"]
@@ -151,7 +155,7 @@ Warbler::Config.new do |config|
   config.gems -= ["rails"]
   config.gem_dependencies = true
 end
-{% endhighlight %}
+```
 
 <strong>Package up the War file</strong>
 
@@ -159,8 +163,7 @@ end
 
 From here on in we'll be looking at any gotchas, when deploying to the different Application Servers.
 
-Deploy to Glassfish and test (effort: moderate - working: yes)
---------------------------------------------------------------
+## Deploy to Glassfish and test (effort: moderate - working: yes)
 
 You can get Suns open source application server from http://glassfish.org. The current stable version of Glassfish 2.1.1, though Glassfish 3 is in active development. The installer comes packaged as a jar file. You can run the installer with
 
@@ -182,8 +185,7 @@ And use either the admin console or the autodeploy directory to deploy the war f
 
 Glassfish now has a working copy of our application.
 
-Deploy to JBoss and test (effort: n/a - working: no)
-----------------------------------------------------
+## Deploy to JBoss and test (effort: n/a - working: no)
 
 JBoss has a community and an enterprise edition. For the purposes of this test we'll be using the community edition. The current stable version of JBoss AS is 5.1.0 GA. You can get a copy of JBoss from <a href="http://www.jboss.org">http://www.jboss.org</a>.
 
@@ -195,7 +197,7 @@ $ bin/run.sh
 
 You can then use the admin console to deploy the application. One gotcha here, the first time I deployed the application using the console I got the following nasty message:
 
-{% highlight bash %}
+```bash
 Application initialization failed: no such file to load -- rack
 from /opt/application_servers/jboss-5.1.0.GA/server/default/deploy/deploy_test.war/WEB-INF/lib/jruby-rack-0.9.5.jar/vendor/rack.rb:1
 from /opt/application_servers/jboss-5.1.0.GA/server/default/deploy/deploy_test.war/WEB-INF/lib/jruby-rack-0.9.5.jar/vendor/rack.rb:22:in `require'
@@ -203,21 +205,20 @@ from /opt/application_servers/jboss-5.1.0.GA/server/default/deploy/deploy_test.w
 from /opt/application_servers/jboss-5.1.0.GA/server/default/deploy/deploy_test.war/WEB-INF/lib/jruby-rack-0.9.5.jar/jruby/rack/boot/rack.rb:9
 from /opt/application_servers/jboss-5.1.0.GA/server/default/deploy/deploy_test.war/WEB-INF/lib/jruby-rack-0.9.5.jar/jruby/rack/boot/rack.rb:1:in `load'
 from &lt;script&gt;:1
-{% endhighlight %}
+```
 
 Turns out that after some digging there is an open jruby bug about the issue - 63
 http://jira.codehaus.org/browse/JRUBY-3935 (Update: link no longer works, because codehaus is dead)
 
 I also did a bit of digging through the logs and found:
 
-{% highlight bash %}
+```bash
 16:27:50,703 ERROR [STDERR] Warning: JRuby home "/opt/application_servers/jboss-5.1.0.GA/server/default/deploy/deploy_test.war/WEB-INF/lib/jruby-stdlib-1.4.0.jar/META-INF/jruby.home" does not exist, using /tmp
-{% endhighlight %}
+```
 
 I've not managed to find a solution to this problem. I will revisit this at some point in the future. After googling a little it may be possible to just revert to a few older versions that seemed to work.
 
-Deploy to Jetty and test (effort: easy - working: yes)
-------------------------------------------------------
+## Deploy to Jetty and test (effort: easy - working: yes)
 
 The current version of Jetty is 7.0.1.v20091125, though the version that comes as part of your Linux distro may not be so up to date. You can either install it using your favorite package manager, or if you're on Windows get it from the homepage at <a href="http://www.mortbay.org">http://www.mortbay.org</a>
 
@@ -229,9 +230,7 @@ You should be able to go to http://localhost:8080/deploy_test
 
 Congratulations you now have a working copy of your sinatra app on Jetty.
 
-
-Deploy to Tomcat and test (effort: easy - working: yes)
--------------------------------------------------------
+## Deploy to Tomcat and test (effort: easy - working: yes)
 
 The current stable version of Tomcat is 6.0.20. You can either install it using your favorite package manager, or if you're on Windows get it from the homepage at <a href="http://tomcat.apache.org">http://tomcat.apache.org</a>
 
@@ -243,8 +242,7 @@ You should be able to go to http://localhost:8080/deploy_test
 
 Tomcat really is the bread and butter of Java Application Servers, especially outside the Enterprise.
 
-Deploy to Websphere and test (effort: hard - working: yes)
-----------------------------------------------------------
+## Deploy to Websphere and test (effort: hard - working: yes)
 
 <em>NB: Websphere 6.1.0.11 was the first application server I ever deployed Sinatra too, it failed miserably. I spent a long time debugging and playing with it to make it work properly. The biggest problem stems from the fact that the default way of using rack as configured by warbler doesn't work.</em>
 
@@ -256,11 +254,9 @@ Once you have a server instance to test on, you can deploy a new application. Th
 
 Websphere is not the easiest application server to setup in general, but once you get it all configured it is fairly robust. Worth the effort if you want an application server you won't have to restart constantly (as can be the case with Documentum on Tomcat).
 
+## Deploy to Weblogic and test (effort: n/a - working: no)
 
-Deploy to Weblogic and test (effort: n/a - working: no)
--------------------------------------------------------
-
-Setting up Oracle Weblogic 10.3.2 was nothing short of awesome. The install process is intuitive and speedy, though the size is quite large, at ~600Mb,  compared to smaller cousins such as Tomcat. There is a wizard that walks you through the process of setting up your first domain, what Tomcat would call an instance and Websphere would call a profile, once the software is installed. I chose the default options for everything and had a running Weblogic server in about 20mins (including download).
+Setting up Oracle Weblogic 10.3.2 was nothing short of awesome. The install process is intuitive and speedy, though the size is quite large, at ~600Mb, compared to smaller cousins such as Tomcat. There is a wizard that walks you through the process of setting up your first domain, what Tomcat would call an instance and Websphere would call a profile, once the software is installed. I chose the default options for everything and had a running Weblogic server in about 20mins (including download).
 
 My previous experience with Weblogic, was the version bundled with Documentum D6SP1. I've found both that version and the current fully fledged Oracle version to be a joy to work with.
 
@@ -270,17 +266,17 @@ From the admin console it is a simple matter of clicking on 'Deployments' on the
 
 You should now be able to access the deployed application at http://localhost:7001/deploy_test...
 
-{% highlight bash %}
+```bash
 Application initialization failed: no such file to load -- rack
-from C:/Oracle/Middleware/user_projects/domains/base_domain/servers/AdminServer/tmp/_WL_user/deploy_test/qwtgi/war/WEB-INF/lib/jruby-rack-0.9.5.jar!/vendor/rack.rb:1 from
-C:/Oracle/Middleware/user_projects/domains/base_domain/servers/AdminServer/tmp/_WL_user/deploy_test/qwtgi/war/WEB-INF/lib/jruby-rack-0.9.5.jar!/vendor/rack.rb:22:in `require' from
+from C:/Oracle/Middleware/user_projects/domains/base_domain/servers/AdminServer/tmp/\_WL_user/deploy_test/qwtgi/war/WEB-INF/lib/jruby-rack-0.9.5.jar!/vendor/rack.rb:1 from
+C:/Oracle/Middleware/user_projects/domains/base_domain/servers/AdminServer/tmp/\_WL_user/deploy_test/qwtgi/war/WEB-INF/lib/jruby-rack-0.9.5.jar!/vendor/rack.rb:22:in `require' from
 C:/Oracle/Middleware/user_projects/domains/base_domain/servers/AdminServer/tmp/_WL_user/deploy_test/qwtgi/war/WEB-INF/lib/jruby-rack-0.9.5.jar!/jruby/rack/booter.rb:22:in `boot!' from
-C:/Oracle/Middleware/user_projects/domains/base_domain/servers/AdminServer/tmp/_WL_user/deploy_test/qwtgi/war/WEB-INF/lib/jruby-rack-0.9.5.jar!/jruby/rack/boot/rack.rb:9 from
-C:/Oracle/Middleware/user_projects/domains/base_domain/servers/AdminServer/tmp/_WL_user/deploy_test/qwtgi/war/WEB-INF/lib/jruby-rack-0.9.5.jar!/jruby/rack/boot/rack.rb:1:in `load' from
-{% endhighlight %}
+C:/Oracle/Middleware/user_projects/domains/base_domain/servers/AdminServer/tmp/\_WL_user/deploy_test/qwtgi/war/WEB-INF/lib/jruby-rack-0.9.5.jar!/jruby/rack/boot/rack.rb:9 from
+C:/Oracle/Middleware/user_projects/domains/base_domain/servers/AdminServer/tmp/\_WL_user/deploy_test/qwtgi/war/WEB-INF/lib/jruby-rack-0.9.5.jar!/jruby/rack/boot/rack.rb:1:in `load' from
+```
 
 Clearly thats not going to be the case though. This issue is very similar to the error message received for JBoss.
 
-Conclusion
-----------
+## Conclusion
+
 Not a bad scorecard really. Of all the Java application servers that I tested, only JBoss and Weblogic proved to be a problem. I'll be retesting these two periodically to see if support has been improved (there are open tickets with JRuby). Until then I hope that this has been useful.

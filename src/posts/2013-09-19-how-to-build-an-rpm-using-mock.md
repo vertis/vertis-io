@@ -1,33 +1,35 @@
 ---
 published: true
 layout: post
-title: "How to build an RPM using Mock"
+title: 'How to build an RPM using Mock'
 author: vertis
 ---
 
 Building an RPM can be a somewhat annoying, painful experience. There are plenty of pitfalls, but the most annoying, for me at least, is building a package and then trying to install it and realising that it doesn't work because of some incompatibility in the packages that just happened to be on your build box.
+
 <!--more-->
-One solution to this problem is to use [Mock](http://fedoraproject.org/wiki/Projects/Mock "The Mock Project"). Mock does a great job of building up an standalone environment, so that you can 'Fail early', if you haven't written your spec file correctly.
 
-Start by installing [Mock](http://fedoraproject.org/wiki/Projects/Mock "The Mock Project") and other required packages. For example:
+One solution to this problem is to use [Mock](http://fedoraproject.org/wiki/Projects/Mock 'The Mock Project'). Mock does a great job of building up an standalone environment, so that you can 'Fail early', if you haven't written your spec file correctly.
 
-{% highlight bash %}
+Start by installing [Mock](http://fedoraproject.org/wiki/Projects/Mock 'The Mock Project') and other required packages. For example:
+
+```bash
 $ sudo yum install mock autoconf automake bison bzip2 createrepo \
                    gcc gcc-c++ iconv-devel libcurl-devel libffi-devel \
                    libtool libxml2 libxml2-devel libxslt libxslt-devel \
                    libyaml-devel make openssl-devel patch readline \
                    readline-devel rpm-build zlib zlib-devel rpmdevtools
-{% endhighlight %}
+```
 
 Mock won't allow users other than root by default. This is easily fixed by adding your build user to the mock group:
 
-{% highlight bash %}
+```bash
 $ sudo usermod -G mock bamboo
-{% endhighlight %}
+```
 
 From there I usually create an `rpmify` script. This example comes from packaging a rails application:
 
-{% highlight bash %}
+```bash
 #!/usr/bin/env bash
 set -x
 
@@ -70,7 +72,7 @@ else
 fi
 /usr/bin/mock -r $MOCK_CONFIG --uniqueext=$PACKAGE_NAME-$BUILD_NUMBER --clean
 exit $exitstatus
-{% endhighlight %}
+```
 
 The script is designed to be used within bamboo, so it does some handling around the artifacts that it produces
 

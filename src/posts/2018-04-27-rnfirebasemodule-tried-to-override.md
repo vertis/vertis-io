@@ -17,11 +17,9 @@ feature_image:
     https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/c19f608c-0ed4-4c8a-9217-163604773b00/w=450
 ---
 
-
 React Native has been a non-stop whirlwind of obscure error messages. For example:
 
-{% highlight java %}
-{% raw %}
+```
 Fatal Exception: java.lang.IllegalStateException: Native module RNFirebaseModule tried to override RNFirebaseModule for module name RNFirebase. If this was your intention, set canOverrideExistingModule=true
 at com.facebook.react.NativeModuleRegistryBuilder.addNativeModule(NativeModuleRegistryBuilder.java:121)
 at com.facebook.react.NativeModuleRegistryBuilder.processPackage(NativeModuleRegistryBuilder.java:109)
@@ -31,14 +29,13 @@ at com.facebook.react.ReactInstanceManager.createReactContext(ReactInstanceManag
 at com.facebook.react.ReactInstanceManager.access$600(ReactInstanceManager.java:109)
        at com.facebook.react.ReactInstanceManager$4.run(ReactInstanceManager.java:802)
 at java.lang.Thread.run(Thread.java:818)
-{% endraw %}
-{% endhighlight %}
+```
 
 This one was caused by inadvertantly including the module twice in `android/app/src/main/java/com/example/MainApplication.java`.
 
 I had included `RNFirebasePackage()` twice:
 
-{% highlight java %}
+```java
 @Override
 protected List<ReactPackage> getPackages() {
   return Arrays.<ReactPackage>asList(
@@ -50,6 +47,6 @@ protected List<ReactPackage> getPackages() {
     new RNFirebaseAuthPackage()
   );
 }
-{% endhighlight %}
+```
 
 HT to [the github issue](https://github.com/rebeccahughes/react-native-device-info/issues/243) that helped me work out the problem.

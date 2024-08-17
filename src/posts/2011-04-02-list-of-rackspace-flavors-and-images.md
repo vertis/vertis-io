@@ -1,14 +1,16 @@
 ---
 layout: post
-title: "List of Rackspace flavors and images"
+title: 'List of Rackspace flavors and images'
 ---
+
 I was recently trying to use the chef command line tool 'knife' to provision a new rackspace server. The tool requires
 that you specify the flavor (size) and image(distro version), unfortunately I couldn't find an easily searchable source of this information.
 
 <!--more-->
 
 Here is the list of flavors:
-{% highlight console %}
+
+```console
 
 1    256 server
 2    512 server
@@ -17,10 +19,11 @@ Here is the list of flavors:
 5    4GB server
 6    8GB server
 7    15.5GB server
-{% endhighlight %}
+```
 
 And here is the list of images:
-{% highlight console %}
+
+```console
 4        Debian 5.0 (lenny)
 10      Ubuntu 8.04.2 LTS (hardy)
 14      Red Hat Enterprise Linux 5.4
@@ -44,6 +47,6 @@ And here is the list of images:
 71      Fedora 14
 14362    Ubuntu 9.10 (karmic)
 187811  CentOS 5.4
-{% endhighlight %}
+```
 
 While this information may go out of date here is the current (1st of April 2011) list. Hopefully it's useful

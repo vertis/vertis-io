@@ -1,15 +1,15 @@
 ---
 published: true
 layout: post
-title: "The Cobra Effect - How Systems Shape Behaviour"
+title: 'How Systems Shape Behaviour'
 author: vertis
-minutes_read: 
+minutes_read:
 feature_image:
-  url: 
-caption: ""
-meta_description: ""
+  url:
+caption: ''
+meta_description: ''
 tags:
-  - 
+  -
 ---
 
 I've always been fascinated by human behavior, especially within the context of teams and organizations. Over the years, I've come to realize that while individual personalities and skills certainly matter, the systems we create often play a far greater role in shaping how people act. When a single person exhibits a certain behavior, we might attribute it to their individual personality or choices. However, when multiple people within a system consistently behave in the same way, it's a strong indicator that the system itself is influencing their actions.
