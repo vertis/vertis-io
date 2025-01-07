@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* .prose {
+.prose {
   @apply text-base text-gray-800;
 }
 
@@ -14,16 +14,28 @@
   @apply text-3xl font-semibold mb-4 mt-8 text-gray-800;
 }
 
+.prose h3 {
+  @apply text-2xl font-semibold mb-3 mt-6 text-gray-800;
+}
+
 .prose p {
   @apply mb-4 leading-relaxed;
 }
 
 .prose a {
-  @apply text-blue-600 hover:text-blue-800 underline;
+  @apply text-cyan-600 hover:text-cyan-800 underline;
 }
 
 .prose ul, .prose ol {
   @apply mb-4 pl-8;
+}
+
+.prose ul {
+  @apply list-disc;
+}
+
+.prose ol {
+  @apply list-decimal;
 }
 
 .prose li {
@@ -31,7 +43,7 @@
 }
 
 .prose blockquote {
-  @apply pl-4 border-l-4 border-gray-300 italic my-4;
+  @apply pl-4 border-l-4 border-cyan-300 italic my-4 text-gray-700;
 }
 
 .prose code {
@@ -40,4 +52,24 @@
 
 .prose pre {
   @apply bg-gray-100 rounded p-4 overflow-x-auto my-4;
-} */
+}
+
+.prose img {
+  @apply rounded-lg my-8;
+}
+
+.prose hr {
+  @apply my-8 border-gray-200;
+}
+
+.prose table {
+  @apply w-full my-6 border-collapse;
+}
+
+.prose table th {
+  @apply px-4 py-2 border border-gray-200 bg-gray-50 font-semibold text-left;
+}
+
+.prose table td {
+  @apply px-4 py-2 border border-gray-200;
+}
