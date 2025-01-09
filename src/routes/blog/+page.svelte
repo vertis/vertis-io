@@ -10,33 +10,34 @@
 
 <div class="relative bg-white overflow-hidden">
   <div class="relative px-4 sm:px-6 lg:px-8">
-    <div class="text-lg max-w-prose mx-auto">
+    <div class="text-lg max-w-5xl mx-auto">
       <section>
         <article class="mt-12 mb-24">
           <h1>
             <span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Blog</span>
           </h1>
 
-          <div class="mt-12 mb-16">
-            <div class="mb-16 pb-16 border-b border-gray-100">
-              <PostGrid
-                {recentPosts}
-                {popularPosts}
-                {notablePosts}
-                columns={3}
-              />
+          {#if data.pagination.currentPage === 1}
+            <div class="mt-12 mb-16">
+              <div class="mb-16 pb-16 border-b border-gray-100">
+                <PostGrid
+                  {recentPosts}
+                  {popularPosts}
+                  {notablePosts}
+                  columns={3}
+                />
+              </div>
             </div>
+          {/if}
 
+          <div class="mt-12">
             <h2 class="text-2xl font-semibold text-gray-900 mb-8">All Posts</h2>
-          </div>
-
-          <div>
     <div class="grid gap-20">
       {#each data.posts as post}
         <article class="group" transition:fade={{ duration: 400 }}>
           <div class="flex flex-col md:flex-row gap-12 items-start">
             <div class="w-full md:w-72 xl:w-80 2xl:w-96 aspect-[4/3] overflow-hidden rounded-lg shadow-sm {post.feature_image ? 'bg-paper-dark' : 'bg-paper-light'}">
-              {#if post.feature_image}
+              {#if post.feature_image && post.feature_image.preview_url}
                 <img
                   src={post.feature_image.preview_url}
                   alt=""
@@ -94,7 +95,7 @@
 
       {#if data.pagination.totalPages > 1}
     <div class="border-t border-gray-100">
-      <div class="max-w-prose mx-auto px-4 sm:px-6 lg:px-8 py-8 xl:py-12">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 xl:py-12">
         <div class="flex justify-center items-center gap-6 xl:gap-8 text-base xl:text-lg">
           {#if data.pagination.hasPrevPage}
             <a
