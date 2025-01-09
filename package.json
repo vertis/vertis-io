@@ -43,9 +43,7 @@
   },
   "type": "module",
   "dependencies": {
-    "@types/markdown-it": "^14.1.2",
     "front-matter": "^4.0.2",
-    "markdown-it": "^14.1.0",
     "marked": "^15.0.6",
     "rehype-autolink-headings": "^7.1.0",
     "rehype-raw": "^7.0.0",

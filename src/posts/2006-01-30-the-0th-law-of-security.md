@@ -1,6 +1,9 @@
 ---
 layout: post
 title: 'The 0th law of security'
+author: vertis
+published: true
+date: '2006-01-30'
 ---
 
 There are supposedly 10 laws of security. Laws that are a firm basis for understanding computer security. They're obviously not the be all and end all of computing security, but for beginners and those that aren't going to focus on security they're an important start.
@@ -62,7 +65,7 @@ I'm not trying to say you should be using Linux because of the fact that it is l
 
 What I am saying is the applications that you pay good money for, you subscribe to a service by Symantec or McAfee, and you really have no idea how well you are being protected. The same goes for firewalls, and any other piece of security software that you use to protect your computer. If you can't look at the internals then you have no idea what the application is really doing.
 
-You can apply this same principal to at least some of the other laws, and in truth it serves to cement the 0^th^ law in place.
+You can apply this same principal to at least some of the other laws, and in truth it serves to cement the 0th law in place.
 
 ### Regarding Patches
 

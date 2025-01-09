@@ -1,6 +1,9 @@
 ---
 layout: post
 title: 'Remote X11 Applications on Windows'
+author: vertis
+published: true
+date: '2005-08-10'
 ---
 
 **Update: There are now much better ways of installing an X Server on windows (for details start with the [XMing](http://xming.sourceforge.net) project)**

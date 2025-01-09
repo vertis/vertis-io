@@ -11,9 +11,10 @@ feature_image:
     https://imagedelivery.net/oX4qJVfXHjtomqEsf4Y2wg/dbff45bd-66eb-4862-e4b9-960bf5fb1c00/w=450
 ---
 
-
 While I was on my flight back from visting family in Sydney for Xmas, I started writing a list of everything I want to get done this year.
+
 <!--more-->
+
 It's quite a long list, and it will be a very full year if I manage to do half of it. But it's worth writing down:
 
 - Create a computer game of some type (mobile or desktop)
@@ -28,7 +29,7 @@ It's quite a long list, and it will be a very full year if I manage to do half o
 - Build muscle (Last year I lost about 15kgm, going from 97kg-83kg)
 - Collect and publish a large dataset under creative commons
 - Build a quadcopter (carried over from last year)
-- Build a <Redacted> for the REA hackday in Feb
+- Build a `<Redacted>` for the REA hackday in Feb
 - Visit a country you haven't been too before
 - Meet/befriend 100 new people (more than just friending on twitter)
 

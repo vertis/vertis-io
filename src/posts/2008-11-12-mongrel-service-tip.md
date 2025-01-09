@@ -7,7 +7,7 @@ date: '2008-11-12'
 minutes_read: 2
 ---
 
-If you're running rails applications on Windows then you'll be interested in or already use the mongrel_service gem. When I recently (today) tried to install it on a new computer I had trouble because it didn't want to install the dependencies. Apparently it requires a version of the win32-service gem &gt;= 0.5.2 but &lt; 0.6.0
+If you're running rails applications on Windows then you'll be interested in or already use the mongrel_service gem. When I recently (today) tried to install it on a new computer I had trouble because it didn't want to install the dependencies. Apparently it requires a version of the win32-service gem `>=0.5.2` but `<0.6.0`
 
 <!--more-->
 
