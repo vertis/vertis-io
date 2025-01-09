@@ -1,29 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,600;1,400&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  body {
+    @apply text-ink antialiased;
+  }
+}
+
 .prose {
-  @apply text-base text-gray-800;
+  @apply text-base text-ink leading-relaxed;
 }
 
 .prose h1 {
-  @apply text-4xl font-bold mb-6 text-gray-900;
+  @apply text-4xl font-serif font-normal mb-8 text-ink-dark leading-tight;
 }
 
 .prose h2 {
-  @apply text-3xl font-semibold mb-4 mt-8 text-gray-800;
+  @apply text-3xl font-serif font-normal mb-6 mt-12 text-ink-dark leading-tight;
 }
 
 .prose h3 {
-  @apply text-2xl font-semibold mb-3 mt-6 text-gray-800;
+  @apply text-2xl font-serif font-normal mb-4 mt-8 text-ink-dark leading-tight;
 }
 
 .prose p {
-  @apply mb-4 leading-relaxed;
+  @apply mb-6 leading-relaxed;
 }
 
 .prose a {
-  @apply text-cyan-600 hover:text-cyan-800 underline;
+  @apply text-ink-dark hover:text-ink border-b border-ink-light hover:border-ink transition-colors duration-200;
 }
 
 .prose ul, .prose ol {

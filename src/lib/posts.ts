@@ -67,11 +67,11 @@ export function getTotalPages(posts: Post[], perPage: number): number {
 
 // Format date for display
 export function formatDate(date: string): string {
-	return new Date(date).toLocaleDateString('en-US', {
-		year: 'numeric',
-		month: 'long',
-		day: 'numeric'
-	});
+	const d = new Date(date);
+	const day = d.getDate();
+	const month = d.toLocaleDateString('en-US', { month: 'short' }).toUpperCase();
+	const year = d.getFullYear();
+	return `${month} ${day}, ${year}`;
 }
 
 // Generate HN comments link
