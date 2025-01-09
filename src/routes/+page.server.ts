@@ -1,5 +1,5 @@
 import type { PageServerLoad } from './$types';
-import { getPublishedPosts, sortPostsByDate, validateFrontmatter } from '$lib/posts';
+import { getPublishedPosts, sortPostsByDate, validateFrontmatter, parseFilename } from '$lib/posts';
 import type { Post, PostFrontmatter } from '$lib/posts';
 
 export const load: PageServerLoad = async () => {
@@ -19,7 +19,9 @@ export const load: PageServerLoad = async () => {
 
           const metadata = importedPost.metadata;
           const content = importedPost.default.render().html;
-          const slug = path.split('/').pop()?.replace(/\.md$/, '') || '';
+          const filename = path.split('/').pop() || '';
+          const { date, slug } = parseFilename(filename);
+          metadata.date = date; // Set the date from filename
 
           return {
             title: metadata.title,
@@ -31,7 +33,7 @@ export const load: PageServerLoad = async () => {
             meta_description: metadata.meta_description,
             date: metadata.date,
             content,
-            slug
+            slug: `${date}-${slug}` // Include date in slug
           } satisfies Post;
         })
     );
@@ -42,11 +44,39 @@ export const load: PageServerLoad = async () => {
     // Get recent posts (last 5)
     const recentPosts = publishedPosts.slice(0, 5);
 
-    // TODO: Implement popular posts logic using _data/popular_posts.yml
-    const popularPosts = publishedPosts.slice(0, 5);
+    // Popular posts based on predefined list
+    const popularUrls = [
+      '/2013/12/16/unauthorised-litecoin-mining/',
+      '/2024/01/26/how-singlefile-transformed-my-obsidian-workflow/',
+      '/2024/01/26/migrating-from-plausible-to-umami/',
+      '/2024/03/10/why-i-m-embracing-ai-as-a-programmer/',
+      '/2024/02/08/that-time-i-accidentally-terminated-600-instances/'
+    ];
+    const popularPosts = popularUrls
+      .map(url => {
+        const parts = url.split('/').filter(Boolean);
+        const fullSlug = `${parts[0]}-${parts[1]}-${parts[2]}-${parts[3]}`;
+        return publishedPosts.find(post => post.slug === fullSlug);
+      })
+      .filter((post): post is Post => post !== undefined)
+      .slice(0, 5);
 
-    // TODO: Implement notable posts logic using _data/notable_posts.yml
-    const notablePosts = publishedPosts.slice(0, 5);
+    // Notable posts based on predefined list
+    const notableUrls = [
+      '/2022/11/14/obsidian-image-layouts/',
+      '/2020/12/21/healthcare-in-estonia-for-digital-nomads/',
+      '/2024/02/08/that-time-i-accidentally-terminated-600-instances/',
+      '/2021/06/17/my-digital-nomad-carry/',
+      '/2021/03/03/case-study-laundromat/'
+    ];
+    const notablePosts = notableUrls
+      .map(url => {
+        const parts = url.split('/').filter(Boolean);
+        const fullSlug = `${parts[0]}-${parts[1]}-${parts[2]}-${parts[3]}`;
+        return publishedPosts.find(post => post.slug === fullSlug);
+      })
+      .filter((post): post is Post => post !== undefined)
+      .slice(0, 5);
 
     return {
       recentPosts,
