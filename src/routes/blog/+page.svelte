@@ -6,16 +6,16 @@
   export let data: PageData;
 </script>
 
-<div class="min-h-screen bg-paper">
-  <div class="border-b border-gray-100 bg-paper">
-    <div class="max-w-5xl xl:max-w-6xl 2xl:max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 py-16 xl:py-24">
-      <h1 class="font-serif text-6xl xl:text-7xl tracking-tight text-center">
-        <span class="bg-gradient-to-b from-ink-dark to-ink bg-clip-text text-transparent">Blog</span>
-      </h1>
-    </div>
-  </div>
+<div class="relative bg-white overflow-hidden">
+  <div class="relative px-4 sm:px-6 lg:px-8">
+    <div class="text-lg max-w-prose mx-auto">
+      <section>
+        <article class="mt-12 mb-24">
+          <h1>
+            <span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Blog</span>
+          </h1>
 
-  <main class="max-w-5xl xl:max-w-6xl 2xl:max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 py-16 xl:py-24">
+          <div class="mt-6">
     <div class="grid gap-20">
       {#each data.posts as post}
         <article class="group" transition:fade={{ duration: 400 }}>
@@ -46,18 +46,18 @@
                 {/if}
               </div>
               
-              <h2 class="font-serif text-3xl xl:text-4xl leading-tight mb-4 text-ink-dark group-hover:text-ink transition-colors duration-300">
+              <h2 class="text-2xl xl:text-3xl leading-tight mb-4 text-gray-900 group-hover:text-gray-600 transition-colors duration-300">
                 <a href="/blog/{post.slug}" class="block">
                   {post.title}
                 </a>
               </h2>
               
               {#if post.meta_description}
-                <p class="text-ink leading-relaxed line-clamp-3 text-lg xl:text-xl">{post.meta_description}</p>
+                <p class="text-gray-500 leading-relaxed line-clamp-3 text-base xl:text-lg">{post.meta_description}</p>
               {/if}
               
               <div class="mt-6 xl:mt-8">
-                <a href="/blog/{post.slug}" class="inline-flex items-center text-sm xl:text-base text-ink-light hover:text-ink-dark transition-colors duration-300">
+                <a href="/blog/{post.slug}" class="inline-flex items-center text-sm text-gray-500 hover:text-gray-900 transition-colors duration-300">
                   Continue reading
                   <svg class="w-4 h-4 ml-2 transform transition-transform duration-500 group-hover:translate-x-1.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
                     <path d="M5 12h14M12 5l7 7-7 7"/>
@@ -70,15 +70,17 @@
       {/each}
 
       {#if data.posts.length === 0}
-        <p class="text-ink-light text-center py-24 xl:py-32 font-serif italic text-lg xl:text-xl">No stories to tell... yet.</p>
+        <p class="text-gray-500 text-center py-12 xl:py-16 italic text-base">No stories to tell... yet.</p>
       {/if}
     </div>
-  </main>
+          </div>
+        </article>
+      </section>
 
-  {#if data.pagination.totalPages > 1}
-    <div class="border-t border-gray-100 bg-paper">
-      <div class="max-w-5xl xl:max-w-6xl 2xl:max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 py-12 xl:py-16">
-        <div class="flex justify-center items-center gap-8 xl:gap-10 font-serif text-lg xl:text-xl">
+      {#if data.pagination.totalPages > 1}
+    <div class="border-t border-gray-100">
+      <div class="max-w-prose mx-auto px-4 sm:px-6 lg:px-8 py-8 xl:py-12">
+        <div class="flex justify-center items-center gap-6 xl:gap-8 text-base xl:text-lg">
           {#if data.pagination.hasPrevPage}
             <a
               href="/blog?page={data.pagination.currentPage - 1}"
@@ -102,6 +104,8 @@
           {/if}
         </div>
       </div>
+      </div>
+    {/if}
     </div>
-  {/if}
+  </div>
 </div>
