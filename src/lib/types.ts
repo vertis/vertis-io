@@ -14,3 +14,4 @@ export interface PostMetadata {
   meta_description?: string;
   tags?: string[];
 }
+

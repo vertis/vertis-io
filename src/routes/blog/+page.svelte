@@ -2,8 +2,10 @@
   import type { PageData } from './$types';
   import { formatDate } from '$lib/posts';
   import { fade } from 'svelte/transition';
+  import PostGrid from '$lib/components/PostGrid.svelte';
 
   export let data: PageData;
+  const { recentPosts, popularPosts, notablePosts } = data;
 </script>
 
 <div class="relative bg-white overflow-hidden">
@@ -15,7 +17,20 @@
             <span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Blog</span>
           </h1>
 
-          <div class="mt-6">
+          <div class="mt-12 mb-16">
+            <div class="mb-16 pb-16 border-b border-gray-100">
+              <PostGrid
+                {recentPosts}
+                {popularPosts}
+                {notablePosts}
+                columns={3}
+              />
+            </div>
+
+            <h2 class="text-2xl font-semibold text-gray-900 mb-8">All Posts</h2>
+          </div>
+
+          <div>
     <div class="grid gap-20">
       {#each data.posts as post}
         <article class="group" transition:fade={{ duration: 400 }}>
