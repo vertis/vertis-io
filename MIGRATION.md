@@ -4,13 +4,13 @@
 
 - [x] Create new SvelteKit project (already done)
 - [x] Configure essential dependencies (Tailwind, PostCSS, etc.)
-- [ ] Port configuration from \_config.yml to SvelteKit equivalent
+- [x] Port configuration from \_config.yml to SvelteKit equivalent (in lib/config.ts)
 - [ ] Setup environment variables (.env file)
 
 ## Content Migration
 
 - [x] Migrate blog posts from \_posts/
-  - [ ] Convert frontmatter to SvelteKit format
+  - [x] Convert frontmatter to SvelteKit format
     - [x] Create types for frontmatter data
     - [x] Define feature_image interface
     - [x] Create utility functions for frontmatter parsing
@@ -29,12 +29,12 @@
       - [x] Handle frontmatter correctly
       - [x] Clean content in both blog index and individual posts
     - [x] Use TypeScript satisfies operator for better type safety
-  - [ ] Setup HN comments linking
+  - [] Setup HN comments linking
 - [ ] Migrate pages from \_pages/
-  - [ ] About page
-  - [ ] Blog index
-  - [ ] Consulting page
-  - [ ] Contact page
+  - [x] About page
+  - [x] Blog index
+  - [x] Consulting page
+  - [x] Contact page
   - [ ] Garden pages
   - [ ] Mentoring page
 - [ ] Migrate drafts from \_drafts/
@@ -92,9 +92,9 @@
   - [x] Add type definitions for blog posts
   - [x] Setup author information
   - [ ] Update image paths to use CDN URLs
-- [ ] Port \_data/notable_posts.yml
-- [ ] Port \_data/popular_posts.yml
-- [ ] Port \_data/related_content.yml
+- [x] Port \_data/notable_posts.yml
+- [x] Port \_data/popular_posts.yml
+- [x] Port \_data/related_content.yml
 - [ ] Setup image handling with CDN
 - [ ] Migrate static assets
 - [ ] Update image references in content
@@ -104,8 +104,8 @@
 - [ ] Implement RSS feed
 - [ ] Create sitemap.xml
 - [ ] Setup redirects (from \_redirects)
-- [ ] Implement search if present
-- [ ] Setup tag/category pages if used
+- [ ] Implement search functionality
+- [ ] Setup tag/category pages
 - [ ] Implement related posts functionality
 
 ## SEO & Meta
