@@ -2,19 +2,15 @@ import adapter from '@sveltejs/adapter-auto';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import { mdsvex } from 'mdsvex';
 import remarkGfm from 'remark-gfm';
+import { remarkImageCloudflare } from './src/lib/remark-image-cloudflare';
 
 /** @type {import('mdsvex').MdsvexOptions} */
 const mdsvexOptions = {
 	extensions: ['.md'],
-	remarkPlugins: [
-		[remarkGfm, {
-			singleTilde: false,
-			tableCellPadding: true,
-			tablePipeAlign: true,
-			stringLength: str => str.length
-		}]
-	],
-	layout: false,
+	remarkPlugins: [remarkGfm, remarkImageCloudflare],
+	layout: {
+		_: './src/lib/layouts/default.svelte'
+	},
 	highlight: {
 		alias: { shell: 'bash' }
 	}

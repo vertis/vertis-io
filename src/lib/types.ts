@@ -7,11 +7,12 @@ export interface PostMetadata {
   published: boolean;
   layout: string;
   title: string;
-  author?: string;
+  slug: string;
+  date: string;
+  author: string;
   minutes_read?: number;
   feature_image?: FeatureImage;
   caption?: string;
   meta_description?: string;
   tags?: string[];
 }
-

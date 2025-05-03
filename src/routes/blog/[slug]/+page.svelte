@@ -1,8 +1,22 @@
 <script lang="ts">
   import type { PageData } from './$types';
   import { formatDate } from '$lib/posts';
+  import SEO from '$lib/components/SEO.svelte';
   export let data: PageData;
 </script>
+
+<SEO
+  title={data.frontmatter.title}
+  description={data.frontmatter.meta_description || data.frontmatter.title}
+  image={data.frontmatter.feature_image?.url}
+  url={`/blog/${data.frontmatter.slug}`}
+  type="article"
+  article={{
+    publishedTime: data.frontmatter.date,
+    author: data.frontmatter.author,
+    tags: data.frontmatter.tags
+  }}
+/>
 
 <div class="min-h-screen bg-paper flex flex-col pt-12 md:pt-16 pb-24 xl:pb-32">
   <article class="flex-1">

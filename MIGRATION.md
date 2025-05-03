@@ -5,7 +5,7 @@
 - [x] Create new SvelteKit project (already done)
 - [x] Configure essential dependencies (Tailwind, PostCSS, etc.)
 - [x] Port configuration from \_config.yml to SvelteKit equivalent (in lib/config.ts)
-- [ ] Setup environment variables (.env file)
+- [x] Setup environment variables (.env file)
 
 ## Content Migration
 
@@ -18,7 +18,7 @@
     - [x] Add post validation with type safety
     - [x] Add sorting and pagination utilities
     - [x] Add HN comments link generation
-  - [ ] Update image references to new CDN URLs
+  - [x] Update image references to new CDN URLs
   - [x] Ensure markdown processing works correctly
     - [x] Configure mdsvex
     - [x] Add markdown content cleaning utilities
@@ -29,16 +29,16 @@
       - [x] Handle frontmatter correctly
       - [x] Clean content in both blog index and individual posts
     - [x] Use TypeScript satisfies operator for better type safety
-  - [] Setup HN comments linking
-- [ ] Migrate pages from \_pages/
+  - [x] Setup HN comments linking
+- [x] Migrate pages from \_pages/
   - [x] About page
   - [x] Blog index
   - [x] Consulting page
   - [x] Contact page
-  - [ ] Garden pages
-  - [ ] Mentoring page
-- [ ] Migrate drafts from \_drafts/
-- [ ] Update internal links between posts/pages
+  - [x] Garden pages
+  - [x] Mentoring page
+- [x] Migrate drafts from \_drafts/
+- [x] Update internal links between posts/pages
 
 ## Layout & Components
 
@@ -60,13 +60,13 @@
     - [x] Generate post metadata (slug, date parsing)
   - [x] Setup dynamic imports for markdown files
   - [x] Create blog post layout
-  - [ ] Create page layout
+  - [x] Create page layout
 - [x] Port home page layout and components from index.html
   - [x] Add hero section with author info
   - [x] Add post lists (recent, popular, notable)
   - [x] Add quote section
-- [ ] Implement pagination for blog posts
-- [ ] Port image caption component
+- [x] Implement pagination for blog posts
+- [x] Port image caption component
 - [x] Create reusable components for common elements
   - [x] Post list item component (used in recent/popular/notable sections)
 
@@ -78,9 +78,9 @@
   - [x] Add table styles
   - [x] Add image styles
   - [x] Update colors to match site theme
-- [ ] Port remaining custom CSS from \_src/
-- [ ] Ensure responsive design works
-- [ ] Maintain existing color scheme and typography
+- [x] Port remaining custom CSS from \_src/
+- [x] Ensure responsive design works
+- [x] Maintain existing color scheme and typography
 - [ ] Test dark/light mode if applicable
 
 ## Data & Assets
@@ -91,30 +91,30 @@
   - [x] Add type definitions for site config
   - [x] Add type definitions for blog posts
   - [x] Setup author information
-  - [ ] Update image paths to use CDN URLs
+  - [x] Update image paths to use CDN URLs
 - [x] Port \_data/notable_posts.yml
 - [x] Port \_data/popular_posts.yml
 - [x] Port \_data/related_content.yml
-- [ ] Setup image handling with CDN
-- [ ] Migrate static assets
-- [ ] Update image references in content
+- [x] Setup image handling with CDN
+- [x] Migrate static assets
+- [x] Update image references in content
 
 ## Functionality
 
-- [ ] Implement RSS feed
-- [ ] Create sitemap.xml
-- [ ] Setup redirects (from \_redirects)
-- [ ] Implement search functionality
-- [ ] Setup tag/category pages
-- [ ] Implement related posts functionality
+- [x] Implement RSS feed
+- [x] Create sitemap.xml
+- [x] Setup redirects (from \_redirects)
+- [x] Implement search functionality
+- [x] Setup tag/category pages
+- [x] Implement related posts functionality
 
 ## SEO & Meta
 
-- [ ] Port meta tags and SEO settings
-- [ ] Maintain existing URLs structure
-- [ ] Setup robots.txt
-- [ ] Configure social media meta tags
-- [ ] Ensure Google verification file is present
+- [x] Port meta tags and SEO settings
+- [x] Maintain existing URLs structure
+- [x] Setup robots.txt
+- [x] Configure social media meta tags
+- [x] Ensure Google verification file is present
 
 ## Build & Deploy
 
@@ -155,9 +155,9 @@
 ## Optional Improvements
 
 - [x] Implement better code syntax highlighting (via mdsvex)
-- [ ] Add search functionality
-- [ ] Improve image loading/lazy loading
+- [x] Add search functionality
+- [x] Improve image loading/lazy loading
 - [ ] Add dark mode support if not present
-- [ ] Implement better responsive images
-- [ ] Add reading time calculation
-- [ ] Improve site performance
+- [x] Implement better responsive images
+- [x] Add reading time calculation
+- [x] Improve site performance

@@ -17,6 +17,11 @@
 
         <!-- Desktop navigation -->
         <nav class="hidden md:flex items-center space-x-8 xl:space-x-12" aria-label="Main">
+          <a href="/search" class="text-gray-400 hover:text-gray-500" aria-label="Search">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+            </svg>
+          </a>
           {#each navigation as link}
             <a
               href={link.href}
@@ -92,6 +97,13 @@
     class:opacity-0={!isMenuOpen}
   >
     <div class="max-w-5xl xl:max-w-6xl 2xl:max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 py-3 space-y-1">
+      <a
+        href="/search"
+        class="block px-3 py-2.5 text-base font-medium text-gray-500 hover:text-gray-900 hover:bg-gray-50 rounded-md transition-all duration-200"
+        on:click={toggleMenu}
+      >
+        Search
+      </a>
       {#each navigation as link}
         <a
           href={link.href}

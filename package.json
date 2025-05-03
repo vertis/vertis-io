@@ -12,7 +12,11 @@
     "lint": "prettier --check . && eslint .",
     "format": "prettier --write .",
     "test:integration": "playwright test",
-    "test:unit": "vitest"
+    "test:unit": "vitest",
+    "update-images": "bun run src/lib/scripts/update-image-urls.ts",
+    "migrate-drafts": "bun run src/lib/scripts/migrate-drafts.ts",
+    "update-hn-links": "bun run src/lib/scripts/update-hn-links.ts",
+    "update-internal-links": "bun run src/lib/scripts/update-internal-links.ts"
   },
   "devDependencies": {
     "@playwright/test": "^1.28.1",

@@ -1,4 +1,5 @@
 import type { ComponentType } from 'svelte';
+import { dev } from '$app/environment';
 
 export interface PostFrontmatter {
 	title: string;
@@ -19,6 +20,9 @@ export interface Post extends PostFrontmatter {
 	slug: string;
 	content?: string;
 	default?: ComponentType;
+	path: string;
+	tags?: string[];
+	date: string; // Make date required
 }
 
 // Function to extract date and slug from filename
@@ -135,4 +139,27 @@ export function validateFrontmatter(frontmatter: unknown): PostFrontmatter {
 // Get related posts (placeholder - implement actual logic based on tags/categories)
 export function getRelatedPosts(currentPost: Post, allPosts: Post[], limit = 3): Post[] {
 	return sortPostsByDate(allPosts.filter((post) => post.slug !== currentPost.slug)).slice(0, limit);
+}
+
+// Get all posts
+export async function getAllPosts(): Promise<Post[]> {
+    const paths = import.meta.glob('/src/posts/*.md', { eager: true });
+    
+    return Object.entries(paths)
+        .map(([path, post]) => {
+            const filename = path.split('/').pop() || '';
+            const { date, slug } = parseFilename(filename);
+            const postData = post as unknown as { metadata: PostFrontmatter; default: ComponentType };
+            
+            return {
+                ...validateFrontmatter(postData.metadata),
+                slug,
+                date,
+                path: `/blog/${slug}`,
+                content: (post as any).default?.render?.()?.html,
+                default: postData.default
+            };
+        })
+        .filter(post => dev || post.published)
+        .sort((a, b) => new Date(b.date || '').getTime() - new Date(a.date || '').getTime());
 }
