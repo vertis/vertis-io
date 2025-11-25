@@ -114,3 +114,5 @@ From there it's a simple matter to use the data in `_data/related_content.yml` t
 ```
 
 Styling as appropriate.
+
+This is a simple example, but the same principles—embeddings, vector databases, semantic similarity—form the foundation of the RAG pipelines I help teams build through [Far Horizons](https://farhorizons.io).

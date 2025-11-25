@@ -11,4 +11,6 @@ I maintain an open contact policy, inspired by [Patrick Mackenzie's](https://www
 - By telegram: [https://t.me/vert1s](https://t.me/vert1s)
 - By mastodon: [https://hachyderm.io/@vertis](https://hachyderm.io/@vertis)
 
+For AI/LLM consulting enquiries, you can also reach me through [Far Horizons](https://farhorizons.io/contact).
+
 If you don’t get a response from me, it’s almost certainly that I’ve either missed your message or I have my head down coding something. Send me a second message reminding me. 

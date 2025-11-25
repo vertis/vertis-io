@@ -111,4 +111,4 @@ Even if the Virtual Reality offering is still a way off, I’m a believer that w
 
 I am excited to see how indie makers can help change the way we look at real estate, an industry normally controlled by highly-paid professionals. The maker community has been an invaluable resource in me understanding product development, marketing, and have provided a source of inspiration for me as I embark on my journey to make a difference by building GraphQL360.
 
-If you want to learn more about virtual reality, or real estate, don’t hesitate to contact me by email!
+If you want to learn more about virtual reality, real estate tech, or how I'm now applying similar approaches to AI/LLM systems through [Far Horizons](https://farhorizons.io), don't hesitate to reach out!

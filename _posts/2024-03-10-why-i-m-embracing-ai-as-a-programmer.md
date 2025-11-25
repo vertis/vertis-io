@@ -55,3 +55,5 @@ My new workflow reminds me a lot of a game I used to play while [pair programmin
 Tools like [SweepAI](https://sweep.dev) try to take this one step further -- writing issues and receiving completed [PRs](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests). But they don't work, yet. It's an indication of what is to come, but at present, it's a slow and frustrating experience. When shorter completion tools go awry, it's a minor effort to bring them back into alignment or continue manually.
 
 When [SweepAI](https://sweep.dev) goes off in the wrong direction, it's a much longer cycle of trying to get it back or abandoning the effort. When AI can do mundane upgrades, it'll be an invaluable tool, but not for now.
+
+This shift in how I work with AI has become central to what I do through [Far Horizons](https://farhorizons.io), helping teams navigate the same transition from skepticism to practical implementation.

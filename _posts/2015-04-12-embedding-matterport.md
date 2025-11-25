@@ -24,3 +24,5 @@ I came up with a solution, in what I hope is true [Lean Startup](https://thelean
 When the users click on the banner they visit to a page that loads the correct [Matterport](https://matterport.com) tour for the listing. I deployed a small webapp using [Heroku](https://heroku.com) that allows us to see analytics about the way they interact.
 
 Compared to the effort of doing the photo carousel, this was a quick and dirty way to test integrating. It's difficult to embody the Lean Startup in a big organisation, but this is, I hope, one example of Build -> Measure -> Learn.
+
+*This work at REALABS eventually led to [Far Horizons](https://farhorizons.io), where I continue helping teams adopt emerging technology, now focused on AI and LLMs.*
