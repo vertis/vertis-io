@@ -4,6 +4,17 @@
 
 @import "./pygments-fruity.css";
 
+/* Ukraine banner spacing */
+body {
+  padding-top: 40px; /* Height of fixed banner */
+}
+
+@media (max-width: 640px) {
+  body {
+    padding-top: 36px; /* Slightly smaller on mobile */
+  }
+}
+
 /* article p {
   @apply mt-3 text-base text-gray-500;
 } */
