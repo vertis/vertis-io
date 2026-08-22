@@ -49,6 +49,7 @@ permalink: pretty
 paginate_path: "/blog/page:num/"
 
 exclude:
+  - site
   - package.json
   - postcss.config.js
   - tailwind.config.js

@@ -1,0 +1,37 @@
+---
+interface Props {
+  page: number;
+  totalPages: number;
+}
+
+const { page, totalPages } = Astro.props;
+const pageUrl = (n: number) => (n === 1 ? "/blog/" : `/blog/page${n}/`);
+---
+
+<nav
+  class="bg-white px-4 py-3 flex items-center justify-between sm:px-6"
+  aria-label="Pagination"
+>
+  <div class="flex-1 flex justify-between sm:justify-end">
+    {
+      page > 1 && (
+        <a
+          href={pageUrl(page - 1)}
+          class="relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50"
+        >
+          Newer Posts
+        </a>
+      )
+    }
+    {
+      page < totalPages && (
+        <a
+          href={pageUrl(page + 1)}
+          class="ml-3 relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50"
+        >
+          Older Posts
+        </a>
+      )
+    }
+  </div>
+</nav>

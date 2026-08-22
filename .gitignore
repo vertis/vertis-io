@@ -10,3 +10,8 @@ public
 node_modules
 .jekyll-cache
 .env
+
+# Astro
+site/dist
+site/.astro
+site/node_modules

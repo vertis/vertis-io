@@ -1,0 +1,30 @@
+---
+title: 'git: fatal: index file smaller than expected'
+date: '2012-01-24'
+---
+NB: You should back up your working directory before trying anything in this post.
+
+```console
+$ git status
+fatal: index file smaller than expected
+$ git reset --hard
+fatal: index file smaller than expected
+```
+
+Uh-Oh-Spaghetti-O's. Not a nice error message to get first thing in the morning.
+<!--more-->
+After much googling I realized that the .git/index is only used to track staged and unstaged changes. So the simplest way
+out of this mess is to move the broken index out of the way.
+
+```console
+$ mv .git/index .git/index.backup
+$ git status
+```
+
+You should now be presented with a rather confused view of the working tree, where it thinks things have been deleted and there is a whole raft of untracked files...
+
+```console
+$ git add .
+```
+
+And we're back to where we should be.

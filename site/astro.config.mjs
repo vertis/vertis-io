@@ -1,0 +1,14 @@
+import { defineConfig } from "astro/config";
+import tailwind from "@astrojs/tailwind";
+import sitemap from "@astrojs/sitemap";
+
+export default defineConfig({
+  site: "https://vertis.io",
+  trailingSlash: "ignore",
+  integrations: [tailwind(), sitemap()],
+  markdown: {
+    shikiConfig: {
+      theme: "github-dark",
+    },
+  },
+});

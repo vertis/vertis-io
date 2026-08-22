@@ -9,11 +9,25 @@ This is a Jekyll-based personal blog/website (vertis.io) with custom TypeScript 
 ## Development Commands
 
 ### Running the Site
+
+The site is being migrated from Jekyll to Astro (see `site/`). The Jekyll
+site at the repo root is the legacy version, kept for comparison during the
+migration.
+
 ```bash
-# Start Jekyll development server
+# Astro dev server (the new site)
+cd site && bun run dev
+
+# Astro production build (outputs to site/dist)
+cd site && bun run build
+
+# Re-run the Jekyll -> Astro content migration
+bun run _bin/migrate-to-astro.ts
+
+# Legacy: Jekyll development server
 jekyll serve
 
-# Build CSS with TailwindCSS
+# Legacy: Build CSS with TailwindCSS
 npm run build-css
 ```
 
