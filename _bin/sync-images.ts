@@ -27,7 +27,7 @@ async function uploadImage(
   file: string
 ): Promise<string | null> {
   console.log(`Uploading ${file}...`);
-  const command = `curl -X POST -F file=@./assets/img/${file} -H "Authorization: Bearer ${apiToken}" https://api.cloudflare.com/client/v4/accounts/e6764d5bc3ad48a191acbcf9bbf00aec/images/v1 -s`;
+  const command = `curl -X POST -F file=@./public/assets/img/${file} -H "Authorization: Bearer ${apiToken}" https://api.cloudflare.com/client/v4/accounts/e6764d5bc3ad48a191acbcf9bbf00aec/images/v1 -s`;
   try {
     const { stdout, stderr } = await execAsync(command);
     if (stderr) {
@@ -64,7 +64,7 @@ async function uploadImages() {
       console.log("No existing uploadResults.json found, starting fresh.");
     }
 
-    const files = await readdir("./assets/img");
+    const files = await readdir("./public/assets/img");
     for (const file of files) {
       if (uploadResults[file]) {
         console.log(`${file} has already been uploaded. Skipping...`);

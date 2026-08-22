@@ -44,7 +44,7 @@ function generatePreviewUrl(originalUrl: string): string {
 
 // Main function to find markdown files and update them
 function addPreviewUrls(): void {
-  const markdownFiles = glob.sync("_posts/*.md");
+  const markdownFiles = glob.sync("src/content/posts/*.md");
 
   markdownFiles.forEach((file: string) => {
     const content = fs.readFileSync(file, "utf8");

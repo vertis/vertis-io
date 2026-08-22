@@ -1,0 +1,94 @@
+---
+import Base from "./Base.astro";
+import {
+  formatDate,
+  getRelatedPosts,
+  getSortedPosts,
+  isoDate,
+  postUrl,
+  type Post,
+} from "../utils/posts";
+
+interface Props {
+  post: Post;
+}
+
+const { post } = Astro.props;
+const allPosts = await getSortedPosts();
+const relatedPosts = getRelatedPosts(post, allPosts);
+---
+
+<Base
+  title={post.data.title}
+  description={post.data.meta_description ?? undefined}
+>
+  <div class="relative bg-white overflow-hidden">
+    <div class="relative px-4 sm:px-6 lg:px-8">
+      <div class="text-lg max-w-prose mx-auto">
+        <section>
+          <article class="mt-12 mb-24">
+            <header>
+              <h1
+                class="mt-2 block text-xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-2xl"
+              >
+                {post.data.title}
+              </h1>
+              <div class="mb-2 space-x-1 text-sm text-center text-gray-500">
+                <time datetime={isoDate(post.data.date)}
+                  >{formatDate(post.data.date)}</time
+                >
+                {
+                  post.data.minutes_read && (
+                    <>
+                      <span aria-hidden="true">·</span>
+                      <span>{post.data.minutes_read} min read</span>
+                    </>
+                  )
+                }
+              </div>
+            </header>
+            {
+              post.data.feature_image?.url && (
+                <figure class="mb-6">
+                  <img
+                    class="mx-auto w-full rounded-lg shadow-lg"
+                    src={post.data.feature_image.url}
+                  />
+                  {post.data.feature_image.caption && (
+                    <figcaption class="mt-2 text-center text-xs text-gray-500">
+                      {post.data.feature_image.caption}
+                    </figcaption>
+                  )}
+                </figure>
+              )
+            }
+            <div class="mt-6 prose prose-cyan prose-lg text-gray-500 mx-auto">
+              <slot />
+            </div>
+            <hr class="mt-12" />
+          </article>
+        </section>
+
+        {
+          relatedPosts.length > 0 && (
+            <section class="mt-12">
+              <h2 class="text-2xl font-bold">Related Content</h2>
+              <ul class="mt-4 list-disc">
+                {relatedPosts.map((related) => (
+                  <li>
+                    <a
+                      class="text-blue-500 hover:underline"
+                      href={postUrl(related)}
+                    >
+                      {related.data.title}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )
+        }
+      </div>
+    </div>
+  </div>
+</Base>

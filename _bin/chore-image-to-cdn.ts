@@ -32,10 +32,9 @@ async function replaceImagePaths() {
     return;
   }
 
-  const htmlAndMdFiles = await getFilesRecursively("_posts");
+  const htmlAndMdFiles = await getFilesRecursively("src/content/posts");
   htmlAndMdFiles.concat(await getFilesRecursively("_layouts"));
   htmlAndMdFiles.concat(await getFilesRecursively("_includes"));
-  htmlAndMdFiles.concat(await getFilesRecursively("_drafts"));
   htmlAndMdFiles.concat([
     "./blog/index.html",
     "./blog/about.html",
@@ -43,7 +42,7 @@ async function replaceImagePaths() {
     "./contact/index.md",
   ]);
   // const htmlAndMdFiles = [
-  //   "./_posts/2024-02-08-that-time-i-accidentally-terminated-600-instances.md",
+  //   "./src/content/posts/2024-02-08-that-time-i-accidentally-terminated-600-instances.md",
   // ];
   // console.log(JSON.stringify(htmlAndMdFiles, null, 2));
   for (const file of htmlAndMdFiles) {

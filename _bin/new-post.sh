@@ -13,13 +13,12 @@ SLUG=$(echo "$1" | iconv -t ascii//TRANSLIT | sed -r s/[^a-zA-Z0-9]+/-/g | sed -
 DATE=$(date +%Y-%m-%d)
 
 # Full filename
-FILENAME="_posts/$DATE-$SLUG.md"
+FILENAME="src/content/posts/$DATE-$SLUG.md"
 
 # Create a new markdown file with frontmatter
 cat << EOF > $FILENAME
 ---
 published: true
-layout: post
 title: "$1"
 author: vertis
 minutes_read: 

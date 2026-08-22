@@ -1,5 +1,5 @@
 import os
-import yaml
+import json
 import chromadb
 from chromadb.utils import embedding_functions
 
@@ -9,7 +9,7 @@ default_ef = embedding_functions.DefaultEmbeddingFunction()
 collection = chroma_client.create_collection(name="vertis-io", embedding_function=default_ef, metadata={ "hnsw:space": "cosine" })
 
 folder_name = "."
-allowed_paths = ["_posts"]
+allowed_paths = ["src/content/posts"]
 markdown_files = []
 
 for root, dirs, files in os.walk(folder_name):
@@ -53,5 +53,5 @@ for file_path in markdown_files:
         # some files are not utf-8 encoded; let's ignore them for now.
         pass
 
-with open('_data/related_content.yml', 'w', encoding='utf-8') as file:
-    yaml.dump(related_content, file, allow_unicode=True)
+with open('src/data/related-content.json', 'w', encoding='utf-8') as file:
+    json.dump(related_content, file, ensure_ascii=False, indent=2)
