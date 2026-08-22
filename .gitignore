@@ -1,17 +1,16 @@
 .DS_Store
+.env
+
+# Node / Bun
+node_modules
+
+# Astro
+dist
+.astro
+
+# Local leftovers
 wordpress.2011-02-22.xml
 lib
 import.rb
 .rvmrc_site
 .rvmrc
-_site
-.sass-cache
-public
-node_modules
-.jekyll-cache
-.env
-
-# Astro
-site/dist
-site/.astro
-site/node_modules
