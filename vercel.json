@@ -1,6 +1,5 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "trailingSlash": false,
   "redirects": [
     {
       "source": "/post/379338929/copy-the-structure-but-not-the-data",

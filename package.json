@@ -6,7 +6,8 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "migrate-posts": "bun run _bin/migrate-to-astro.ts"
+    "migrate-posts": "bun run _bin/migrate-to-astro.ts",
+    "related-content": "bun run _bin/related-content.ts"
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.11",
