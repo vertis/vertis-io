@@ -1,0 +1,281 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/post/379338929/copy-the-structure-but-not-the-data",
+      "destination": "https://farhorizons.io/writing/2010/02/08/copy-the-structure-but-not-the-data",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/379338929/copy-the-structure-but-not-the-data/",
+      "destination": "https://farhorizons.io/writing/2010/02/08/copy-the-structure-but-not-the-data",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/379338929/copy-the-structure-but-not-the-data.html",
+      "destination": "https://farhorizons.io/writing/2010/02/08/copy-the-structure-but-not-the-data",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/377588321/multi-tasking-the-presentation-away",
+      "destination": "https://farhorizons.io/writing/2010/02/08/multi-tasking-the-presentation-away",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/377588321/multi-tasking-the-presentation-away/",
+      "destination": "https://farhorizons.io/writing/2010/02/08/multi-tasking-the-presentation-away",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/377588321/multi-tasking-the-presentation-away.html",
+      "destination": "https://farhorizons.io/writing/2010/02/08/multi-tasking-the-presentation-away",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/378873026/the-building-blocks-of-ruby-katz-got-your",
+      "destination": "https://farhorizons.io/writing/2010/02/08/the-building-blocks-of-ruby-katz-got-your",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/378873026/the-building-blocks-of-ruby-katz-got-your/",
+      "destination": "https://farhorizons.io/writing/2010/02/08/the-building-blocks-of-ruby-katz-got-your",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/378873026/the-building-blocks-of-ruby-katz-got-your.html",
+      "destination": "https://farhorizons.io/writing/2010/02/08/the-building-blocks-of-ruby-katz-got-your",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/381102110/i-dont-get-it",
+      "destination": "https://farhorizons.io/writing/2010/02/09/i-dont-get-it",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/381102110/i-dont-get-it/",
+      "destination": "https://farhorizons.io/writing/2010/02/09/i-dont-get-it",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/381102110/i-dont-get-it.html",
+      "destination": "https://farhorizons.io/writing/2010/02/09/i-dont-get-it",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/384721727/less-twitter-more-tumblr",
+      "destination": "https://farhorizons.io/writing/2010/02/11/less-twitter-more-tumblr",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/384721727/less-twitter-more-tumblr/",
+      "destination": "https://farhorizons.io/writing/2010/02/11/less-twitter-more-tumblr",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/384721727/less-twitter-more-tumblr.html",
+      "destination": "https://farhorizons.io/writing/2010/02/11/less-twitter-more-tumblr",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/385065542/i-was-actually-looking-to-connect-facebook-and",
+      "destination": "https://farhorizons.io/writing/2010/02/12/google-search-link-facebook",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/385065542/i-was-actually-looking-to-connect-facebook-and/",
+      "destination": "https://farhorizons.io/writing/2010/02/12/google-search-link-facebook",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/385065542/i-was-actually-looking-to-connect-facebook-and.html",
+      "destination": "https://farhorizons.io/writing/2010/02/12/google-search-link-facebook",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/609156325/when-you-dont-create-things-you-become-defined",
+      "destination": "https://farhorizons.io/writing/2010/05/18/why-the-lucky-stiff",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/609156325/when-you-dont-create-things-you-become-defined/",
+      "destination": "https://farhorizons.io/writing/2010/05/18/why-the-lucky-stiff",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/609156325/when-you-dont-create-things-you-become-defined.html",
+      "destination": "https://farhorizons.io/writing/2010/05/18/why-the-lucky-stiff",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/614564524/the-longer-im-in-this-profession-of-lecturing-and",
+      "destination": "https://farhorizons.io/writing/2010/05/19/the-longer-im-in-this-profession-of-lecturing-and",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/614564524/the-longer-im-in-this-profession-of-lecturing-and/",
+      "destination": "https://farhorizons.io/writing/2010/05/19/the-longer-im-in-this-profession-of-lecturing-and",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/614564524/the-longer-im-in-this-profession-of-lecturing-and.html",
+      "destination": "https://farhorizons.io/writing/2010/05/19/the-longer-im-in-this-profession-of-lecturing-and",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/2805370311/awesome-post-about-how-twitter-analyzes-data-in",
+      "destination": "https://farhorizons.io/writing/2011/01/12/awesome-post-about-how-twitter-analyzes-data-in",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/2805370311/awesome-post-about-how-twitter-analyzes-data-in/",
+      "destination": "https://farhorizons.io/writing/2011/01/12/awesome-post-about-how-twitter-analyzes-data-in",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/2805370311/awesome-post-about-how-twitter-analyzes-data-in.html",
+      "destination": "https://farhorizons.io/writing/2011/01/12/awesome-post-about-how-twitter-analyzes-data-in",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/45379570761/bootstrapping-a-fitness-app-in-30-days",
+      "destination": "https://farhorizons.io/writing/2013/03/14/bootstrapping-a-fitness-app-in-30-days",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/45379570761/bootstrapping-a-fitness-app-in-30-days/",
+      "destination": "https://farhorizons.io/writing/2013/03/14/bootstrapping-a-fitness-app-in-30-days",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/45379570761/bootstrapping-a-fitness-app-in-30-days.html",
+      "destination": "https://farhorizons.io/writing/2013/03/14/bootstrapping-a-fitness-app-in-30-days",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/45408987009/searching-for-a-new-name",
+      "destination": "https://farhorizons.io/writing/2013/03/15/searching-for-a-new-name",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/45408987009/searching-for-a-new-name/",
+      "destination": "https://farhorizons.io/writing/2013/03/15/searching-for-a-new-name",
+      "statusCode": 301
+    },
+    {
+      "source": "/post/45408987009/searching-for-a-new-name.html",
+      "destination": "https://farhorizons.io/writing/2013/03/15/searching-for-a-new-name",
+      "statusCode": 301
+    },
+    {
+      "source": "/",
+      "destination": "https://farhorizons.io/",
+      "statusCode": 301
+    },
+    {
+      "source": "/about",
+      "destination": "https://farhorizons.io/about",
+      "statusCode": 301
+    },
+    {
+      "source": "/about/",
+      "destination": "https://farhorizons.io/about",
+      "statusCode": 301
+    },
+    {
+      "source": "/consulting",
+      "destination": "https://farhorizons.io/services",
+      "statusCode": 301
+    },
+    {
+      "source": "/consulting/",
+      "destination": "https://farhorizons.io/services",
+      "statusCode": 301
+    },
+    {
+      "source": "/contact",
+      "destination": "https://farhorizons.io/contact",
+      "statusCode": 301
+    },
+    {
+      "source": "/contact/",
+      "destination": "https://farhorizons.io/contact",
+      "statusCode": 301
+    },
+    {
+      "source": "/mentoring",
+      "destination": "https://farhorizons.io/contact",
+      "statusCode": 301
+    },
+    {
+      "source": "/mentoring/",
+      "destination": "https://farhorizons.io/contact",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog",
+      "destination": "https://farhorizons.io/writing",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/",
+      "destination": "https://farhorizons.io/writing",
+      "statusCode": 301
+    },
+    {
+      "source": "/feed.xml",
+      "destination": "https://farhorizons.io/writing/feed.xml",
+      "statusCode": 301
+    },
+    {
+      "source": "/feed.xml/",
+      "destination": "https://farhorizons.io/writing/feed.xml",
+      "statusCode": 301
+    },
+    {
+      "source": "/rss.xml",
+      "destination": "https://farhorizons.io/writing/feed.xml",
+      "statusCode": 301
+    },
+    {
+      "source": "/rss.xml/",
+      "destination": "https://farhorizons.io/writing/feed.xml",
+      "statusCode": 301
+    },
+    {
+      "source": "/garden/programming-languages-i-ve-known-and-loved",
+      "destination": "https://farhorizons.io/writing/programming-languages-i-ve-known-and-loved",
+      "statusCode": 301
+    },
+    {
+      "source": "/garden/programming-languages-i-ve-known-and-loved/",
+      "destination": "https://farhorizons.io/writing/programming-languages-i-ve-known-and-loved",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/page:n(\\d+)",
+      "destination": "https://farhorizons.io/writing",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/page:n(\\d+)/",
+      "destination": "https://farhorizons.io/writing",
+      "statusCode": 301
+    },
+    {
+      "source": "/:year(\\d{4})/:month(\\d{2})/:day(\\d{2})/:slug",
+      "destination": "https://farhorizons.io/writing/:year/:month/:day/:slug",
+      "statusCode": 301
+    },
+    {
+      "source": "/:year(\\d{4})/:month(\\d{2})/:day(\\d{2})/:slug/",
+      "destination": "https://farhorizons.io/writing/:year/:month/:day/:slug",
+      "statusCode": 301
+    },
+    {
+      "source": "/:path*",
+      "destination": "https://farhorizons.io/writing",
+      "statusCode": 301
+    }
+  ]
+}
