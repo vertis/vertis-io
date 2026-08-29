@@ -183,12 +183,12 @@
     },
     {
       "source": "/consulting",
-      "destination": "https://farhorizons.io/services",
+      "destination": "https://farhorizons.io/consulting",
       "statusCode": 301
     },
     {
       "source": "/consulting/",
-      "destination": "https://farhorizons.io/services",
+      "destination": "https://farhorizons.io/consulting",
       "statusCode": 301
     },
     {
